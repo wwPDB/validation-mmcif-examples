@@ -14,6 +14,6 @@ Some examples:
 * [1EG1](examples/1eg1_validation.cif), a 3.6Å resolution structure with possible ligand geometry and fit to density issues.
 * [7JIA](examples/7jia_validation.cif), a solution NMR entry with restraints analysis.
 * [6QWR](examples/6qwr_validation.cif), a solid-state NMR entry.
-* [EMD-4960](examples/EMD-4960_validation.cif), a 3.9Å resolution EM map including ligand, FSC curve and half-maps.
-* [EMD-21212](examples/EMD-21212_validation.cif)/[6VJA](examples/6vja_validation.cif), a 3.30Å single particle EM reconstruction with model including FSC curve, half-maps and mask.
-* [EMD-0509](examples/EMD-0509_validation.cif), analysis of an EM tomogram.
+* [EMD-4960](examples/emd-4960_validation.cif), a 3.9Å resolution EM map including ligand, FSC curve and half-maps.
+* [EMD-21212](examples/emd-21212_validation.cif)/[6VJA](examples/6vja_validation.cif), a 3.30Å single particle EM reconstruction with model including FSC curve, half-maps and mask.
+* [EMD-0509](examples/emd-0509_validation.cif), analysis of an EM tomogram.
