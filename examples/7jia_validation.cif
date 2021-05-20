@@ -1,0 +1,2312 @@
+data_7JIA
+
+loop_
+_pdbx_vrpt_database.id
+_pdbx_vrpt_database.code
+PDB   7JIA   
+BMRB  30780  
+#
+_pdbx_vrpt_exptl.ordinal  1
+_pdbx_vrpt_exptl.method   nmr
+#
+_pdbx_vrpt_summary.entry_id                    7JIA
+_pdbx_vrpt_summary.PDB_deposition_date         2020-07-23
+_pdbx_vrpt_summary.PDB_revision_number         1
+_pdbx_vrpt_summary.PDB_revision_date           2020-08-26
+_pdbx_vrpt_summary.report_creation_date        2021-05-19:01:03
+_pdbx_vrpt_summary.attempted_validation_steps  molprobity,validation-pack,coreclust,chemicalshifts,restraintsanalysis,percentiles,writepdf,writexml,writecif
+_pdbx_vrpt_summary.ligands_for_buster_report   N
+#
+_pdbx_vrpt_entity.id           1
+_pdbx_vrpt_entity.type         polymer
+_pdbx_vrpt_entity.description  Granulin-A
+#
+_pdbx_vrpt_asym.label_asym_id  A
+_pdbx_vrpt_asym.entity_id      1
+#
+loop_
+_pdbx_vrpt_percentile_list.id
+_pdbx_vrpt_percentile_list.range
+_pdbx_vrpt_percentile_list.exp_method
+1  all  pdb    
+2  nmr  x-ray  
+#
+loop_
+_pdbx_vrpt_percentile_type.id
+_pdbx_vrpt_percentile_type.type
+1  all_atom_clashscore           
+2  Ramachandran_outlier_percent  
+3  rotamer_outliers_percent      
+#
+loop_
+_pdbx_vrpt_percentile_conditions.id
+_pdbx_vrpt_percentile_conditions.percentile_list_id
+_pdbx_vrpt_percentile_conditions.type_id
+_pdbx_vrpt_percentile_conditions.rank
+_pdbx_vrpt_percentile_conditions.number_entries_total
+_pdbx_vrpt_percentile_conditions.res_high
+_pdbx_vrpt_percentile_conditions.res_low
+1  1  1   99.94  158937  ?     ?     
+2  2  1  100.00   12864  ?     ?     
+3  1  2  100.00  154571  ?     ?     
+4  2  2  100.00   11451  ?     ?     
+5  1  3    6.23  154315  ?     ?     
+6  2  3   45.64   11428  ?     ?     
+#
+loop_
+_pdbx_vrpt_percentile_entity_view.ordinal
+_pdbx_vrpt_percentile_entity_view.conditions_id
+_pdbx_vrpt_percentile_entity_view.type_id
+_pdbx_vrpt_percentile_entity_view.label_asym_id
+_pdbx_vrpt_percentile_entity_view.PDB_model_num
+_pdbx_vrpt_percentile_entity_view.entity_id
+_pdbx_vrpt_percentile_entity_view.auth_asym_id
+_pdbx_vrpt_percentile_entity_view.rank
+ 1  3  2  A   1  1  A    2.24  
+ 2  4  2  A   1  1  A    2.24  
+ 3  5  3  A   1  1  A    6.55  
+ 4  6  3  A   1  1  A    6.55  
+ 5  3  2  A   2  1  A    2.24  
+ 6  4  2  A   2  1  A    2.24  
+ 7  5  3  A   2  1  A   22.41  
+ 8  6  3  A   2  1  A   22.41  
+ 9  3  2  A   3  1  A  100.00  
+10  4  2  A   3  1  A  100.00  
+11  5  3  A   3  1  A   22.41  
+12  6  3  A   3  1  A   22.41  
+13  3  2  A   4  1  A    2.24  
+14  4  2  A   4  1  A    2.24  
+15  5  3  A   4  1  A   22.41  
+16  6  3  A   4  1  A   22.41  
+17  3  2  A   5  1  A    2.24  
+18  4  2  A   5  1  A    2.24  
+19  5  3  A   5  1  A    6.55  
+20  6  3  A   5  1  A    6.55  
+21  3  2  A   6  1  A    2.24  
+22  4  2  A   6  1  A    2.24  
+23  5  3  A   6  1  A   22.41  
+24  6  3  A   6  1  A   22.41  
+25  3  2  A   7  1  A  100.00  
+26  4  2  A   7  1  A  100.00  
+27  5  3  A   7  1  A    0.14  
+28  6  3  A   7  1  A    0.14  
+29  3  2  A   8  1  A  100.00  
+30  4  2  A   8  1  A  100.00  
+31  5  3  A   8  1  A    0.33  
+32  6  3  A   8  1  A    0.33  
+33  3  2  A   9  1  A  100.00  
+34  4  2  A   9  1  A  100.00  
+35  5  3  A   9  1  A    2.28  
+36  6  3  A   9  1  A    2.28  
+37  3  2  A  10  1  A  100.00  
+38  4  2  A  10  1  A  100.00  
+39  5  3  A  10  1  A    0.33  
+40  6  3  A  10  1  A    0.33  
+41  3  2  A  11  1  A  100.00  
+42  4  2  A  11  1  A  100.00  
+43  5  3  A  11  1  A    2.28  
+44  6  3  A  11  1  A    2.28  
+45  3  2  A  12  1  A  100.00  
+46  4  2  A  12  1  A  100.00  
+47  5  3  A  12  1  A  100.00  
+48  6  3  A  12  1  A  100.00  
+49  3  2  A  13  1  A    2.24  
+50  4  2  A  13  1  A    2.24  
+51  5  3  A  13  1  A   22.41  
+52  6  3  A  13  1  A   22.41  
+53  3  2  A  14  1  A    0.52  
+54  4  2  A  14  1  A    0.52  
+55  5  3  A  14  1  A   22.41  
+56  6  3  A  14  1  A   22.41  
+57  3  2  A  15  1  A    0.52  
+58  4  2  A  15  1  A    0.52  
+59  5  3  A  15  1  A    6.55  
+60  6  3  A  15  1  A    6.55  
+61  3  2  A  16  1  A  100.00  
+62  4  2  A  16  1  A  100.00  
+63  5  3  A  16  1  A    0.85  
+64  6  3  A  16  1  A    0.85  
+65  3  2  A  17  1  A  100.00  
+66  4  2  A  17  1  A  100.00  
+67  5  3  A  17  1  A    6.55  
+68  6  3  A  17  1  A    6.55  
+69  3  2  A  18  1  A  100.00  
+70  4  2  A  18  1  A  100.00  
+71  5  3  A  18  1  A    0.85  
+72  6  3  A  18  1  A    0.85  
+73  3  2  A  19  1  A  100.00  
+74  4  2  A  19  1  A  100.00  
+75  5  3  A  19  1  A    6.55  
+76  6  3  A  19  1  A    6.55  
+77  3  2  A  20  1  A    2.24  
+78  4  2  A  20  1  A    2.24  
+79  5  3  A  20  1  A    6.55  
+80  6  3  A  20  1  A    6.55  
+#
+loop_
+_pdbx_vrpt_summary_entity_geometry.ordinal
+_pdbx_vrpt_summary_entity_geometry.PDB_model_num
+_pdbx_vrpt_summary_entity_geometry.entity_id
+_pdbx_vrpt_summary_entity_geometry.label_asym_id
+_pdbx_vrpt_summary_entity_geometry.auth_asym_id
+_pdbx_vrpt_summary_entity_geometry.angles_RMSZ
+_pdbx_vrpt_summary_entity_geometry.bonds_RMSZ
+_pdbx_vrpt_summary_entity_geometry.num_bonds_RMSZ
+_pdbx_vrpt_summary_entity_geometry.num_angles_RMSZ
+ 1   1  1  A  A  0.34  0.20  168  227  
+ 2   2  1  A  A  0.35  0.20  168  227  
+ 3   3  1  A  A  0.34  0.20  168  227  
+ 4   4  1  A  A  0.35  0.20  168  227  
+ 5   5  1  A  A  0.34  0.20  168  227  
+ 6   6  1  A  A  0.35  0.20  168  227  
+ 7   7  1  A  A  0.35  0.20  168  227  
+ 8   8  1  A  A  0.35  0.20  168  227  
+ 9   9  1  A  A  0.34  0.20  168  227  
+10  10  1  A  A  0.35  0.20  168  227  
+11  11  1  A  A  0.34  0.20  168  227  
+12  12  1  A  A  0.34  0.20  168  227  
+13  13  1  A  A  0.34  0.20  168  227  
+14  14  1  A  A  0.35  0.20  168  227  
+15  15  1  A  A  0.34  0.20  168  227  
+16  16  1  A  A  0.35  0.20  168  227  
+17  17  1  A  A  0.35  0.20  168  227  
+18  18  1  A  A  0.35  0.20  168  227  
+19  19  1  A  A  0.35  0.20  168  227  
+20  20  1  A  A  0.35  0.20  168  227  
+#
+_pdbx_vrpt_summary_geometry.ordinal                                    1
+_pdbx_vrpt_summary_geometry.percent_ramachandran_outliers_full_length  2.50
+_pdbx_vrpt_summary_geometry.percent_rotamer_outliers                   14.29
+_pdbx_vrpt_summary_geometry.percent_rotamer_outliers_full_length       12.63
+_pdbx_vrpt_summary_geometry.clashscore_full_length                     0.00
+_pdbx_vrpt_summary_geometry.num_H_reduce                               2600
+_pdbx_vrpt_summary_geometry.num_bonds_RMSZ                             3360
+_pdbx_vrpt_summary_geometry.bonds_RMSZ                                 0.20
+_pdbx_vrpt_summary_geometry.num_angles_RMSZ                            4540
+_pdbx_vrpt_summary_geometry.angles_RMSZ                                0.35
+#
+_pdbx_vrpt_summary_nmr.exp_method                               nmr
+_pdbx_vrpt_summary_nmr.ordinal                                  1
+_pdbx_vrpt_summary_nmr.nmr_models_consistency_flag              True
+_pdbx_vrpt_summary_nmr.nmrclust_representative_model            1
+_pdbx_vrpt_summary_nmr.medoid_model                             1
+_pdbx_vrpt_summary_nmr.nmrclust_number_of_outliers              0
+_pdbx_vrpt_summary_nmr.nmrclust_number_of_models                20
+_pdbx_vrpt_summary_nmr.nmrclust_number_of_clusters              3
+_pdbx_vrpt_summary_nmr.cyrange_number_of_domains                1
+_pdbx_vrpt_summary_nmr.chemical_shift_completeness              56.49
+_pdbx_vrpt_summary_nmr.chemical_shift_completeness_full_length  54.67
+#
+loop_
+_pdbx_vrpt_model_instance.id
+_pdbx_vrpt_model_instance.PDB_model_num
+_pdbx_vrpt_model_instance.entity_id
+_pdbx_vrpt_model_instance.label_asym_id
+_pdbx_vrpt_model_instance.label_seq_id
+_pdbx_vrpt_model_instance.label_comp_id
+_pdbx_vrpt_model_instance.auth_asym_id
+_pdbx_vrpt_model_instance.auth_seq_id
+_pdbx_vrpt_model_instance.label_alt_id
+_pdbx_vrpt_model_instance.PDB_ins_code
+  1   1  1  A   1  CYS  A   1  .  ?     
+  2   1  1  A   2  GLY  A   2  .  ?     
+  3   1  1  A   3  GLY  A   3  .  ?     
+  4   1  1  A   4  GLY  A   4  .  ?     
+  5   1  1  A   5  PHE  A   5  .  ?     
+  6   1  1  A   6  SER  A   6  .  ?     
+  7   1  1  A   7  CYS  A   7  .  ?     
+  8   1  1  A   8  HIS  A   8  .  ?     
+  9   1  1  A   9  ASP  A   9  .  ?     
+ 10   1  1  A  10  GLY  A  10  .  ?     
+ 11   1  1  A  11  GLU  A  11  .  ?     
+ 12   1  1  A  12  THR  A  12  .  ?     
+ 13   1  1  A  13  CYS  A  13  .  ?     
+ 14   1  1  A  14  CYS  A  14  .  ?     
+ 15   1  1  A  15  PRO  A  15  .  ?     
+ 16   1  1  A  16  THR  A  16  .  ?     
+ 17   1  1  A  17  SER  A  17  .  ?     
+ 18   1  1  A  18  GLN  A  18  .  ?     
+ 19   1  1  A  19  THR  A  19  .  ?     
+ 20   1  1  A  20  THR  A  20  .  ?     
+ 21   1  1  A  21  TRP  A  21  .  ?     
+ 22   1  1  A  22  GLY  A  22  .  ?     
+ 23   1  1  A  23  CYS  A  23  .  ?     
+ 24   1  1  A  24  CYS  A  24  .  ?     
+ 25   2  1  A   1  CYS  A   1  .  ?     
+ 26   2  1  A   2  GLY  A   2  .  ?     
+ 27   2  1  A   3  GLY  A   3  .  ?     
+ 28   2  1  A   4  GLY  A   4  .  ?     
+ 29   2  1  A   5  PHE  A   5  .  ?     
+ 30   2  1  A   6  SER  A   6  .  ?     
+ 31   2  1  A   7  CYS  A   7  .  ?     
+ 32   2  1  A   8  HIS  A   8  .  ?     
+ 33   2  1  A   9  ASP  A   9  .  ?     
+ 34   2  1  A  10  GLY  A  10  .  ?     
+ 35   2  1  A  11  GLU  A  11  .  ?     
+ 36   2  1  A  12  THR  A  12  .  ?     
+ 37   2  1  A  13  CYS  A  13  .  ?     
+ 38   2  1  A  14  CYS  A  14  .  ?     
+ 39   2  1  A  15  PRO  A  15  .  ?     
+ 40   2  1  A  16  THR  A  16  .  ?     
+ 41   2  1  A  17  SER  A  17  .  ?     
+ 42   2  1  A  18  GLN  A  18  .  ?     
+ 43   2  1  A  19  THR  A  19  .  ?     
+ 44   2  1  A  20  THR  A  20  .  ?     
+ 45   2  1  A  21  TRP  A  21  .  ?     
+ 46   2  1  A  22  GLY  A  22  .  ?     
+ 47   2  1  A  23  CYS  A  23  .  ?     
+ 48   2  1  A  24  CYS  A  24  .  ?     
+ 49   3  1  A   1  CYS  A   1  .  ?     
+ 50   3  1  A   2  GLY  A   2  .  ?     
+ 51   3  1  A   3  GLY  A   3  .  ?     
+ 52   3  1  A   4  GLY  A   4  .  ?     
+ 53   3  1  A   5  PHE  A   5  .  ?     
+ 54   3  1  A   6  SER  A   6  .  ?     
+ 55   3  1  A   7  CYS  A   7  .  ?     
+ 56   3  1  A   8  HIS  A   8  .  ?     
+ 57   3  1  A   9  ASP  A   9  .  ?     
+ 58   3  1  A  10  GLY  A  10  .  ?     
+ 59   3  1  A  11  GLU  A  11  .  ?     
+ 60   3  1  A  12  THR  A  12  .  ?     
+ 61   3  1  A  13  CYS  A  13  .  ?     
+ 62   3  1  A  14  CYS  A  14  .  ?     
+ 63   3  1  A  15  PRO  A  15  .  ?     
+ 64   3  1  A  16  THR  A  16  .  ?     
+ 65   3  1  A  17  SER  A  17  .  ?     
+ 66   3  1  A  18  GLN  A  18  .  ?     
+ 67   3  1  A  19  THR  A  19  .  ?     
+ 68   3  1  A  20  THR  A  20  .  ?     
+ 69   3  1  A  21  TRP  A  21  .  ?     
+ 70   3  1  A  22  GLY  A  22  .  ?     
+ 71   3  1  A  23  CYS  A  23  .  ?     
+ 72   3  1  A  24  CYS  A  24  .  ?     
+ 73   4  1  A   1  CYS  A   1  .  ?     
+ 74   4  1  A   2  GLY  A   2  .  ?     
+ 75   4  1  A   3  GLY  A   3  .  ?     
+ 76   4  1  A   4  GLY  A   4  .  ?     
+ 77   4  1  A   5  PHE  A   5  .  ?     
+ 78   4  1  A   6  SER  A   6  .  ?     
+ 79   4  1  A   7  CYS  A   7  .  ?     
+ 80   4  1  A   8  HIS  A   8  .  ?     
+ 81   4  1  A   9  ASP  A   9  .  ?     
+ 82   4  1  A  10  GLY  A  10  .  ?     
+ 83   4  1  A  11  GLU  A  11  .  ?     
+ 84   4  1  A  12  THR  A  12  .  ?     
+ 85   4  1  A  13  CYS  A  13  .  ?     
+ 86   4  1  A  14  CYS  A  14  .  ?     
+ 87   4  1  A  15  PRO  A  15  .  ?     
+ 88   4  1  A  16  THR  A  16  .  ?     
+ 89   4  1  A  17  SER  A  17  .  ?     
+ 90   4  1  A  18  GLN  A  18  .  ?     
+ 91   4  1  A  19  THR  A  19  .  ?     
+ 92   4  1  A  20  THR  A  20  .  ?     
+ 93   4  1  A  21  TRP  A  21  .  ?     
+ 94   4  1  A  22  GLY  A  22  .  ?     
+ 95   4  1  A  23  CYS  A  23  .  ?     
+ 96   4  1  A  24  CYS  A  24  .  ?     
+ 97   5  1  A   1  CYS  A   1  .  ?     
+ 98   5  1  A   2  GLY  A   2  .  ?     
+ 99   5  1  A   3  GLY  A   3  .  ?     
+100   5  1  A   4  GLY  A   4  .  ?     
+101   5  1  A   5  PHE  A   5  .  ?     
+102   5  1  A   6  SER  A   6  .  ?     
+103   5  1  A   7  CYS  A   7  .  ?     
+104   5  1  A   8  HIS  A   8  .  ?     
+105   5  1  A   9  ASP  A   9  .  ?     
+106   5  1  A  10  GLY  A  10  .  ?     
+107   5  1  A  11  GLU  A  11  .  ?     
+108   5  1  A  12  THR  A  12  .  ?     
+109   5  1  A  13  CYS  A  13  .  ?     
+110   5  1  A  14  CYS  A  14  .  ?     
+111   5  1  A  15  PRO  A  15  .  ?     
+112   5  1  A  16  THR  A  16  .  ?     
+113   5  1  A  17  SER  A  17  .  ?     
+114   5  1  A  18  GLN  A  18  .  ?     
+115   5  1  A  19  THR  A  19  .  ?     
+116   5  1  A  20  THR  A  20  .  ?     
+117   5  1  A  21  TRP  A  21  .  ?     
+118   5  1  A  22  GLY  A  22  .  ?     
+119   5  1  A  23  CYS  A  23  .  ?     
+120   5  1  A  24  CYS  A  24  .  ?     
+121   6  1  A   1  CYS  A   1  .  ?     
+122   6  1  A   2  GLY  A   2  .  ?     
+123   6  1  A   3  GLY  A   3  .  ?     
+124   6  1  A   4  GLY  A   4  .  ?     
+125   6  1  A   5  PHE  A   5  .  ?     
+126   6  1  A   6  SER  A   6  .  ?     
+127   6  1  A   7  CYS  A   7  .  ?     
+128   6  1  A   8  HIS  A   8  .  ?     
+129   6  1  A   9  ASP  A   9  .  ?     
+130   6  1  A  10  GLY  A  10  .  ?     
+131   6  1  A  11  GLU  A  11  .  ?     
+132   6  1  A  12  THR  A  12  .  ?     
+133   6  1  A  13  CYS  A  13  .  ?     
+134   6  1  A  14  CYS  A  14  .  ?     
+135   6  1  A  15  PRO  A  15  .  ?     
+136   6  1  A  16  THR  A  16  .  ?     
+137   6  1  A  17  SER  A  17  .  ?     
+138   6  1  A  18  GLN  A  18  .  ?     
+139   6  1  A  19  THR  A  19  .  ?     
+140   6  1  A  20  THR  A  20  .  ?     
+141   6  1  A  21  TRP  A  21  .  ?     
+142   6  1  A  22  GLY  A  22  .  ?     
+143   6  1  A  23  CYS  A  23  .  ?     
+144   6  1  A  24  CYS  A  24  .  ?     
+145   7  1  A   1  CYS  A   1  .  ?     
+146   7  1  A   2  GLY  A   2  .  ?     
+147   7  1  A   3  GLY  A   3  .  ?     
+148   7  1  A   4  GLY  A   4  .  ?     
+149   7  1  A   5  PHE  A   5  .  ?     
+150   7  1  A   6  SER  A   6  .  ?     
+151   7  1  A   7  CYS  A   7  .  ?     
+152   7  1  A   8  HIS  A   8  .  ?     
+153   7  1  A   9  ASP  A   9  .  ?     
+154   7  1  A  10  GLY  A  10  .  ?     
+155   7  1  A  11  GLU  A  11  .  ?     
+156   7  1  A  12  THR  A  12  .  ?     
+157   7  1  A  13  CYS  A  13  .  ?     
+158   7  1  A  14  CYS  A  14  .  ?     
+159   7  1  A  15  PRO  A  15  .  ?     
+160   7  1  A  16  THR  A  16  .  ?     
+161   7  1  A  17  SER  A  17  .  ?     
+162   7  1  A  18  GLN  A  18  .  ?     
+163   7  1  A  19  THR  A  19  .  ?     
+164   7  1  A  20  THR  A  20  .  ?     
+165   7  1  A  21  TRP  A  21  .  ?     
+166   7  1  A  22  GLY  A  22  .  ?     
+167   7  1  A  23  CYS  A  23  .  ?     
+168   7  1  A  24  CYS  A  24  .  ?     
+169   8  1  A   1  CYS  A   1  .  ?     
+170   8  1  A   2  GLY  A   2  .  ?     
+171   8  1  A   3  GLY  A   3  .  ?     
+172   8  1  A   4  GLY  A   4  .  ?     
+173   8  1  A   5  PHE  A   5  .  ?     
+174   8  1  A   6  SER  A   6  .  ?     
+175   8  1  A   7  CYS  A   7  .  ?     
+176   8  1  A   8  HIS  A   8  .  ?     
+177   8  1  A   9  ASP  A   9  .  ?     
+178   8  1  A  10  GLY  A  10  .  ?     
+179   8  1  A  11  GLU  A  11  .  ?     
+180   8  1  A  12  THR  A  12  .  ?     
+181   8  1  A  13  CYS  A  13  .  ?     
+182   8  1  A  14  CYS  A  14  .  ?     
+183   8  1  A  15  PRO  A  15  .  ?     
+184   8  1  A  16  THR  A  16  .  ?     
+185   8  1  A  17  SER  A  17  .  ?     
+186   8  1  A  18  GLN  A  18  .  ?     
+187   8  1  A  19  THR  A  19  .  ?     
+188   8  1  A  20  THR  A  20  .  ?     
+189   8  1  A  21  TRP  A  21  .  ?     
+190   8  1  A  22  GLY  A  22  .  ?     
+191   8  1  A  23  CYS  A  23  .  ?     
+192   8  1  A  24  CYS  A  24  .  ?     
+193   9  1  A   1  CYS  A   1  .  ?     
+194   9  1  A   2  GLY  A   2  .  ?     
+195   9  1  A   3  GLY  A   3  .  ?     
+196   9  1  A   4  GLY  A   4  .  ?     
+197   9  1  A   5  PHE  A   5  .  ?     
+198   9  1  A   6  SER  A   6  .  ?     
+199   9  1  A   7  CYS  A   7  .  ?     
+200   9  1  A   8  HIS  A   8  .  ?     
+201   9  1  A   9  ASP  A   9  .  ?     
+202   9  1  A  10  GLY  A  10  .  ?     
+203   9  1  A  11  GLU  A  11  .  ?     
+204   9  1  A  12  THR  A  12  .  ?     
+205   9  1  A  13  CYS  A  13  .  ?     
+206   9  1  A  14  CYS  A  14  .  ?     
+207   9  1  A  15  PRO  A  15  .  ?     
+208   9  1  A  16  THR  A  16  .  ?     
+209   9  1  A  17  SER  A  17  .  ?     
+210   9  1  A  18  GLN  A  18  .  ?     
+211   9  1  A  19  THR  A  19  .  ?     
+212   9  1  A  20  THR  A  20  .  ?     
+213   9  1  A  21  TRP  A  21  .  ?     
+214   9  1  A  22  GLY  A  22  .  ?     
+215   9  1  A  23  CYS  A  23  .  ?     
+216   9  1  A  24  CYS  A  24  .  ?     
+217  10  1  A   1  CYS  A   1  .  ?     
+218  10  1  A   2  GLY  A   2  .  ?     
+219  10  1  A   3  GLY  A   3  .  ?     
+220  10  1  A   4  GLY  A   4  .  ?     
+221  10  1  A   5  PHE  A   5  .  ?     
+222  10  1  A   6  SER  A   6  .  ?     
+223  10  1  A   7  CYS  A   7  .  ?     
+224  10  1  A   8  HIS  A   8  .  ?     
+225  10  1  A   9  ASP  A   9  .  ?     
+226  10  1  A  10  GLY  A  10  .  ?     
+227  10  1  A  11  GLU  A  11  .  ?     
+228  10  1  A  12  THR  A  12  .  ?     
+229  10  1  A  13  CYS  A  13  .  ?     
+230  10  1  A  14  CYS  A  14  .  ?     
+231  10  1  A  15  PRO  A  15  .  ?     
+232  10  1  A  16  THR  A  16  .  ?     
+233  10  1  A  17  SER  A  17  .  ?     
+234  10  1  A  18  GLN  A  18  .  ?     
+235  10  1  A  19  THR  A  19  .  ?     
+236  10  1  A  20  THR  A  20  .  ?     
+237  10  1  A  21  TRP  A  21  .  ?     
+238  10  1  A  22  GLY  A  22  .  ?     
+239  10  1  A  23  CYS  A  23  .  ?     
+240  10  1  A  24  CYS  A  24  .  ?     
+241  11  1  A   1  CYS  A   1  .  ?     
+242  11  1  A   2  GLY  A   2  .  ?     
+243  11  1  A   3  GLY  A   3  .  ?     
+244  11  1  A   4  GLY  A   4  .  ?     
+245  11  1  A   5  PHE  A   5  .  ?     
+246  11  1  A   6  SER  A   6  .  ?     
+247  11  1  A   7  CYS  A   7  .  ?     
+248  11  1  A   8  HIS  A   8  .  ?     
+249  11  1  A   9  ASP  A   9  .  ?     
+250  11  1  A  10  GLY  A  10  .  ?     
+251  11  1  A  11  GLU  A  11  .  ?     
+252  11  1  A  12  THR  A  12  .  ?     
+253  11  1  A  13  CYS  A  13  .  ?     
+254  11  1  A  14  CYS  A  14  .  ?     
+255  11  1  A  15  PRO  A  15  .  ?     
+256  11  1  A  16  THR  A  16  .  ?     
+257  11  1  A  17  SER  A  17  .  ?     
+258  11  1  A  18  GLN  A  18  .  ?     
+259  11  1  A  19  THR  A  19  .  ?     
+260  11  1  A  20  THR  A  20  .  ?     
+261  11  1  A  21  TRP  A  21  .  ?     
+262  11  1  A  22  GLY  A  22  .  ?     
+263  11  1  A  23  CYS  A  23  .  ?     
+264  11  1  A  24  CYS  A  24  .  ?     
+265  12  1  A   1  CYS  A   1  .  ?     
+266  12  1  A   2  GLY  A   2  .  ?     
+267  12  1  A   3  GLY  A   3  .  ?     
+268  12  1  A   4  GLY  A   4  .  ?     
+269  12  1  A   5  PHE  A   5  .  ?     
+270  12  1  A   6  SER  A   6  .  ?     
+271  12  1  A   7  CYS  A   7  .  ?     
+272  12  1  A   8  HIS  A   8  .  ?     
+273  12  1  A   9  ASP  A   9  .  ?     
+274  12  1  A  10  GLY  A  10  .  ?     
+275  12  1  A  11  GLU  A  11  .  ?     
+276  12  1  A  12  THR  A  12  .  ?     
+277  12  1  A  13  CYS  A  13  .  ?     
+278  12  1  A  14  CYS  A  14  .  ?     
+279  12  1  A  15  PRO  A  15  .  ?     
+280  12  1  A  16  THR  A  16  .  ?     
+281  12  1  A  17  SER  A  17  .  ?     
+282  12  1  A  18  GLN  A  18  .  ?     
+283  12  1  A  19  THR  A  19  .  ?     
+284  12  1  A  20  THR  A  20  .  ?     
+285  12  1  A  21  TRP  A  21  .  ?     
+286  12  1  A  22  GLY  A  22  .  ?     
+287  12  1  A  23  CYS  A  23  .  ?     
+288  12  1  A  24  CYS  A  24  .  ?     
+289  13  1  A   1  CYS  A   1  .  ?     
+290  13  1  A   2  GLY  A   2  .  ?     
+291  13  1  A   3  GLY  A   3  .  ?     
+292  13  1  A   4  GLY  A   4  .  ?     
+293  13  1  A   5  PHE  A   5  .  ?     
+294  13  1  A   6  SER  A   6  .  ?     
+295  13  1  A   7  CYS  A   7  .  ?     
+296  13  1  A   8  HIS  A   8  .  ?     
+297  13  1  A   9  ASP  A   9  .  ?     
+298  13  1  A  10  GLY  A  10  .  ?     
+299  13  1  A  11  GLU  A  11  .  ?     
+300  13  1  A  12  THR  A  12  .  ?     
+301  13  1  A  13  CYS  A  13  .  ?     
+302  13  1  A  14  CYS  A  14  .  ?     
+303  13  1  A  15  PRO  A  15  .  ?     
+304  13  1  A  16  THR  A  16  .  ?     
+305  13  1  A  17  SER  A  17  .  ?     
+306  13  1  A  18  GLN  A  18  .  ?     
+307  13  1  A  19  THR  A  19  .  ?     
+308  13  1  A  20  THR  A  20  .  ?     
+309  13  1  A  21  TRP  A  21  .  ?     
+310  13  1  A  22  GLY  A  22  .  ?     
+311  13  1  A  23  CYS  A  23  .  ?     
+312  13  1  A  24  CYS  A  24  .  ?     
+313  14  1  A   1  CYS  A   1  .  ?     
+314  14  1  A   2  GLY  A   2  .  ?     
+315  14  1  A   3  GLY  A   3  .  ?     
+316  14  1  A   4  GLY  A   4  .  ?     
+317  14  1  A   5  PHE  A   5  .  ?     
+318  14  1  A   6  SER  A   6  .  ?     
+319  14  1  A   7  CYS  A   7  .  ?     
+320  14  1  A   8  HIS  A   8  .  ?     
+321  14  1  A   9  ASP  A   9  .  ?     
+322  14  1  A  10  GLY  A  10  .  ?     
+323  14  1  A  11  GLU  A  11  .  ?     
+324  14  1  A  12  THR  A  12  .  ?     
+325  14  1  A  13  CYS  A  13  .  ?     
+326  14  1  A  14  CYS  A  14  .  ?     
+327  14  1  A  15  PRO  A  15  .  ?     
+328  14  1  A  16  THR  A  16  .  ?     
+329  14  1  A  17  SER  A  17  .  ?     
+330  14  1  A  18  GLN  A  18  .  ?     
+331  14  1  A  19  THR  A  19  .  ?     
+332  14  1  A  20  THR  A  20  .  ?     
+333  14  1  A  21  TRP  A  21  .  ?     
+334  14  1  A  22  GLY  A  22  .  ?     
+335  14  1  A  23  CYS  A  23  .  ?     
+336  14  1  A  24  CYS  A  24  .  ?     
+337  15  1  A   1  CYS  A   1  .  ?     
+338  15  1  A   2  GLY  A   2  .  ?     
+339  15  1  A   3  GLY  A   3  .  ?     
+340  15  1  A   4  GLY  A   4  .  ?     
+341  15  1  A   5  PHE  A   5  .  ?     
+342  15  1  A   6  SER  A   6  .  ?     
+343  15  1  A   7  CYS  A   7  .  ?     
+344  15  1  A   8  HIS  A   8  .  ?     
+345  15  1  A   9  ASP  A   9  .  ?     
+346  15  1  A  10  GLY  A  10  .  ?     
+347  15  1  A  11  GLU  A  11  .  ?     
+348  15  1  A  12  THR  A  12  .  ?     
+349  15  1  A  13  CYS  A  13  .  ?     
+350  15  1  A  14  CYS  A  14  .  ?     
+351  15  1  A  15  PRO  A  15  .  ?     
+352  15  1  A  16  THR  A  16  .  ?     
+353  15  1  A  17  SER  A  17  .  ?     
+354  15  1  A  18  GLN  A  18  .  ?     
+355  15  1  A  19  THR  A  19  .  ?     
+356  15  1  A  20  THR  A  20  .  ?     
+357  15  1  A  21  TRP  A  21  .  ?     
+358  15  1  A  22  GLY  A  22  .  ?     
+359  15  1  A  23  CYS  A  23  .  ?     
+360  15  1  A  24  CYS  A  24  .  ?     
+361  16  1  A   1  CYS  A   1  .  ?     
+362  16  1  A   2  GLY  A   2  .  ?     
+363  16  1  A   3  GLY  A   3  .  ?     
+364  16  1  A   4  GLY  A   4  .  ?     
+365  16  1  A   5  PHE  A   5  .  ?     
+366  16  1  A   6  SER  A   6  .  ?     
+367  16  1  A   7  CYS  A   7  .  ?     
+368  16  1  A   8  HIS  A   8  .  ?     
+369  16  1  A   9  ASP  A   9  .  ?     
+370  16  1  A  10  GLY  A  10  .  ?     
+371  16  1  A  11  GLU  A  11  .  ?     
+372  16  1  A  12  THR  A  12  .  ?     
+373  16  1  A  13  CYS  A  13  .  ?     
+374  16  1  A  14  CYS  A  14  .  ?     
+375  16  1  A  15  PRO  A  15  .  ?     
+376  16  1  A  16  THR  A  16  .  ?     
+377  16  1  A  17  SER  A  17  .  ?     
+378  16  1  A  18  GLN  A  18  .  ?     
+379  16  1  A  19  THR  A  19  .  ?     
+380  16  1  A  20  THR  A  20  .  ?     
+381  16  1  A  21  TRP  A  21  .  ?     
+382  16  1  A  22  GLY  A  22  .  ?     
+383  16  1  A  23  CYS  A  23  .  ?     
+384  16  1  A  24  CYS  A  24  .  ?     
+385  17  1  A   1  CYS  A   1  .  ?     
+386  17  1  A   2  GLY  A   2  .  ?     
+387  17  1  A   3  GLY  A   3  .  ?     
+388  17  1  A   4  GLY  A   4  .  ?     
+389  17  1  A   5  PHE  A   5  .  ?     
+390  17  1  A   6  SER  A   6  .  ?     
+391  17  1  A   7  CYS  A   7  .  ?     
+392  17  1  A   8  HIS  A   8  .  ?     
+393  17  1  A   9  ASP  A   9  .  ?     
+394  17  1  A  10  GLY  A  10  .  ?     
+395  17  1  A  11  GLU  A  11  .  ?     
+396  17  1  A  12  THR  A  12  .  ?     
+397  17  1  A  13  CYS  A  13  .  ?     
+398  17  1  A  14  CYS  A  14  .  ?     
+399  17  1  A  15  PRO  A  15  .  ?     
+400  17  1  A  16  THR  A  16  .  ?     
+401  17  1  A  17  SER  A  17  .  ?     
+402  17  1  A  18  GLN  A  18  .  ?     
+403  17  1  A  19  THR  A  19  .  ?     
+404  17  1  A  20  THR  A  20  .  ?     
+405  17  1  A  21  TRP  A  21  .  ?     
+406  17  1  A  22  GLY  A  22  .  ?     
+407  17  1  A  23  CYS  A  23  .  ?     
+408  17  1  A  24  CYS  A  24  .  ?     
+409  18  1  A   1  CYS  A   1  .  ?     
+410  18  1  A   2  GLY  A   2  .  ?     
+411  18  1  A   3  GLY  A   3  .  ?     
+412  18  1  A   4  GLY  A   4  .  ?     
+413  18  1  A   5  PHE  A   5  .  ?     
+414  18  1  A   6  SER  A   6  .  ?     
+415  18  1  A   7  CYS  A   7  .  ?     
+416  18  1  A   8  HIS  A   8  .  ?     
+417  18  1  A   9  ASP  A   9  .  ?     
+418  18  1  A  10  GLY  A  10  .  ?     
+419  18  1  A  11  GLU  A  11  .  ?     
+420  18  1  A  12  THR  A  12  .  ?     
+421  18  1  A  13  CYS  A  13  .  ?     
+422  18  1  A  14  CYS  A  14  .  ?     
+423  18  1  A  15  PRO  A  15  .  ?     
+424  18  1  A  16  THR  A  16  .  ?     
+425  18  1  A  17  SER  A  17  .  ?     
+426  18  1  A  18  GLN  A  18  .  ?     
+427  18  1  A  19  THR  A  19  .  ?     
+428  18  1  A  20  THR  A  20  .  ?     
+429  18  1  A  21  TRP  A  21  .  ?     
+430  18  1  A  22  GLY  A  22  .  ?     
+431  18  1  A  23  CYS  A  23  .  ?     
+432  18  1  A  24  CYS  A  24  .  ?     
+433  19  1  A   1  CYS  A   1  .  ?     
+434  19  1  A   2  GLY  A   2  .  ?     
+435  19  1  A   3  GLY  A   3  .  ?     
+436  19  1  A   4  GLY  A   4  .  ?     
+437  19  1  A   5  PHE  A   5  .  ?     
+438  19  1  A   6  SER  A   6  .  ?     
+439  19  1  A   7  CYS  A   7  .  ?     
+440  19  1  A   8  HIS  A   8  .  ?     
+441  19  1  A   9  ASP  A   9  .  ?     
+442  19  1  A  10  GLY  A  10  .  ?     
+443  19  1  A  11  GLU  A  11  .  ?     
+444  19  1  A  12  THR  A  12  .  ?     
+445  19  1  A  13  CYS  A  13  .  ?     
+446  19  1  A  14  CYS  A  14  .  ?     
+447  19  1  A  15  PRO  A  15  .  ?     
+448  19  1  A  16  THR  A  16  .  ?     
+449  19  1  A  17  SER  A  17  .  ?     
+450  19  1  A  18  GLN  A  18  .  ?     
+451  19  1  A  19  THR  A  19  .  ?     
+452  19  1  A  20  THR  A  20  .  ?     
+453  19  1  A  21  TRP  A  21  .  ?     
+454  19  1  A  22  GLY  A  22  .  ?     
+455  19  1  A  23  CYS  A  23  .  ?     
+456  19  1  A  24  CYS  A  24  .  ?     
+457  20  1  A   1  CYS  A   1  .  ?     
+458  20  1  A   2  GLY  A   2  .  ?     
+459  20  1  A   3  GLY  A   3  .  ?     
+460  20  1  A   4  GLY  A   4  .  ?     
+461  20  1  A   5  PHE  A   5  .  ?     
+462  20  1  A   6  SER  A   6  .  ?     
+463  20  1  A   7  CYS  A   7  .  ?     
+464  20  1  A   8  HIS  A   8  .  ?     
+465  20  1  A   9  ASP  A   9  .  ?     
+466  20  1  A  10  GLY  A  10  .  ?     
+467  20  1  A  11  GLU  A  11  .  ?     
+468  20  1  A  12  THR  A  12  .  ?     
+469  20  1  A  13  CYS  A  13  .  ?     
+470  20  1  A  14  CYS  A  14  .  ?     
+471  20  1  A  15  PRO  A  15  .  ?     
+472  20  1  A  16  THR  A  16  .  ?     
+473  20  1  A  17  SER  A  17  .  ?     
+474  20  1  A  18  GLN  A  18  .  ?     
+475  20  1  A  19  THR  A  19  .  ?     
+476  20  1  A  20  THR  A  20  .  ?     
+477  20  1  A  21  TRP  A  21  .  ?     
+478  20  1  A  22  GLY  A  22  .  ?     
+479  20  1  A  23  CYS  A  23  .  ?     
+480  20  1  A  24  CYS  A  24  .  ?     
+#
+loop_
+_pdbx_vrpt_model_instance_geometry.ordinal
+_pdbx_vrpt_model_instance_geometry.instance_id
+_pdbx_vrpt_model_instance_geometry.rotamer_class
+_pdbx_vrpt_model_instance_geometry.phi
+_pdbx_vrpt_model_instance_geometry.psi
+_pdbx_vrpt_model_instance_geometry.ramachandran_class
+_pdbx_vrpt_model_instance_geometry.num_H_reduce
+_pdbx_vrpt_model_instance_geometry.num_bonds_RMSZ
+_pdbx_vrpt_model_instance_geometry.bonds_RMSZ
+_pdbx_vrpt_model_instance_geometry.num_angles_RMSZ
+_pdbx_vrpt_model_instance_geometry.angles_RMSZ
+_pdbx_vrpt_model_instance_geometry.program_for_bond_angle_geometry
+_pdbx_vrpt_model_instance_geometry.cyrange_domain_id
+_pdbx_vrpt_model_instance_geometry.validate
+  1    1  p             ?       ?  ?         6   6  0.15   8  0.31  molprobity     ?  False  
+  2    2  ?        -150.4    56.5  Allowed   3   4  0.20   5  0.36  molprobity     ?  False  
+  3    3  ?         -67.1   -94.7  OUTLIER   3   4  0.19   5  0.35  molprobity     ?  False  
+  4    4  ?        -152.0    38.6  Allowed   3   4  0.22   5  0.21  molprobity     ?  False  
+  5    5  p90      -147.1   172.9  Favored   9  12  0.33  16  0.22  molprobity     ?  False  
+  6    6  m        -118.1   155.3  Favored   5   6  0.19   8  0.24  molprobity     ?  False  
+  7    7  m        -149.5   177.2  Favored   4   6  0.19   8  0.25  molprobity     ?  False  
+  8    8  m170     -101.7   144.3  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+  9    9  m-20      -53.5   133.0  Favored   4   8  0.12  11  0.30  molprobity     1  True   
+ 10   10  ?         109.2   -26.9  Favored   3   4  0.23   5  0.23  molprobity     1  True   
+ 11   11  OUTLIER   -75.6   151.7  Favored   6   9  0.19  12  0.26  molprobity     1  True   
+ 12   12  m        -103.8   150.9  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+ 13   13  t         -90.6   112.5  Favored   4   6  0.18   8  0.24  molprobity     1  True   
+ 14   14  p        -130.6   156.8  Favored   4   6  0.15   9  0.62  molprobity     1  True   
+ 15   15  Cg_endo   -69.7   115.7  Favored   7   8  0.16  11  0.27  molprobity     1  True   
+ 16   16  p        -101.6   -36.4  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+ 17   17  OUTLIER  -127.1  -175.2  Favored   5   6  0.20   8  0.22  molprobity     1  True   
+ 18   18  mp0       -86.3   -36.8  Favored   8   9  0.22  12  0.26  molprobity     1  True   
+ 19   19  p        -101.4   -36.2  Favored   7   7  0.21  10  0.55  molprobity     1  True   
+ 20   20  p        -114.2   154.8  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+ 21   21  m0       -113.2  -180.0  Favored  10  16  0.12  23  0.22  molprobity     1  True   
+ 22   22  ?        -157.9  -166.3  Favored   3   4  0.21   5  0.20  molprobity     1  True   
+ 23   23  m        -106.3   171.0  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+ 24   24  m             ?       ?  ?         4   5  0.16   5  0.21  molprobity     1  True   
+ 25   25  t             ?       ?  ?         6   6  0.14   8  0.32  molprobity     ?  False  
+ 26   26  ?        -177.0  -108.4  Allowed   3   4  0.19   5  0.36  molprobity     ?  False  
+ 27   27  ?         133.1    47.2  Allowed   3   4  0.20   5  0.36  molprobity     ?  False  
+ 28   28  ?        -163.7   -48.1  OUTLIER   3   4  0.23   5  0.21  molprobity     ?  False  
+ 29   29  p90       -85.4   155.6  Favored   9  12  0.33  16  0.22  molprobity     ?  False  
+ 30   30  m        -105.7   155.2  Favored   5   6  0.18   8  0.24  molprobity     ?  False  
+ 31   31  m        -149.2   176.2  Favored   4   6  0.17   8  0.25  molprobity     ?  False  
+ 32   32  m170      -91.1   143.8  Favored   7  11  0.14  15  0.20  molprobity     ?  False  
+ 33   33  m-20      -57.5   138.1  Favored   4   8  0.13  11  0.29  molprobity     1  True   
+ 34   34  ?          94.5   -26.9  Favored   3   4  0.22   5  0.21  molprobity     1  True   
+ 35   35  tp10      -64.4   148.3  Favored   6   9  0.18  12  0.27  molprobity     1  True   
+ 36   36  OUTLIER   -92.0   149.0  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+ 37   37  t        -101.4   122.6  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+ 38   38  p        -135.9   156.9  Favored   4   6  0.16   9  0.63  molprobity     1  True   
+ 39   39  Cg_endo   -69.8   117.4  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+ 40   40  p        -101.4   -37.9  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+ 41   41  t        -125.2  -176.2  Favored   5   6  0.19   8  0.23  molprobity     1  True   
+ 42   42  pt20      -86.1   -36.5  Favored   8   9  0.22  12  0.27  molprobity     1  True   
+ 43   43  m         -99.4   -36.5  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+ 44   44  p        -114.7   157.6  Favored   7   7  0.24  10  0.55  molprobity     1  True   
+ 45   45  m0       -113.6   179.4  Favored  10  16  0.14  23  0.21  molprobity     1  True   
+ 46   46  ?        -154.5  -163.2  Favored   3   4  0.24   5  0.23  molprobity     1  True   
+ 47   47  m        -114.1   168.6  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+ 48   48  m             ?       ?  ?         4   5  0.15   5  0.20  molprobity     1  True   
+ 49   49  p             ?       ?  ?         6   6  0.15   8  0.31  molprobity     ?  False  
+ 50   50  ?         -82.0    86.0  Allowed   3   4  0.19   5  0.36  molprobity     ?  False  
+ 51   51  ?         179.7  -106.5  Allowed   3   4  0.20   5  0.36  molprobity     ?  False  
+ 52   52  ?         -90.9    45.8  Favored   3   4  0.24   5  0.22  molprobity     ?  False  
+ 53   53  m-85     -150.8   147.8  Favored   9  12  0.35  16  0.22  molprobity     ?  False  
+ 54   54  m        -157.6   141.8  Favored   5   6  0.20   8  0.22  molprobity     ?  False  
+ 55   55  OUTLIER  -148.8  -180.0  Favored   4   6  0.19   8  0.24  molprobity     ?  False  
+ 56   56  m170      -91.6   156.6  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+ 57   57  p30       -53.6   137.4  Favored   4   8  0.13  11  0.29  molprobity     1  True   
+ 58   58  ?         102.1   -26.9  Favored   3   4  0.21   5  0.22  molprobity     1  True   
+ 59   59  tt0       -85.2   153.5  Favored   6   9  0.19  12  0.27  molprobity     1  True   
+ 60   60  p        -121.9   147.0  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+ 61   61  m         -82.3   112.3  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+ 62   62  p        -130.9   156.8  Favored   4   6  0.15   9  0.63  molprobity     1  True   
+ 63   63  Cg_endo   -69.7   116.0  Favored   7   8  0.15  11  0.26  molprobity     1  True   
+ 64   64  p         -97.4   -35.8  Favored   7   7  0.21  10  0.55  molprobity     1  True   
+ 65   65  t        -126.4  -175.0  Favored   5   6  0.19   8  0.23  molprobity     1  True   
+ 66   66  pt20      -86.4   -36.2  Favored   8   9  0.22  12  0.26  molprobity     1  True   
+ 67   67  t        -101.1   -35.8  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+ 68   68  m        -114.2   155.3  Favored   7   7  0.24  10  0.56  molprobity     1  True   
+ 69   69  m0       -112.2  -179.4  Favored  10  16  0.14  23  0.22  molprobity     1  True   
+ 70   70  ?        -160.5  -160.2  Favored   3   4  0.24   5  0.21  molprobity     1  True   
+ 71   71  m        -110.5   175.2  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+ 72   72  m             ?       ?  ?         4   5  0.16   5  0.20  molprobity     1  True   
+ 73   73  m             ?       ?  ?         6   6  0.15   8  0.31  molprobity     ?  False  
+ 74   74  ?        -111.0    49.2  Allowed   3   4  0.22   5  0.36  molprobity     ?  False  
+ 75   75  ?         -74.0  -103.0  OUTLIER   3   4  0.21   5  0.36  molprobity     ?  False  
+ 76   76  ?        -172.5    42.6  Allowed   3   4  0.24   5  0.22  molprobity     ?  False  
+ 77   77  p90      -133.8   153.8  Favored   9  12  0.34  16  0.23  molprobity     ?  False  
+ 78   78  m         -99.8   155.2  Favored   5   6  0.18   8  0.24  molprobity     ?  False  
+ 79   79  m        -149.9   179.2  Favored   4   6  0.20   8  0.24  molprobity     ?  False  
+ 80   80  m170      -92.5   141.9  Favored   7  11  0.16  15  0.19  molprobity     ?  False  
+ 81   81  t70       -56.0   134.9  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+ 82   82  ?          98.6   -27.0  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+ 83   83  tp10      -66.8   143.6  Favored   6   9  0.20  12  0.27  molprobity     1  True   
+ 84   84  OUTLIER   -96.3   125.2  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+ 85   85  p         -78.5   131.6  Favored   4   6  0.17   8  0.26  molprobity     1  True   
+ 86   86  p        -135.0   156.8  Favored   4   6  0.17   9  0.62  molprobity     1  True   
+ 87   87  Cg_endo   -69.7   117.6  Favored   7   8  0.15  11  0.27  molprobity     1  True   
+ 88   88  p        -102.5   -36.3  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+ 89   89  m        -133.8  -178.4  Favored   5   6  0.20   8  0.24  molprobity     1  True   
+ 90   90  tt0       -83.0   -36.3  Favored   8   9  0.20  12  0.26  molprobity     1  True   
+ 91   91  t        -100.7   -35.7  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+ 92   92  p        -113.9   156.2  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+ 93   93  m95      -119.4  -179.7  Favored  10  16  0.15  23  0.22  molprobity     1  True   
+ 94   94  ?        -155.5  -165.9  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+ 95   95  m        -114.0   166.9  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+ 96   96  m             ?       ?  ?         4   5  0.14   5  0.21  molprobity     1  True   
+ 97   97  p             ?       ?  ?         6   6  0.16   8  0.31  molprobity     ?  False  
+ 98   98  ?        -154.3   -47.0  OUTLIER   3   4  0.21   5  0.35  molprobity     ?  False  
+ 99   99  ?         101.8    52.6  Allowed   3   4  0.22   5  0.36  molprobity     ?  False  
+100  100  ?        -133.2   -37.9  Allowed   3   4  0.22   5  0.22  molprobity     ?  False  
+101  101  p90      -135.8   153.8  Favored   9  12  0.35  16  0.22  molprobity     ?  False  
+102  102  m         -90.7   170.0  Favored   5   6  0.19   8  0.24  molprobity     ?  False  
+103  103  m        -149.3   179.9  Favored   4   6  0.17   8  0.25  molprobity     ?  False  
+104  104  m170      -90.5   141.0  Favored   7  11  0.16  15  0.20  molprobity     ?  False  
+105  105  m-20      -52.2   130.9  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+106  106  ?          93.8   -26.9  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+107  107  tp10      -76.2   142.9  Favored   6   9  0.20  12  0.27  molprobity     1  True   
+108  108  OUTLIER   -91.3   143.8  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+109  109  t         -82.3   112.5  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+110  110  p        -135.0   156.8  Favored   4   6  0.16   9  0.63  molprobity     1  True   
+111  111  Cg_endo   -69.8   126.3  Favored   7   8  0.13  11  0.27  molprobity     1  True   
+112  112  p        -114.6   -35.7  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+113  113  OUTLIER  -117.2  -170.4  Allowed   5   6  0.17   8  0.24  molprobity     1  True   
+114  114  pt20      -90.4   -36.2  Favored   8   9  0.20  12  0.26  molprobity     1  True   
+115  115  p        -104.5   -36.0  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+116  116  p        -113.7   156.6  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+117  117  m0       -106.7  -178.4  Favored  10  16  0.14  23  0.21  molprobity     1  True   
+118  118  ?        -151.1  -169.4  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+119  119  m         -98.2   167.5  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+120  120  m             ?       ?  ?         4   5  0.14   5  0.21  molprobity     1  True   
+121  121  m             ?       ?  ?         6   6  0.16   8  0.31  molprobity     ?  False  
+122  122  ?        -156.3   108.3  Allowed   3   4  0.21   5  0.35  molprobity     ?  False  
+123  123  ?        -177.3   -38.8  OUTLIER   3   4  0.23   5  0.37  molprobity     ?  False  
+124  124  ?        -107.7   -65.6  Allowed   3   4  0.23   5  0.22  molprobity     ?  False  
+125  125  p90       -95.7   150.2  Favored   9  12  0.33  16  0.23  molprobity     ?  False  
+126  126  m        -103.5   155.4  Favored   5   6  0.20   8  0.24  molprobity     ?  False  
+127  127  m        -149.8   179.6  Favored   4   6  0.19   8  0.24  molprobity     ?  False  
+128  128  m-70      -92.0   144.6  Favored   7  11  0.14  15  0.20  molprobity     ?  False  
+129  129  m-20      -57.1   131.2  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+130  130  ?         101.4   -27.0  Favored   3   4  0.20   5  0.22  molprobity     1  True   
+131  131  tp10      -62.0   142.0  Favored   6   9  0.20  12  0.27  molprobity     1  True   
+132  132  p         -92.1   121.4  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+133  133  p         -78.1   131.2  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+134  134  p        -136.1   156.8  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+135  135  Cg_endo   -69.8   115.8  Favored   7   8  0.13  11  0.28  molprobity     1  True   
+136  136  p        -102.1   -35.7  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+137  137  OUTLIER  -130.8  -175.9  Favored   5   6  0.19   8  0.24  molprobity     1  True   
+138  138  tp60      -86.4   -36.2  Favored   8   9  0.21  12  0.26  molprobity     1  True   
+139  139  p        -100.3   -36.3  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+140  140  p        -114.6   155.6  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+141  141  m0       -117.0  -179.8  Favored  10  16  0.14  23  0.23  molprobity     1  True   
+142  142  ?        -156.5  -165.7  Favored   3   4  0.24   5  0.22  molprobity     1  True   
+143  143  m        -113.1   165.2  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+144  144  m             ?       ?  ?         4   5  0.13   5  0.20  molprobity     1  True   
+145  145  p             ?       ?  ?         6   6  0.16   8  0.32  molprobity     ?  False  
+146  146  ?         -78.5   -50.3  Favored   3   4  0.20   5  0.36  molprobity     ?  False  
+147  147  ?         150.4   -48.9  Allowed   3   4  0.20   5  0.35  molprobity     ?  False  
+148  148  ?         -82.3   -70.4  Allowed   3   4  0.23   5  0.22  molprobity     ?  False  
+149  149  p90       -78.2  -175.7  Favored   9  12  0.34  16  0.23  molprobity     ?  False  
+150  150  m        -138.4   170.6  Favored   5   6  0.20   8  0.23  molprobity     ?  False  
+151  151  OUTLIER  -140.9   168.2  Favored   4   6  0.20   8  0.23  molprobity     ?  False  
+152  152  m170      -90.9   147.5  Favored   7  11  0.16  15  0.21  molprobity     ?  False  
+153  153  t70       -52.8   139.6  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+154  154  ?         100.6   -26.9  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+155  155  OUTLIER   -79.5   149.1  Favored   6   9  0.19  12  0.26  molprobity     1  True   
+156  156  OUTLIER  -106.8   135.1  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+157  157  OUTLIER   -78.2   103.9  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+158  158  p        -125.3   156.8  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+159  159  Cg_endo   -69.8   115.5  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+160  160  p         -93.8   -42.0  Favored   7   7  0.23  10  0.54  molprobity     1  True   
+161  161  OUTLIER  -133.1  -173.9  Favored   5   6  0.20   8  0.24  molprobity     1  True   
+162  162  tt0       -91.5   -31.2  Favored   8   9  0.21  12  0.26  molprobity     1  True   
+163  163  OUTLIER   -89.4   -37.6  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+164  164  t        -133.8   158.3  Favored   7   7  0.24  10  0.56  molprobity     1  True   
+165  165  m0       -110.4  -177.6  Favored  10  16  0.14  23  0.22  molprobity     1  True   
+166  166  ?        -163.6  -158.0  Favored   3   4  0.25   5  0.23  molprobity     1  True   
+167  167  m        -113.6   174.1  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+168  168  m             ?       ?  ?         4   5  0.15   5  0.20  molprobity     1  True   
+169  169  m             ?       ?  ?         6   6  0.17   8  0.32  molprobity     ?  False  
+170  170  ?        -135.0  -159.4  Favored   3   4  0.18   5  0.35  molprobity     ?  False  
+171  171  ?          78.1   -66.8  Favored   3   4  0.20   5  0.36  molprobity     ?  False  
+172  172  ?        -141.0    43.9  Allowed   3   4  0.21   5  0.22  molprobity     ?  False  
+173  173  m-85     -125.5   135.0  Favored   9  12  0.34  16  0.22  molprobity     ?  False  
+174  174  m        -137.8   120.8  Favored   5   6  0.21   8  0.23  molprobity     ?  False  
+175  175  OUTLIER  -149.4   173.4  Favored   4   6  0.17   8  0.25  molprobity     ?  False  
+176  176  m170      -90.4   144.1  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+177  177  t70       -49.9   134.7  Favored   4   8  0.13  11  0.30  molprobity     1  True   
+178  178  ?         110.7   -26.3  Favored   3   4  0.22   5  0.23  molprobity     1  True   
+179  179  OUTLIER   -57.0   169.0  Allowed   6   9  0.22  12  0.27  molprobity     1  True   
+180  180  OUTLIER  -126.5   134.1  Favored   7   7  0.24  10  0.55  molprobity     1  True   
+181  181  m         -77.7   106.4  Favored   4   6  0.17   8  0.25  molprobity     1  True   
+182  182  p        -135.6   156.9  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+183  183  Cg_endo   -69.8   116.3  Favored   7   8  0.14  11  0.27  molprobity     1  True   
+184  184  p        -102.8   -36.0  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+185  185  OUTLIER  -124.2  -170.7  Favored   5   6  0.18   8  0.24  molprobity     1  True   
+186  186  mm-40     -89.3   -36.2  Favored   8   9  0.21  12  0.26  molprobity     1  True   
+187  187  m        -104.8   -36.0  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+188  188  OUTLIER  -113.8   157.0  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+189  189  m0       -112.1  -176.3  Favored  10  16  0.14  23  0.22  molprobity     1  True   
+190  190  ?        -162.8  -177.8  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+191  191  m         -88.2   162.6  Favored   4   6  0.18   8  0.25  molprobity     1  True   
+192  192  m             ?       ?  ?         4   5  0.15   5  0.19  molprobity     1  True   
+193  193  t             ?       ?  ?         6   6  0.17   8  0.32  molprobity     ?  False  
+194  194  ?         -55.2   177.1  Allowed   3   4  0.21   5  0.35  molprobity     ?  False  
+195  195  ?        -136.1    57.2  Allowed   3   4  0.21   5  0.35  molprobity     ?  False  
+196  196  ?        -130.3    34.5  Favored   3   4  0.23   5  0.21  molprobity     ?  False  
+197  197  p90      -174.7   167.6  Favored   9  12  0.33  16  0.22  molprobity     ?  False  
+198  198  m        -118.8   150.9  Favored   5   6  0.18   8  0.24  molprobity     ?  False  
+199  199  m        -149.2   171.6  Favored   4   6  0.18   8  0.25  molprobity     ?  False  
+200  200  m170      -90.6   138.0  Favored   7  11  0.14  15  0.20  molprobity     ?  False  
+201  201  p-10      -49.9   134.7  Favored   4   8  0.13  11  0.30  molprobity     1  True   
+202  202  ?         110.7   -26.2  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+203  203  OUTLIER   -57.0   168.9  Allowed   6   9  0.20  12  0.26  molprobity     1  True   
+204  204  OUTLIER  -116.5   131.7  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+205  205  m         -78.7   110.2  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+206  206  p        -136.2   156.8  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+207  207  Cg_endo   -69.7   115.9  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+208  208  p        -102.2   -36.2  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+209  209  OUTLIER  -126.1  -174.1  Favored   5   6  0.17   8  0.24  molprobity     1  True   
+210  210  mt-30     -88.9   -36.2  Favored   8   9  0.21  12  0.26  molprobity     1  True   
+211  211  p         -99.7   -35.6  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+212  212  p        -120.3   158.6  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+213  213  m0       -112.0  -179.2  Favored  10  16  0.14  23  0.21  molprobity     1  True   
+214  214  ?        -158.8  -171.8  Favored   3   4  0.24   5  0.21  molprobity     1  True   
+215  215  m         -96.8   162.6  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+216  216  m             ?       ?  ?         4   5  0.16   5  0.20  molprobity     1  True   
+217  217  m             ?       ?  ?         6   6  0.15   8  0.31  molprobity     ?  False  
+218  218  ?         -86.0   -74.5  Allowed   3   4  0.20   5  0.36  molprobity     ?  False  
+219  219  ?         131.3   -33.3  Favored   3   4  0.20   5  0.36  molprobity     ?  False  
+220  220  ?         -53.4   -41.2  Favored   3   4  0.23   5  0.22  molprobity     ?  False  
+221  221  p90      -123.6  -176.9  Favored   9  12  0.34  16  0.22  molprobity     ?  False  
+222  222  m        -113.5   166.9  Favored   5   6  0.20   8  0.24  molprobity     ?  False  
+223  223  m        -144.3   179.9  Favored   4   6  0.20   8  0.23  molprobity     ?  False  
+224  224  m170      -90.2   151.2  Favored   7  11  0.15  15  0.19  molprobity     ?  False  
+225  225  OUTLIER   -59.7   128.5  Favored   4   8  0.12  11  0.29  molprobity     1  True   
+226  226  ?          93.9   -26.9  Favored   3   4  0.22   5  0.23  molprobity     1  True   
+227  227  OUTLIER   -76.8   143.9  Favored   6   9  0.19  12  0.27  molprobity     1  True   
+228  228  OUTLIER   -98.6   150.7  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+229  229  m         -81.1   103.7  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+230  230  m        -117.9   153.8  Favored   4   6  0.15   9  0.62  molprobity     1  True   
+231  231  Cg_endo   -69.8   115.5  Favored   7   8  0.13  11  0.28  molprobity     1  True   
+232  232  p        -102.1   -35.8  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+233  233  OUTLIER  -131.0  -179.7  Favored   5   6  0.18   8  0.24  molprobity     1  True   
+234  234  pt20      -86.0   -36.2  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+235  235  m         -93.3   -35.9  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+236  236  p        -126.2   160.5  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+237  237  m0       -112.8  -178.2  Favored  10  16  0.13  23  0.21  molprobity     1  True   
+238  238  ?        -154.2  -169.0  Favored   3   4  0.22   5  0.21  molprobity     1  True   
+239  239  m         -93.2   172.7  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+240  240  OUTLIER       ?       ?  ?         4   5  0.16   5  0.19  molprobity     1  True   
+241  241  m             ?       ?  ?         6   6  0.17   8  0.31  molprobity     ?  False  
+242  242  ?        -162.7  -106.5  Allowed   3   4  0.23   5  0.35  molprobity     ?  False  
+243  243  ?         130.0   -35.5  Favored   3   4  0.21   5  0.36  molprobity     ?  False  
+244  244  ?         -55.4   -66.1  Favored   3   4  0.24   5  0.21  molprobity     ?  False  
+245  245  p90       -62.4  -176.2  Allowed   9  12  0.35  16  0.22  molprobity     ?  False  
+246  246  m        -132.0   152.3  Favored   5   6  0.21   8  0.23  molprobity     ?  False  
+247  247  OUTLIER  -146.0   169.6  Favored   4   6  0.19   8  0.24  molprobity     ?  False  
+248  248  m170      -92.7   144.1  Favored   7  11  0.15  15  0.19  molprobity     ?  False  
+249  249  p-10      -52.8   136.7  Favored   4   8  0.13  11  0.30  molprobity     1  True   
+250  250  ?         103.5   -26.9  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+251  251  mp0       -81.5   134.3  Favored   6   9  0.20  12  0.26  molprobity     1  True   
+252  252  OUTLIER   -90.7   144.5  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+253  253  p         -77.9   131.0  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+254  254  m        -136.3   153.7  Favored   4   6  0.14   9  0.63  molprobity     1  True   
+255  255  Cg_endo   -69.8   117.6  Favored   7   8  0.14  11  0.27  molprobity     1  True   
+256  256  p        -103.3   -36.2  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+257  257  m        -143.7   177.4  Favored   5   6  0.18   8  0.24  molprobity     1  True   
+258  258  pt20      -78.5   -36.3  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+259  259  OUTLIER   -98.9   -35.8  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+260  260  p        -114.3   155.9  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+261  261  m95      -125.0  -179.1  Favored  10  16  0.13  23  0.21  molprobity     1  True   
+262  262  ?        -162.9  -157.9  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+263  263  m        -115.2  -176.2  Favored   4   6  0.20   8  0.25  molprobity     1  True   
+264  264  m             ?       ?  ?         4   5  0.14   5  0.20  molprobity     1  True   
+265  265  m             ?       ?  ?         6   6  0.15   8  0.32  molprobity     ?  False  
+266  266  ?         -68.1  -168.4  Favored   3   4  0.22   5  0.36  molprobity     ?  False  
+267  267  ?        -133.1    43.5  Allowed   3   4  0.23   5  0.36  molprobity     ?  False  
+268  268  ?         -93.9   -49.8  Favored   3   4  0.22   5  0.21  molprobity     ?  False  
+269  269  p90       -86.1  -176.7  Favored   9  12  0.34  16  0.22  molprobity     ?  False  
+270  270  m        -124.7   155.3  Favored   5   6  0.20   8  0.22  molprobity     ?  False  
+271  271  m        -149.6   177.0  Favored   4   6  0.18   8  0.23  molprobity     ?  False  
+272  272  m170      -90.3   141.6  Favored   7  11  0.14  15  0.21  molprobity     ?  False  
+273  273  t70       -54.5   136.5  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+274  274  ?          93.6   -26.9  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+275  275  tp10      -64.8   139.4  Favored   6   9  0.20  12  0.26  molprobity     1  True   
+276  276  p         -91.4   130.8  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+277  277  p         -77.5   132.4  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+278  278  m        -136.2   153.6  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+279  279  Cg_endo   -69.8   116.8  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+280  280  p        -102.7   -35.7  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+281  281  t        -134.7  -175.2  Favored   5   6  0.20   8  0.23  molprobity     1  True   
+282  282  mt-30     -85.9   -36.2  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+283  283  t        -100.6   -35.8  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+284  284  m        -113.8   151.8  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+285  285  m95      -115.2   179.2  Favored  10  16  0.14  23  0.21  molprobity     1  True   
+286  286  ?        -154.8  -160.0  Favored   3   4  0.22   5  0.21  molprobity     1  True   
+287  287  m        -118.9   172.1  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+288  288  m             ?       ?  ?         4   5  0.14   5  0.20  molprobity     1  True   
+289  289  m             ?       ?  ?         6   6  0.15   8  0.31  molprobity     ?  False  
+290  290  ?        -146.7   -90.8  OUTLIER   3   4  0.21   5  0.35  molprobity     ?  False  
+291  291  ?        -102.8   -43.9  Allowed   3   4  0.22   5  0.36  molprobity     ?  False  
+292  292  ?        -164.8    52.8  Allowed   3   4  0.25   5  0.22  molprobity     ?  False  
+293  293  m-85     -110.4   144.5  Favored   9  12  0.35  16  0.21  molprobity     ?  False  
+294  294  m        -158.6   150.5  Favored   5   6  0.20   8  0.23  molprobity     ?  False  
+295  295  OUTLIER  -146.2   177.8  Favored   4   6  0.19   8  0.24  molprobity     ?  False  
+296  296  m170      -90.1   163.9  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+297  297  p30       -52.6   133.4  Favored   4   8  0.13  11  0.29  molprobity     1  True   
+298  298  ?         103.9   -26.9  Favored   3   4  0.24   5  0.22  molprobity     1  True   
+299  299  mp0       -93.4   167.8  Favored   6   9  0.18  12  0.26  molprobity     1  True   
+300  300  m        -145.5   151.8  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+301  301  m         -78.1   113.6  Favored   4   6  0.18   8  0.25  molprobity     1  True   
+302  302  m        -125.8   153.7  Favored   4   6  0.16   9  0.63  molprobity     1  True   
+303  303  Cg_endo   -69.8   116.3  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+304  304  p         -98.6   -36.1  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+305  305  m        -140.6   177.0  Favored   5   6  0.17   8  0.23  molprobity     1  True   
+306  306  mp0       -78.2   -36.2  Favored   8   9  0.21  12  0.26  molprobity     1  True   
+307  307  p         -98.4   -35.9  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+308  308  m        -114.5   157.9  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+309  309  m95      -124.4   179.7  Favored  10  16  0.14  23  0.21  molprobity     1  True   
+310  310  ?        -162.8  -155.3  Favored   3   4  0.22   5  0.23  molprobity     1  True   
+311  311  m        -114.5   178.5  Favored   4   6  0.18   8  0.23  molprobity     1  True   
+312  312  m             ?       ?  ?         4   5  0.17   5  0.20  molprobity     1  True   
+313  313  m             ?       ?  ?         6   6  0.17   8  0.31  molprobity     ?  False  
+314  314  ?        -162.1    37.9  Allowed   3   4  0.22   5  0.36  molprobity     ?  False  
+315  315  ?         177.1   -80.1  OUTLIER   3   4  0.21   5  0.36  molprobity     ?  False  
+316  316  ?         -57.7   -89.6  OUTLIER   3   4  0.24   5  0.21  molprobity     ?  False  
+317  317  t80       -68.5   168.7  Favored   9  12  0.34  16  0.23  molprobity     ?  False  
+318  318  m        -141.8   154.7  Favored   5   6  0.19   8  0.24  molprobity     ?  False  
+319  319  m        -149.6   179.7  Favored   4   6  0.18   8  0.24  molprobity     ?  False  
+320  320  m170      -90.9   150.2  Favored   7  11  0.14  15  0.20  molprobity     ?  False  
+321  321  p-10      -53.3   124.7  Favored   4   8  0.12  11  0.30  molprobity     1  True   
+322  322  ?          94.5   -27.0  Favored   3   4  0.22   5  0.23  molprobity     1  True   
+323  323  tp10      -79.2   153.4  Favored   6   9  0.19  12  0.27  molprobity     1  True   
+324  324  p        -105.5   151.0  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+325  325  m         -85.5   109.3  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+326  326  p        -136.4   153.6  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+327  327  Cg_endo   -69.7   115.6  Favored   7   8  0.13  11  0.27  molprobity     1  True   
+328  328  p         -91.4   -42.9  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+329  329  m        -119.0  -175.1  Favored   5   6  0.18   8  0.23  molprobity     1  True   
+330  330  tt0       -85.5   -36.5  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+331  331  p         -99.0   -35.8  Favored   7   7  0.21  10  0.57  molprobity     1  True   
+332  332  OUTLIER  -114.0   154.0  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+333  333  m0       -110.2  -176.5  Favored  10  16  0.12  23  0.22  molprobity     1  True   
+334  334  ?        -168.1  -151.5  Favored   3   4  0.21   5  0.22  molprobity     1  True   
+335  335  m        -116.2   173.2  Favored   4   6  0.20   8  0.24  molprobity     1  True   
+336  336  m             ?       ?  ?         4   5  0.13   5  0.20  molprobity     1  True   
+337  337  m             ?       ?  ?         6   6  0.14   8  0.31  molprobity     ?  False  
+338  338  ?         -89.1   132.0  Favored   3   4  0.20   5  0.35  molprobity     ?  False  
+339  339  ?        -179.5   -61.5  OUTLIER   3   4  0.24   5  0.36  molprobity     ?  False  
+340  340  ?        -144.6   -77.5  OUTLIER   3   4  0.24   5  0.22  molprobity     ?  False  
+341  341  p90       -64.8   179.8  Allowed   9  12  0.34  16  0.23  molprobity     ?  False  
+342  342  m        -133.2   154.6  Favored   5   6  0.20   8  0.24  molprobity     ?  False  
+343  343  OUTLIER  -148.1   177.6  Favored   4   6  0.20   8  0.25  molprobity     ?  False  
+344  344  m170      -95.1   138.6  Favored   7  11  0.15  15  0.19  molprobity     ?  False  
+345  345  t70       -54.0   140.5  Favored   4   8  0.12  11  0.29  molprobity     1  True   
+346  346  ?          97.6   -27.0  Favored   3   4  0.21   5  0.21  molprobity     1  True   
+347  347  tt0       -69.6   148.8  Favored   6   9  0.18  12  0.27  molprobity     1  True   
+348  348  OUTLIER   -91.6   123.9  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+349  349  m         -77.5   124.9  Favored   4   6  0.19   8  0.23  molprobity     1  True   
+350  350  m        -135.6   153.7  Favored   4   6  0.15   9  0.63  molprobity     1  True   
+351  351  Cg_endo   -69.7   116.9  Favored   7   8  0.15  11  0.28  molprobity     1  True   
+352  352  p         -97.6   -39.6  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+353  353  t        -123.2  -177.2  Favored   5   6  0.20   8  0.22  molprobity     1  True   
+354  354  pt20      -87.1   -37.9  Favored   8   9  0.20  12  0.26  molprobity     1  True   
+355  355  t         -90.0   -35.1  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+356  356  m        -126.8   154.9  Favored   7   7  0.24  10  0.56  molprobity     1  True   
+357  357  m0       -104.7  -176.8  Favored  10  16  0.13  23  0.21  molprobity     1  True   
+358  358  ?        -154.9  -148.8  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+359  359  m        -125.7   160.3  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+360  360  m             ?       ?  ?         4   5  0.14   5  0.19  molprobity     1  True   
+361  361  m             ?       ?  ?         6   6  0.17   8  0.31  molprobity     ?  False  
+362  362  ?        -179.9   135.6  Favored   3   4  0.21   5  0.35  molprobity     ?  False  
+363  363  ?         166.0   -68.3  Allowed   3   4  0.19   5  0.36  molprobity     ?  False  
+364  364  ?        -112.4   -34.2  Allowed   3   4  0.21   5  0.21  molprobity     ?  False  
+365  365  p90      -135.1  -173.3  Favored   9  12  0.34  16  0.23  molprobity     ?  False  
+366  366  OUTLIER  -133.5   176.5  Favored   5   6  0.19   8  0.24  molprobity     ?  False  
+367  367  m        -149.3  -179.8  Favored   4   6  0.18   8  0.25  molprobity     ?  False  
+368  368  m170      -90.0   139.5  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+369  369  p-10      -52.6   129.3  Favored   4   8  0.12  11  0.29  molprobity     1  True   
+370  370  ?          93.5   -26.9  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+371  371  tp10      -69.9   153.4  Favored   6   9  0.20  12  0.26  molprobity     1  True   
+372  372  OUTLIER   -92.7   150.3  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+373  373  m         -99.1   118.8  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+374  374  m        -134.4   154.2  Favored   4   6  0.16   9  0.63  molprobity     1  True   
+375  375  Cg_endo   -69.8   115.4  Favored   7   8  0.13  11  0.28  molprobity     1  True   
+376  376  p        -102.1   -36.0  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+377  377  OUTLIER  -131.7   178.6  Favored   5   6  0.18   8  0.24  molprobity     1  True   
+378  378  tt0       -85.9   -35.7  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+379  379  p         -90.3   -35.6  Favored   7   7  0.24  10  0.55  molprobity     1  True   
+380  380  OUTLIER  -133.7   160.5  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+381  381  m0       -108.6  -177.7  Favored  10  16  0.14  23  0.21  molprobity     1  True   
+382  382  ?        -154.9  -177.9  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+383  383  m         -85.5   161.6  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+384  384  p             ?       ?  ?         4   5  0.16   5  0.20  molprobity     1  True   
+385  385  p             ?       ?  ?         6   6  0.15   8  0.32  molprobity     ?  False  
+386  386  ?         -86.5  -139.2  Favored   3   4  0.21   5  0.35  molprobity     ?  False  
+387  387  ?        -157.0    37.0  Allowed   3   4  0.22   5  0.36  molprobity     ?  False  
+388  388  ?         -93.2    43.6  Favored   3   4  0.25   5  0.22  molprobity     ?  False  
+389  389  p90      -175.2   151.8  Allowed   9  12  0.34  16  0.22  molprobity     ?  False  
+390  390  m         -99.2   142.7  Favored   5   6  0.19   8  0.23  molprobity     ?  False  
+391  391  m        -150.0  -179.9  Favored   4   6  0.19   8  0.25  molprobity     ?  False  
+392  392  m170      -90.0   131.1  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+393  393  p-10      -51.9   137.9  Favored   4   8  0.12  11  0.30  molprobity     1  True   
+394  394  ?         104.3   -26.9  Favored   3   4  0.21   5  0.22  molprobity     1  True   
+395  395  OUTLIER   -71.0   147.9  Favored   6   9  0.20  12  0.27  molprobity     1  True   
+396  396  p         -90.6   136.7  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+397  397  p         -77.3   130.1  Favored   4   6  0.18   8  0.25  molprobity     1  True   
+398  398  m        -132.9   153.6  Favored   4   6  0.16   9  0.64  molprobity     1  True   
+399  399  Cg_endo   -69.7   115.4  Favored   7   8  0.13  11  0.28  molprobity     1  True   
+400  400  p        -104.9   -34.2  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+401  401  OUTLIER  -141.7  -169.9  Favored   5   6  0.19   8  0.23  molprobity     1  True   
+402  402  tt0       -88.4   -34.9  Favored   8   9  0.20  12  0.26  molprobity     1  True   
+403  403  p        -106.9   -33.9  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+404  404  m        -113.5   150.0  Favored   7   7  0.24  10  0.56  molprobity     1  True   
+405  405  m95      -120.2  -176.1  Favored  10  16  0.15  23  0.22  molprobity     1  True   
+406  406  ?        -168.4   141.7  Favored   3   4  0.21   5  0.22  molprobity     1  True   
+407  407  p         -65.9   157.7  Favored   4   6  0.19   8  0.25  molprobity     1  True   
+408  408  m             ?       ?  ?         4   5  0.16   5  0.21  molprobity     1  True   
+409  409  p             ?       ?  ?         6   6  0.15   8  0.31  molprobity     ?  False  
+410  410  ?        -160.1   161.7  Favored   3   4  0.22   5  0.37  molprobity     ?  False  
+411  411  ?         171.3  -105.1  Allowed   3   4  0.21   5  0.36  molprobity     ?  False  
+412  412  ?         -65.4   -39.4  Favored   3   4  0.24   5  0.21  molprobity     ?  False  
+413  413  p90      -108.1   173.0  Favored   9  12  0.34  16  0.22  molprobity     ?  False  
+414  414  m        -121.9   151.7  Favored   5   6  0.19   8  0.24  molprobity     ?  False  
+415  415  OUTLIER  -145.7   163.9  Favored   4   6  0.18   8  0.23  molprobity     ?  False  
+416  416  m170      -90.4   141.9  Favored   7  11  0.16  15  0.20  molprobity     ?  False  
+417  417  t70       -49.6   134.9  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+418  418  ?         110.7   -24.7  Favored   3   4  0.23   5  0.23  molprobity     1  True   
+419  419  OUTLIER   -56.8   168.8  Allowed   6   9  0.20  12  0.26  molprobity     1  True   
+420  420  OUTLIER  -117.5   128.8  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+421  421  t         -77.8   105.8  Favored   4   6  0.19   8  0.23  molprobity     1  True   
+422  422  p        -136.4   156.9  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+423  423  Cg_endo   -69.8   115.5  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+424  424  p        -101.7   -36.3  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+425  425  OUTLIER  -132.6   178.0  Favored   5   6  0.19   8  0.24  molprobity     1  True   
+426  426  mm-40     -85.2   -35.9  Favored   8   9  0.20  12  0.26  molprobity     1  True   
+427  427  p         -90.0   -35.6  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+428  428  p        -133.8   160.7  Favored   7   7  0.24  10  0.56  molprobity     1  True   
+429  429  m0       -109.3  -178.2  Favored  10  16  0.13  23  0.21  molprobity     1  True   
+430  430  ?        -158.4  -171.3  Favored   3   4  0.24   5  0.22  molprobity     1  True   
+431  431  m         -95.0   166.7  Favored   4   6  0.18   8  0.25  molprobity     1  True   
+432  432  m             ?       ?  ?         4   5  0.17   5  0.19  molprobity     1  True   
+433  433  p             ?       ?  ?         6   6  0.16   8  0.31  molprobity     ?  False  
+434  434  ?        -152.3    62.2  Allowed   3   4  0.20   5  0.36  molprobity     ?  False  
+435  435  ?         -73.3   -75.0  Allowed   3   4  0.23   5  0.36  molprobity     ?  False  
+436  436  ?        -153.9    36.1  Allowed   3   4  0.24   5  0.23  molprobity     ?  False  
+437  437  p90      -156.5   168.7  Favored   9  12  0.33  16  0.22  molprobity     ?  False  
+438  438  m        -121.0   155.4  Favored   5   6  0.19   8  0.23  molprobity     ?  False  
+439  439  m        -150.1  -179.9  Favored   4   6  0.17   8  0.25  molprobity     ?  False  
+440  440  m170      -90.0   135.1  Favored   7  11  0.15  15  0.20  molprobity     ?  False  
+441  441  m-20      -51.9   135.4  Favored   4   8  0.14  11  0.30  molprobity     1  True   
+442  442  ?         107.6   -26.9  Favored   3   4  0.22   5  0.22  molprobity     1  True   
+443  443  pp20?     -57.6   169.3  Allowed   6   9  0.20  12  0.26  molprobity     1  True   
+444  444  OUTLIER  -116.7   126.3  Favored   7   7  0.22  10  0.56  molprobity     1  True   
+445  445  t         -77.2   103.5  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+446  446  m        -111.3   153.5  Favored   4   6  0.17   9  0.63  molprobity     1  True   
+447  447  Cg_endo   -69.8   115.4  Favored   7   8  0.14  11  0.28  molprobity     1  True   
+448  448  p        -105.6   -33.7  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+449  449  t        -125.9  -169.8  Favored   5   6  0.20   8  0.22  molprobity     1  True   
+450  450  mt-30     -90.4   -35.5  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+451  451  OUTLIER  -105.0   -35.2  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+452  452  t        -113.6   158.6  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+453  453  m0       -115.2  -178.5  Favored  10  16  0.14  23  0.22  molprobity     1  True   
+454  454  ?        -145.6  -174.3  Favored   3   4  0.22   5  0.23  molprobity     1  True   
+455  455  m        -101.2   158.7  Favored   4   6  0.22   8  0.24  molprobity     1  True   
+456  456  m             ?       ?  ?         4   5  0.15   5  0.19  molprobity     1  True   
+457  457  p             ?       ?  ?         6   6  0.17   8  0.32  molprobity     ?  False  
+458  458  ?        -140.2   -86.7  Allowed   3   4  0.20   5  0.35  molprobity     ?  False  
+459  459  ?        -106.1    45.2  Allowed   3   4  0.20   5  0.36  molprobity     ?  False  
+460  460  ?        -156.4   -60.5  OUTLIER   3   4  0.24   5  0.21  molprobity     ?  False  
+461  461  t80       -79.7   173.9  Favored   9  12  0.34  16  0.23  molprobity     ?  False  
+462  462  m        -150.1   154.1  Favored   5   6  0.20   8  0.24  molprobity     ?  False  
+463  463  m        -149.9  -179.7  Favored   4   6  0.19   8  0.24  molprobity     ?  False  
+464  464  m170      -89.9   151.3  Favored   7  11  0.15  15  0.21  molprobity     ?  False  
+465  465  p-10      -52.1   121.1  Favored   4   8  0.13  11  0.30  molprobity     1  True   
+466  466  ?          93.5   -26.9  Favored   3   4  0.21   5  0.22  molprobity     1  True   
+467  467  OUTLIER   -82.8   130.4  Favored   6   9  0.19  12  0.26  molprobity     1  True   
+468  468  p         -93.6   146.1  Favored   7   7  0.23  10  0.56  molprobity     1  True   
+469  469  p         -77.3   128.6  Favored   4   6  0.19   8  0.24  molprobity     1  True   
+470  470  m        -136.6   153.7  Favored   4   6  0.15   9  0.63  molprobity     1  True   
+471  471  Cg_endo   -69.8   115.4  Favored   7   8  0.13  11  0.27  molprobity     1  True   
+472  472  p        -102.4   -35.5  Favored   7   7  0.22  10  0.55  molprobity     1  True   
+473  473  OUTLIER  -129.8  -178.5  Favored   5   6  0.18   8  0.24  molprobity     1  True   
+474  474  mt-30     -84.7   -35.8  Favored   8   9  0.21  12  0.27  molprobity     1  True   
+475  475  m        -102.5   -35.2  Favored   7   7  0.21  10  0.56  molprobity     1  True   
+476  476  m        -113.7   151.7  Favored   7   7  0.23  10  0.55  molprobity     1  True   
+477  477  m0       -117.2  -178.5  Favored  10  16  0.14  23  0.22  molprobity     1  True   
+478  478  ?        -165.4  -163.0  Favored   3   4  0.23   5  0.22  molprobity     1  True   
+479  479  m        -111.5   151.4  Favored   4   6  0.18   8  0.24  molprobity     1  True   
+480  480  p             ?       ?  ?         4   5  0.15   5  0.20  molprobity     1  True   
+#
+loop_
+_pdbx_vrpt_model_list.PDB_model_num
+_pdbx_vrpt_model_list.nmrclust_cluster_id
+_pdbx_vrpt_model_list.nmrclust_representative
+ 1  1  True  
+ 2  2  ?     
+ 3  3  ?     
+ 4  2  ?     
+ 5  1  ?     
+ 6  2  ?     
+ 7  1  ?     
+ 8  1  ?     
+ 9  1  ?     
+10  1  ?     
+11  2  ?     
+12  2  True  
+13  3  True  
+14  1  ?     
+15  2  ?     
+16  2  ?     
+17  2  ?     
+18  1  ?     
+19  2  ?     
+20  1  ?     
+#
+_pdbx_vrpt_cyrange_domain.ordinal             1
+_pdbx_vrpt_cyrange_domain.domain              1
+_pdbx_vrpt_cyrange_domain.number_of_gaps      0
+_pdbx_vrpt_cyrange_domain.number_of_residues  16
+_pdbx_vrpt_cyrange_domain.percentage_of_core  100.00
+_pdbx_vrpt_cyrange_domain.rmsd                0.360
+_pdbx_vrpt_cyrange_domain.medoid_model        1
+_pdbx_vrpt_cyrange_domain.medoid_rmsd         0.234
+_pdbx_vrpt_cyrange_domain.residue_string      A:9-A:24
+#
+_pdbx_vrpt_chemical_shift_list.ordinal                           1
+_pdbx_vrpt_chemical_shift_list.file_id                           1
+_pdbx_vrpt_chemical_shift_list.file_name                         working_cs.cif
+_pdbx_vrpt_chemical_shift_list.block_name                        nef_chemical_shift_list_zf24_ND6-final.prot
+_pdbx_vrpt_chemical_shift_list.list_id                           1
+_pdbx_vrpt_chemical_shift_list.type                              full
+_pdbx_vrpt_chemical_shift_list.number_of_errors_while_mapping    0
+_pdbx_vrpt_chemical_shift_list.number_of_warnings_while_mapping  0
+_pdbx_vrpt_chemical_shift_list.number_of_mapped_shifts           135
+_pdbx_vrpt_chemical_shift_list.number_of_parsed_shifts           135
+_pdbx_vrpt_chemical_shift_list.total_number_of_shifts            135
+_pdbx_vrpt_chemical_shift_list.number_of_unparsed_shifts         0
+#
+loop_
+_pdbx_vrpt_random_coil_index.ordinal
+_pdbx_vrpt_random_coil_index.auth_asym_id
+_pdbx_vrpt_random_coil_index.rescode
+_pdbx_vrpt_random_coil_index.auth_seq_id
+_pdbx_vrpt_random_coil_index.value
+ 1  A  CYS   1  0.021  
+ 2  A  GLY   2  0.017  
+ 3  A  GLY   3  0.010  
+ 4  A  GLY   4  0.006  
+ 5  A  PHE   5  0.007  
+ 6  A  SER   6  0.013  
+ 7  A  CYS   7  0.018  
+ 8  A  HIS   8  0.028  
+ 9  A  ASP   9  0.030  
+10  A  GLY  10  0.038  
+11  A  GLU  11  0.033  
+12  A  THR  12  0.026  
+13  A  CYS  13  0.015  
+14  A  CYS  14  0.011  
+15  A  PRO  15  0.023  
+16  A  THR  16  0.045  
+17  A  SER  17  0.063  
+18  A  GLN  18  0.056  
+19  A  THR  19  0.037  
+20  A  THR  20  0.023  
+21  A  TRP  21  0.025  
+22  A  GLY  22  0.029  
+23  A  CYS  23  0.030  
+24  A  CYS  24  0.030  
+#
+_pdbx_vrpt_chemical_shift_outlier.ordinal        1
+_pdbx_vrpt_chemical_shift_outlier.auth_asym_id   A
+_pdbx_vrpt_chemical_shift_outlier.rescode        GLY
+_pdbx_vrpt_chemical_shift_outlier.auth_seq_id    4
+_pdbx_vrpt_chemical_shift_outlier.label_atom_id  CA
+_pdbx_vrpt_chemical_shift_outlier.value          63.798
+_pdbx_vrpt_chemical_shift_outlier.zscore         14.293
+_pdbx_vrpt_chemical_shift_outlier.prediction     45.360
+_pdbx_vrpt_chemical_shift_outlier.method         shiftchecker
+#
+loop_
+_pdbx_vrpt_referencing_offset.ordinal
+_pdbx_vrpt_referencing_offset.label_atom_id
+_pdbx_vrpt_referencing_offset.uncertainty
+_pdbx_vrpt_referencing_offset.precision
+_pdbx_vrpt_referencing_offset.value
+_pdbx_vrpt_referencing_offset.number_of_measurements
+1  C   0.50  0.00  0.00   0  
+2  CA  0.50  0.00  0.00  15  
+3  CB  0.50  0.00  0.00  15  
+4  N   0.50  0.00  0.00   0  
+#
+loop_
+_pdbx_vrpt_assign_completeness_well_defined.ordinal
+_pdbx_vrpt_assign_completeness_well_defined.number_of_assigned_shifts
+_pdbx_vrpt_assign_completeness_well_defined.number_of_unassigned_shifts
+_pdbx_vrpt_assign_completeness_well_defined.number_of_shifts
+_pdbx_vrpt_assign_completeness_well_defined.type
+_pdbx_vrpt_assign_completeness_well_defined.element
+ 1  87  67  154  overall    Total  
+ 2  41  37   78  backbone   Total  
+ 3  40  24   64  sidechain  Total  
+ 4   6   6   12  aromatic   Total  
+ 5  65  10   75  overall    H      
+ 6  31   0   31  backbone   H      
+ 7  28  10   38  sidechain  H      
+ 8   6   0    6  aromatic   H      
+ 9  22  40   62  overall    C      
+10  10  22   32  backbone   C      
+11  12  13   25  sidechain  C      
+12   0   5    5  aromatic   C      
+13   0  17   17  overall    N      
+14   0  15   15  backbone   N      
+15   0   1    1  sidechain  N      
+16   0   1    1  aromatic   N      
+#
+loop_
+_pdbx_vrpt_assign_completeness_full_length.ordinal
+_pdbx_vrpt_assign_completeness_full_length.number_of_assigned_shifts
+_pdbx_vrpt_assign_completeness_full_length.number_of_unassigned_shifts
+_pdbx_vrpt_assign_completeness_full_length.number_of_shifts
+_pdbx_vrpt_assign_completeness_full_length.type
+_pdbx_vrpt_assign_completeness_full_length.element
+ 1  123  102  225  overall    Total  
+ 2   60   58  118  backbone   Total  
+ 3   52   27   79  sidechain  Total  
+ 4   11   17   28  aromatic   Total  
+ 5   93   17  110  overall    H      
+ 6   45    2   47  backbone   H      
+ 7   37   11   48  sidechain  H      
+ 8   11    4   15  aromatic   H      
+ 9   30   59   89  overall    C      
+10   15   33   48  backbone   C      
+11   15   15   30  sidechain  C      
+12    0   11   11  aromatic   C      
+13    0   26   26  overall    N      
+14    0   23   23  backbone   N      
+15    0    1    1  sidechain  N      
+16    0    2    2  aromatic   N      
+#
+loop_
+_pdbx_vrpt_restraint_summary.ordinal
+_pdbx_vrpt_restraint_summary.description
+_pdbx_vrpt_restraint_summary.value
+ 1  "Total distance restraints"                    155  
+ 2  "Intra-residue (|i-j|=0)"                       41  
+ 3  "Sequential (|i-j|=1)"                          68  
+ 4  "Medium range (|i-j|>1 and |i-j|<5)"            14  
+ 5  "Long range (|i-j|>=5)"                         32  
+ 6  Inter-chain                                      0  
+ 7  "Total dihedral-angle restraints"                0  
+ 8  "Total hydrogen bond restraints"                 0  
+ 9  "Total disulfide bond restraints"                0  
+10  "Number of unmapped restraints"                  0  
+11  "Number of restraints per residue"             6.5  
+12  "Number of long range restraints per residue"  1.3  
+#
+loop_
+_pdbx_vrpt_distance_violation_summary.ordinal
+_pdbx_vrpt_distance_violation_summary.restraint_type
+_pdbx_vrpt_distance_violation_summary.restraint_sub_type
+_pdbx_vrpt_distance_violation_summary.restraints_count
+_pdbx_vrpt_distance_violation_summary.percent_total
+_pdbx_vrpt_distance_violation_summary.consistently_violated_count
+_pdbx_vrpt_distance_violation_summary.consistently_violated_percent_total
+_pdbx_vrpt_distance_violation_summary.consistently_violated_percent_type
+_pdbx_vrpt_distance_violation_summary.violated_count
+_pdbx_vrpt_distance_violation_summary.violated_percent_total
+_pdbx_vrpt_distance_violation_summary.violated_percent_type
+ 1  Intra-residue  all                  41   26.5  1  0.6   2.4  19  12.3  46.3  
+ 2  Intra-residue  BackboneBackbone      1    0.6  0  0.0   0.0   0   0.0   0.0  
+ 3  Intra-residue  BackboneSidechain    35   22.6  0  0.0   0.0  16  10.3  45.7  
+ 4  Intra-residue  SidechainSidechain    5    3.2  1  0.6  20.0   3   1.9  60.0  
+ 5  Sequential     all                  68   43.9  1  0.6   1.5  18  11.6  26.5  
+ 6  Sequential     BackboneBackbone     22   14.2  0  0.0   0.0   2   1.3   9.1  
+ 7  Sequential     BackboneSidechain    41   26.5  1  0.6   2.4  15   9.7  36.6  
+ 8  Sequential     SidechainSidechain    5    3.2  0  0.0   0.0   1   0.6  20.0  
+ 9  MediumRange    all                  14    9.0  0  0.0   0.0   5   3.2  35.7  
+10  MediumRange    BackboneBackbone      3    1.9  0  0.0   0.0   0   0.0   0.0  
+11  MediumRange    BackboneSidechain     7    4.5  0  0.0   0.0   3   1.9  42.9  
+12  MediumRange    SidechainSidechain    4    2.6  0  0.0   0.0   2   1.3  50.0  
+13  LongRange      all                  32   20.6  1  0.6   3.1  15   9.7  46.9  
+14  LongRange      BackboneBackbone      8    5.2  0  0.0   0.0   0   0.0   0.0  
+15  LongRange      BackboneSidechain    14    9.0  1  0.6   7.1   9   5.8  64.3  
+16  LongRange      SidechainSidechain   10    6.5  0  0.0   0.0   6   3.9  60.0  
+17  InterChain     all                   0    0.0  0  0.0   0.0   0   0.0   0.0  
+18  InterChain     BackboneBackbone      0    0.0  0  0.0   0.0   0   0.0   0.0  
+19  InterChain     BackboneSidechain     0    0.0  0  0.0   0.0   0   0.0   0.0  
+20  InterChain     SidechainSidechain    0    0.0  0  0.0   0.0   0   0.0   0.0  
+21  Total          all                 155  100.0  3  1.9   1.9  57  36.8  36.8  
+22  Total          BackboneBackbone     34   21.9  0  0.0   0.0   2   1.3   5.9  
+23  Total          BackboneSidechain    97   62.6  2  1.3   2.1  43  27.7  44.3  
+24  Total          SidechainSidechain   24   15.5  1  0.6   4.2  12   7.7  50.0  
+#
+loop_
+_pdbx_vrpt_distance_violation_model_summary.ordinal
+_pdbx_vrpt_distance_violation_model_summary.PDB_model_num
+_pdbx_vrpt_distance_violation_model_summary.max_violation
+_pdbx_vrpt_distance_violation_model_summary.mean_violation
+_pdbx_vrpt_distance_violation_model_summary.median_violation
+_pdbx_vrpt_distance_violation_model_summary.standard_deviation
+ 1   1  1.94  0.68  0.54  0.48  
+ 2   2  2.29  0.58  0.43  0.45  
+ 3   3  2.38  0.56  0.42  0.50  
+ 4   4  2.44  0.61  0.48  0.47  
+ 5   5  1.45  0.48  0.48  0.31  
+ 6   6  2.22  0.70  0.57  0.59  
+ 7   7  1.85  0.63  0.54  0.40  
+ 8   8  1.70  0.63  0.52  0.43  
+ 9   9  1.64  0.63  0.48  0.41  
+10  10  1.84  0.57  0.51  0.41  
+11  11  1.69  0.61  0.46  0.44  
+12  12  2.22  0.69  0.57  0.47  
+13  13  2.34  0.66  0.43  0.53  
+14  14  1.54  0.54  0.51  0.36  
+15  15  2.50  0.63  0.46  0.51  
+16  16  2.09  0.61  0.53  0.48  
+17  17  1.25  0.50  0.41  0.29  
+18  18  1.47  0.69  0.58  0.37  
+19  19  1.49  0.60  0.52  0.35  
+20  20  1.67  0.68  0.59  0.41  
+#
+loop_
+_pdbx_vrpt_distance_violation_model_restraints.ordinal
+_pdbx_vrpt_distance_violation_model_restraints.PDB_model_num
+_pdbx_vrpt_distance_violation_model_restraints.dist_rest_type
+_pdbx_vrpt_distance_violation_model_restraints.violations_count
+  1   1  intraresidue   5  
+  2   1  sequential     6  
+  3   1  medium         0  
+  4   1  long          11  
+  5   1  interchain     0  
+  6   1  total         22  
+  7   2  intraresidue   8  
+  8   2  sequential     6  
+  9   2  medium         2  
+ 10   2  long           7  
+ 11   2  interchain     0  
+ 12   2  total         23  
+ 13   3  intraresidue   6  
+ 14   3  sequential     8  
+ 15   3  medium         2  
+ 16   3  long           8  
+ 17   3  interchain     0  
+ 18   3  total         24  
+ 19   4  intraresidue  10  
+ 20   4  sequential     8  
+ 21   4  medium         2  
+ 22   4  long           6  
+ 23   4  interchain     0  
+ 24   4  total         26  
+ 25   5  intraresidue   8  
+ 26   5  sequential    10  
+ 27   5  medium         2  
+ 28   5  long           6  
+ 29   5  interchain     0  
+ 30   5  total         26  
+ 31   6  intraresidue   7  
+ 32   6  sequential     8  
+ 33   6  medium         2  
+ 34   6  long           7  
+ 35   6  interchain     0  
+ 36   6  total         24  
+ 37   7  intraresidue   8  
+ 38   7  sequential     7  
+ 39   7  medium         1  
+ 40   7  long           8  
+ 41   7  interchain     0  
+ 42   7  total         24  
+ 43   8  intraresidue   5  
+ 44   8  sequential     7  
+ 45   8  medium         4  
+ 46   8  long           8  
+ 47   8  interchain     0  
+ 48   8  total         24  
+ 49   9  intraresidue   6  
+ 50   9  sequential     4  
+ 51   9  medium         4  
+ 52   9  long           8  
+ 53   9  interchain     0  
+ 54   9  total         22  
+ 55  10  intraresidue   5  
+ 56  10  sequential    10  
+ 57  10  medium         1  
+ 58  10  long           8  
+ 59  10  interchain     0  
+ 60  10  total         24  
+ 61  11  intraresidue   8  
+ 62  11  sequential    11  
+ 63  11  medium         0  
+ 64  11  long           7  
+ 65  11  interchain     0  
+ 66  11  total         26  
+ 67  12  intraresidue   8  
+ 68  12  sequential     9  
+ 69  12  medium         2  
+ 70  12  long           6  
+ 71  12  interchain     0  
+ 72  12  total         25  
+ 73  13  intraresidue   6  
+ 74  13  sequential    11  
+ 75  13  medium         0  
+ 76  13  long           8  
+ 77  13  interchain     0  
+ 78  13  total         25  
+ 79  14  intraresidue   7  
+ 80  14  sequential     9  
+ 81  14  medium         2  
+ 82  14  long           7  
+ 83  14  interchain     0  
+ 84  14  total         25  
+ 85  15  intraresidue   8  
+ 86  15  sequential     8  
+ 87  15  medium         3  
+ 88  15  long           9  
+ 89  15  interchain     0  
+ 90  15  total         28  
+ 91  16  intraresidue   9  
+ 92  16  sequential     8  
+ 93  16  medium         2  
+ 94  16  long           9  
+ 95  16  interchain     0  
+ 96  16  total         28  
+ 97  17  intraresidue  10  
+ 98  17  sequential     8  
+ 99  17  medium         2  
+100  17  long           4  
+101  17  interchain     0  
+102  17  total         24  
+103  18  intraresidue   6  
+104  18  sequential     7  
+105  18  medium         4  
+106  18  long           6  
+107  18  interchain     0  
+108  18  total         23  
+109  19  intraresidue  11  
+110  19  sequential    10  
+111  19  medium         3  
+112  19  long           8  
+113  19  interchain     0  
+114  19  total         32  
+115  20  intraresidue   7  
+116  20  sequential    13  
+117  20  medium         2  
+118  20  long           7  
+119  20  interchain     0  
+120  20  total         29  
+#
+loop_
+_pdbx_vrpt_distance_violations_ensemble_summary.id
+_pdbx_vrpt_distance_violations_ensemble_summary.fraction_of_ensemble_count
+_pdbx_vrpt_distance_violations_ensemble_summary.fraction_of_ensemble_percent
+ 1   1    5.0  
+ 2   2   10.0  
+ 3   3   15.0  
+ 4   4   20.0  
+ 5   5   25.0  
+ 6   6   30.0  
+ 7   7   35.0  
+ 8   8   40.0  
+ 9   9   45.0  
+10  10   50.0  
+11  11   55.0  
+12  12   60.0  
+13  13   65.0  
+14  14   70.0  
+15  15   75.0  
+16  16   80.0  
+17  17   85.0  
+18  18   90.0  
+19  19   95.0  
+20  20  100.0  
+#
+loop_
+_pdbx_vrpt_distance_violation_ensemble.ordinal
+_pdbx_vrpt_distance_violation_ensemble.ensemble_distance_count
+_pdbx_vrpt_distance_violation_ensemble.dist_rest_type
+_pdbx_vrpt_distance_violation_ensemble.violations_count
+  1   1  intraresidue  2  
+  2   1  sequential    0  
+  3   1  medium        0  
+  4   1  long          1  
+  5   1  interchain    0  
+  6   1  total         3  
+  7   2  intraresidue  3  
+  8   2  sequential    1  
+  9   2  medium        0  
+ 10   2  long          1  
+ 11   2  interchain    0  
+ 12   2  total         5  
+ 13   3  intraresidue  0  
+ 14   3  sequential    1  
+ 15   3  medium        1  
+ 16   3  long          1  
+ 17   3  interchain    0  
+ 18   3  total         3  
+ 19   4  intraresidue  1  
+ 20   4  sequential    1  
+ 21   4  medium        1  
+ 22   4  long          2  
+ 23   4  interchain    0  
+ 24   4  total         5  
+ 25   5  intraresidue  1  
+ 26   5  sequential    1  
+ 27   5  medium        1  
+ 28   5  long          1  
+ 29   5  interchain    0  
+ 30   5  total         4  
+ 31   6  intraresidue  4  
+ 32   6  sequential    1  
+ 33   6  medium        0  
+ 34   6  long          0  
+ 35   6  interchain    0  
+ 36   6  total         5  
+ 37   7  intraresidue  0  
+ 38   7  sequential    3  
+ 39   7  medium        0  
+ 40   7  long          0  
+ 41   7  interchain    0  
+ 42   7  total         3  
+ 43   8  intraresidue  1  
+ 44   8  sequential    1  
+ 45   8  medium        0  
+ 46   8  long          0  
+ 47   8  interchain    0  
+ 48   8  total         2  
+ 49   9  intraresidue  0  
+ 50   9  sequential    2  
+ 51   9  medium        0  
+ 52   9  long          0  
+ 53   9  interchain    0  
+ 54   9  total         2  
+ 55  10  intraresidue  1  
+ 56  10  sequential    2  
+ 57  10  medium        0  
+ 58  10  long          2  
+ 59  10  interchain    0  
+ 60  10  total         5  
+ 61  11  intraresidue  1  
+ 62  11  sequential    0  
+ 63  11  medium        0  
+ 64  11  long          0  
+ 65  11  interchain    0  
+ 66  11  total         1  
+ 67  12  intraresidue  0  
+ 68  12  sequential    0  
+ 69  12  medium        0  
+ 70  12  long          1  
+ 71  12  interchain    0  
+ 72  12  total         1  
+ 73  13  intraresidue  1  
+ 74  13  sequential    0  
+ 75  13  medium        1  
+ 76  13  long          0  
+ 77  13  interchain    0  
+ 78  13  total         2  
+ 79  14  intraresidue  1  
+ 80  14  sequential    2  
+ 81  14  medium        0  
+ 82  14  long          2  
+ 83  14  interchain    0  
+ 84  14  total         5  
+ 85  15  intraresidue  1  
+ 86  15  sequential    1  
+ 87  15  medium        1  
+ 88  15  long          1  
+ 89  15  interchain    0  
+ 90  15  total         4  
+ 91  16  intraresidue  1  
+ 92  16  sequential    0  
+ 93  16  medium        0  
+ 94  16  long          0  
+ 95  16  interchain    0  
+ 96  16  total         1  
+ 97  17  intraresidue  0  
+ 98  17  sequential    0  
+ 99  17  medium        0  
+100  17  long          2  
+101  17  interchain    0  
+102  17  total         2  
+103  18  intraresidue  0  
+104  18  sequential    1  
+105  18  medium        0  
+106  18  long          0  
+107  18  interchain    0  
+108  18  total         1  
+109  19  intraresidue  0  
+110  19  sequential    0  
+111  19  medium        0  
+112  19  long          0  
+113  19  interchain    0  
+114  19  total         0  
+115  20  intraresidue  1  
+116  20  sequential    1  
+117  20  medium        0  
+118  20  long          1  
+119  20  interchain    0  
+120  20  total         3  
+#
+loop_
+_pdbx_vrpt_residual_distance_violations.ordinal
+_pdbx_vrpt_residual_distance_violations.bins
+_pdbx_vrpt_residual_distance_violations.max_violation
+_pdbx_vrpt_residual_distance_violations.violations_per_model
+1  0.1-0.2  0.2   3.0  
+2  0.2-0.5  0.5  10.0  
+3  >0.5     2.5  12.2  
+#
+loop_
+_pdbx_vrpt_most_violated_distance_restraints.ordinal
+_pdbx_vrpt_most_violated_distance_restraints.rest_id
+_pdbx_vrpt_most_violated_distance_restraints.rlist_id
+_pdbx_vrpt_most_violated_distance_restraints.altcode_1
+_pdbx_vrpt_most_violated_distance_restraints.chain_1
+_pdbx_vrpt_most_violated_distance_restraints.resnum_1
+_pdbx_vrpt_most_violated_distance_restraints.resname_1
+_pdbx_vrpt_most_violated_distance_restraints.icode_1
+_pdbx_vrpt_most_violated_distance_restraints.ent_1
+_pdbx_vrpt_most_violated_distance_restraints.said_1
+_pdbx_vrpt_most_violated_distance_restraints.seq_1
+_pdbx_vrpt_most_violated_distance_restraints.atom_1
+_pdbx_vrpt_most_violated_distance_restraints.chain_2
+_pdbx_vrpt_most_violated_distance_restraints.altcode_2
+_pdbx_vrpt_most_violated_distance_restraints.resnum_2
+_pdbx_vrpt_most_violated_distance_restraints.resname_2
+_pdbx_vrpt_most_violated_distance_restraints.seq_2
+_pdbx_vrpt_most_violated_distance_restraints.said_2
+_pdbx_vrpt_most_violated_distance_restraints.ent_2
+_pdbx_vrpt_most_violated_distance_restraints.icode_2
+_pdbx_vrpt_most_violated_distance_restraints.atom_2
+_pdbx_vrpt_most_violated_distance_restraints.violated_models
+_pdbx_vrpt_most_violated_distance_restraints.mean_distance_violation
+_pdbx_vrpt_most_violated_distance_restraints.median_violation
+_pdbx_vrpt_most_violated_distance_restraints.standard_deviation
+ 1  147  1  .  A  16  THR  ?     1  A  16  HG22  A  .  22  GLY  22  A  1  ?     HA2   20  0.79  0.42  0.65  
+ 2  138  1  .  A   8  HIS  ?     1  A   8  HB2   A  .   9  ASP   9  A  1  ?     H     20  0.59  0.61  0.05  
+ 3  119  1  .  A   5  PHE  ?     1  A   5  HZ    A  .   5  PHE   5  A  1  ?     HD2   20  0.25  0.25  0.00  
+ 4   32  1  .  A  16  THR  ?     1  A  16  HG22  A  .  17  SER  17  A  1  ?     H     18  0.67  0.77  0.25  
+ 5  142  1  .  A  11  GLU  ?     1  A  11  HB2   A  .  23  CYS  23  A  1  ?     HB2   17  1.76  1.67  0.60  
+ 6  144  1  .  A  11  GLU  ?     1  A  11  HG2   A  .  23  CYS  23  A  1  ?     HB2   17  0.78  0.73  0.48  
+ 7   74  1  .  A   5  PHE  ?     1  A   5  HA    A  .   5  PHE   5  A  1  ?     HD2   16  0.43  0.40  0.11  
+ 8   72  1  .  A  13  CYS  ?     1  A  13  HB2   A  .  21  TRP  21  A  1  ?     HZ3   15  0.90  0.98  0.49  
+ 9   29  1  .  A  12  THR  ?     1  A  12  HG22  A  .  13  CYS  13  A  1  ?     H     15  0.82  0.81  0.35  
+10  112  1  .  A  16  THR  ?     1  A  16  HA    A  .  16  THR  16  A  1  ?     HG22  15  0.60  0.50  0.28  
+11  133  1  .  A   7  CYS  ?     1  A   7  HA    A  .  11  GLU  11  A  1  ?     HB2   15  0.46  0.41  0.22  
+12   92  1  .  A  15  PRO  ?     1  A  15  HA    A  .  16  THR  16  A  1  ?     HG22  14  1.06  1.23  0.43  
+13  143  1  .  A  11  GLU  ?     1  A  11  HB2   A  .  24  CYS  24  A  1  ?     H     14  0.71  0.62  0.33  
+14   35  1  .  A  11  GLU  ?     1  A  11  HG2   A  .  12  THR  12  A  1  ?     H     14  0.70  0.60  0.36  
+15  126  1  .  A   1  CYS  ?     1  A   1  HB2   A  .  13  CYS  13  A  1  ?     HB2   14  0.69  0.52  0.38  
+16  137  1  .  A   8  HIS  ?     1  A   8  HD2   A  .   8  HIS   8  A  1  ?     HB2   14  0.33  0.36  0.11  
+17    9  1  .  A  11  GLU  ?     1  A  11  H     A  .  11  GLU  11  A  1  ?     HG2   13  0.48  0.52  0.11  
+18  134  1  .  A   7  CYS  ?     1  A   7  HB3   A  .  11  GLU  11  A  1  ?     HB2   13  0.45  0.49  0.14  
+19  128  1  .  A   5  PHE  ?     1  A   5  HE2   A  .  21  TRP  21  A  1  ?     HB2   12  1.14  1.17  0.27  
+20  118  1  .  A  19  THR  ?     1  A  19  HA    A  .  19  THR  19  A  1  ?     HG22  11  0.36  0.40  0.15  
+21  120  1  .  A  17  SER  ?     1  A  17  HB2   A  .  18  GLN  18  A  1  ?     H     10  0.69  0.74  0.18  
+22   18  1  .  A  19  THR  ?     1  A  19  HG22  A  .  20  THR  20  A  1  ?     H     10  0.44  0.44  0.20  
+23   98  1  .  A   1  CYS  ?     1  A   1  HA    A  .  13  CYS  13  A  1  ?     HB2   10  0.40  0.28  0.34  
+24  109  1  .  A  13  CYS  ?     1  A  13  HB2   A  .  21  TRP  21  A  1  ?     HE3   10  0.37  0.32  0.22  
+25   22  1  .  A  12  THR  ?     1  A  12  H     A  .  12  THR  12  A  1  ?     HG22  10  0.19  0.17  0.09  
+26   88  1  .  A  12  THR  ?     1  A  12  HA    A  .  13  CYS  13  A  1  ?     HB2    9  0.88  1.24  0.53  
+27  146  1  .  A  14  CYS  ?     1  A  14  HB2   A  .  15  PRO  15  A  1  ?     HD3    9  0.67  0.66  0.02  
+28   14  1  .  A  18  GLN  ?     1  A  18  H     A  .  18  GLN  18  A  1  ?     HG2    8  0.48  0.56  0.17  
+29   42  1  .  A   3  GLY  ?     1  A   3  HA2   A  .   4  GLY   4  A  1  ?     H      8  0.13  0.12  0.01  
+30  127  1  .  A   2  GLY  ?     1  A   2  HA2   A  .   3  GLY   3  A  1  ?     H      7  0.45  0.47  0.08  
+31  132  1  .  A   6  SER  ?     1  A   6  HB2   A  .   7  CYS   7  A  1  ?     H      7  0.24  0.20  0.08  
+32  141  1  .  A  11  GLU  ?     1  A  11  HB2   A  .  12  THR  12  A  1  ?     H      7  0.20  0.21  0.08  
+33   21  1  .  A  13  CYS  ?     1  A  13  H     A  .  13  CYS  13  A  1  ?     HB2    6  0.76  0.76  0.00  
+34   85  1  .  A  13  CYS  ?     1  A  13  HB2   A  .  14  CYS  14  A  1  ?     HA     6  0.58  0.58  0.04  
+35   13  1  .  A  18  GLN  ?     1  A  18  H     A  .  18  GLN  18  A  1  ?     HB2    6  0.46  0.47  0.01  
+36   17  1  .  A  19  THR  ?     1  A  19  H     A  .  19  THR  19  A  1  ?     HG22   6  0.43  0.42  0.11  
+37   16  1  .  A   5  PHE  ?     1  A   5  H     A  .   5  PHE   5  A  1  ?     HB2    6  0.24  0.20  0.07  
+38   82  1  .  A   8  HIS  ?     1  A   8  H     A  .  11  GLU  11  A  1  ?     HG2    5  0.68  0.84  0.25  
+39   39  1  .  A   5  PHE  ?     1  A   5  HB2   A  .   6  SER   6  A  1  ?     H      5  0.46  0.53  0.18  
+40   30  1  .  A  16  THR  ?     1  A  16  HG22  A  .  22  GLY  22  A  1  ?     H      5  0.45  0.46  0.22  
+41  150  1  .  A  21  TRP  ?     1  A  21  HE3   A  .  21  TRP  21  A  1  ?     HB2    5  0.19  0.18  0.03  
+42  136  1  .  A   8  HIS  ?     1  A   8  H     A  .  11  GLU  11  A  1  ?     HB2    4  0.56  0.56  0.03  
+43  140  1  .  A  11  GLU  ?     1  A  11  H     A  .  11  GLU  11  A  1  ?     HB2    4  0.48  0.48  0.00  
+44   34  1  .  A  11  GLU  ?     1  A  11  HG2   A  .  24  CYS  24  A  1  ?     H      4  0.41  0.39  0.16  
+45   86  1  .  A  13  CYS  ?     1  A  13  HB2   A  .  23  CYS  23  A  1  ?     HA     4  0.35  0.37  0.13  
+46   31  1  .  A  20  THR  ?     1  A  20  HG22  A  .  21  TRP  21  A  1  ?     H      4  0.25  0.21  0.09  
+47  107  1  .  A   5  PHE  ?     1  A   5  HD2   A  .   6  SER   6  A  1  ?     H      3  1.44  1.63  0.29  
+48  129  1  .  A   5  PHE  ?     1  A   5  HE2   A  .  22  GLY  22  A  1  ?     HA2    3  1.21  1.20  0.05  
+49   94  1  .  A   7  CYS  ?     1  A   7  HB3   A  .  11  GLU  11  A  1  ?     HG2    3  0.25  0.25  0.02  
+50  145  1  .  A  13  CYS  ?     1  A  13  HA    A  .  24  CYS  24  A  1  ?     HB2    2  1.30  1.30  0.31  
+51  153  1  .  A  23  CYS  ?     1  A  23  HA    A  .  24  CYS  24  A  1  ?     HB2    2  1.11  1.11  0.01  
+52  111  1  .  A  20  THR  ?     1  A  20  HA    A  .  20  THR  20  A  1  ?     HG22   2  0.72  0.72  0.01  
+53  155  1  .  A  24  CYS  ?     1  A  24  H     A  .  24  CYS  24  A  1  ?     HB2    2  0.38  0.38  0.01  
+54   19  1  .  A  20  THR  ?     1  A  20  H     A  .  20  THR  20  A  1  ?     HG22   2  0.17  0.17  0.04  
+#
+loop_
+_pdbx_vrpt_violated_distance_restraints.ordinal
+_pdbx_vrpt_violated_distance_restraints.rest_id
+_pdbx_vrpt_violated_distance_restraints.rlist_id
+_pdbx_vrpt_violated_distance_restraints.instance_id_1
+_pdbx_vrpt_violated_distance_restraints.instance_id_2
+_pdbx_vrpt_violated_distance_restraints.atom_1
+_pdbx_vrpt_violated_distance_restraints.atom_2
+_pdbx_vrpt_violated_distance_restraints.violation
+  1  142  1  347  359  HB2   HB2   2.50  
+  2  142  1   83   95  HB2   HB2   2.44  
+  3  142  1   59   71  HB2   HB2   2.38  
+  4  142  1  299  311  HB2   HB2   2.34  
+  5  142  1   35   47  HB2   HB2   2.29  
+  6  142  1  131  143  HB2   HB2   2.22  
+  7  142  1  275  287  HB2   HB2   2.22  
+  8  147  1  136  142  HG22  HA2   2.13  
+  9  142  1  371  383  HB2   HB2   2.09  
+ 10  147  1   16   22  HG22  HA2   1.94  
+ 11   72  1  157  165  HB2   HZ3   1.85  
+ 12  147  1  232  238  HG22  HA2   1.84  
+ 13  147  1  376  382  HG22  HA2   1.78  
+ 14  144  1  179  191  HG2   HB2   1.70  
+ 15  147  1  256  262  HG22  HA2   1.69  
+ 16  142  1  467  479  HB2   HB2   1.67  
+ 17  107  1   53   54  HD2   H     1.66  
+ 18  128  1  197  213  HE2   HB2   1.64  
+ 19  107  1  293  294  HD2   H     1.63  
+ 20  145  1  469  480  HA    HB2   1.61  
+ 21   92  1  327  328  HA    HG22  1.54  
+ 22  142  1  251  263  HB2   HB2   1.50  
+ 23  144  1  443  455  HG2   HB2   1.49  
+ 24  144  1  203  215  HG2   HB2   1.48  
+ 25  142  1   11   23  HB2   HB2   1.47  
+ 26  128  1  413  429  HE2   HB2   1.47  
+ 27   72  1  421  429  HB2   HZ3   1.45  
+ 28  142  1  107  119  HB2   HB2   1.45  
+ 29  126  1  169  181  HB2   HB2   1.45  
+ 30   92  1  207  208  HA    HG22  1.44  
+ 31   92  1  423  424  HA    HG22  1.44  
+ 32   29  1  348  349  HG22  H     1.39  
+ 33   92  1  279  280  HA    HG22  1.38  
+ 34   92  1  135  136  HA    HG22  1.37  
+ 35   98  1  169  181  HA    HB2   1.34  
+ 36   92  1  303  304  HA    HG22  1.34  
+ 37  128  1    5   21  HE2   HB2   1.34  
+ 38   92  1   87   88  HA    HG22  1.33  
+ 39   35  1  227  228  HG2   H     1.33  
+ 40  126  1  361  373  HB2   HB2   1.32  
+ 41   72  1   37   45  HB2   HZ3   1.31  
+ 42   72  1  109  117  HB2   HZ3   1.31  
+ 43   72  1   13   21  HB2   HZ3   1.30  
+ 44  142  1  155  167  HB2   HB2   1.29  
+ 45  128  1  245  261  HE2   HB2   1.29  
+ 46  126  1  337  349  HB2   HB2   1.29  
+ 47   88  1  468  469  HA    HB2   1.27  
+ 48   29  1  156  157  HG22  H     1.27  
+ 49  129  1  173  190  HE2   HA2   1.27  
+ 50   88  1  252  253  HA    HB2   1.26  
+ 51  143  1  347  360  HB2   H     1.26  
+ 52   88  1  132  133  HA    HB2   1.25  
+ 53   88  1  396  397  HA    HB2   1.25  
+ 54  142  1  323  335  HB2   HB2   1.25  
+ 55  142  1  443  455  HB2   HB2   1.25  
+ 56   88  1   84   85  HA    HB2   1.24  
+ 57   88  1  276  277  HA    HB2   1.24  
+ 58  142  1  227  239  HB2   HB2   1.24  
+ 59   29  1  276  277  HG22  H     1.22  
+ 60  144  1  299  311  HG2   HB2   1.22  
+ 61  143  1  467  480  HB2   H     1.22  
+ 62  129  1   53   70  HE2   HA2   1.20  
+ 63  128  1  341  357  HE2   HB2   1.20  
+ 64   35  1  155  156  HG2   H     1.19  
+ 65   35  1  251  252  HG2   H     1.19  
+ 66  128  1  269  285  HE2   HB2   1.17  
+ 67   29  1  444  445  HG22  H     1.16  
+ 68  129  1  293  310  HE2   HA2   1.16  
+ 69  128  1  389  405  HE2   HB2   1.16  
+ 70   92  1  471  472  HA    HG22  1.14  
+ 71   29  1  132  133  HG22  H     1.14  
+ 72  153  1  383  384  HA    HB2   1.12  
+ 73  144  1  419  431  HG2   HB2   1.12  
+ 74   72  1  445  453  HB2   HZ3   1.11  
+ 75  153  1  479  480  HA    HB2   1.10  
+ 76  133  1  439  443  HA    HB2   1.08  
+ 77   35  1   11   12  HG2   H     1.07  
+ 78  128  1  437  453  HE2   HB2   1.06  
+ 79  128  1  125  141  HE2   HB2   1.05  
+ 80  143  1  131  144  HB2   H     1.04  
+ 81  107  1  173  174  HD2   H     1.03  
+ 82   92  1   15   16  HA    HG22  1.02  
+ 83   72  1  301  309  HB2   HZ3   0.99  
+ 84  145  1  373  384  HA    HB2   0.99  
+ 85   72  1  349  357  HB2   HZ3   0.98  
+ 86  143  1   35   48  HB2   H     0.98  
+ 87   72  1  325  333  HB2   HZ3   0.96  
+ 88   29  1  468  469  HG22  H     0.96  
+ 89   29  1  396  397  HG22  H     0.94  
+ 90  144  1  251  263  HG2   HB2   0.94  
+ 91  143  1  275  288  HB2   H     0.94  
+ 92   32  1  208  209  HG22  H     0.93  
+ 93  112  1   88   88  HA    HG22  0.93  
+ 94  112  1  304  304  HA    HG22  0.93  
+ 95   82  1  416  419  H     HG2   0.92  
+ 96   32  1  424  425  HG22  H     0.92  
+ 97  128  1   29   45  HE2   HB2   0.92  
+ 98   32  1  136  137  HG22  H     0.91  
+ 99  143  1   83   96  HB2   H     0.91  
+100  112  1  280  280  HA    HG22  0.91  
+101   92  1  231  232  HA    HG22  0.90  
+102   32  1  280  281  HG22  H     0.90  
+103  144  1   11   23  HG2   HB2   0.90  
+104  109  1  157  165  HB2   HE3   0.89  
+105   82  1  176  179  H     HG2   0.88  
+106  126  1  433  445  HB2   HB2   0.88  
+107  112  1  472  472  HA    HG22  0.88  
+108   32  1   88   89  HG22  H     0.87  
+109   32  1  304  305  HG22  H     0.87  
+110  112  1  208  208  HA    HG22  0.87  
+111  112  1  328  328  HA    HG22  0.87  
+112  112  1  424  424  HA    HG22  0.87  
+113  147  1  328  334  HG22  HA2   0.85  
+114   82  1  200  203  H     HG2   0.84  
+115   32  1  328  329  HG22  H     0.84  
+116   30  1  136  142  HG22  H     0.83  
+117  144  1  347  359  HG2   HB2   0.82  
+118   32  1  472  473  HG22  H     0.81  
+119   29  1  324  325  HG22  H     0.81  
+120  133  1  199  203  HA    HB2   0.81  
+121   35  1  467  468  HG2   H     0.80  
+122   92  1  375  376  HA    HG22  0.79  
+123   32  1   16   17  HG22  H     0.79  
+124   18  1  451  452  HG22  H     0.79  
+125  120  1  353  354  HB2   H     0.79  
+126   35  1  443  444  HG2   H     0.78  
+127  120  1   41   42  HB2   H     0.78  
+128   21  1   85   85  H     HB2   0.76  
+129   21  1  133  133  H     HB2   0.76  
+130   21  1  253  253  H     HB2   0.76  
+131   21  1  277  277  H     HB2   0.76  
+132   21  1  397  397  H     HB2   0.76  
+133   21  1  469  469  H     HB2   0.76  
+134  120  1  473  474  HB2   H     0.76  
+135   32  1  232  233  HG22  H     0.75  
+136  128  1  149  165  HE2   HB2   0.75  
+137  120  1   65   66  HB2   H     0.75  
+138  120  1  281  282  HB2   H     0.75  
+139  147  1  472  478  HG22  HA2   0.74  
+140  120  1  233  234  HB2   H     0.74  
+141   92  1  255  256  HA    HG22  0.73  
+142  144  1  227  239  HG2   HB2   0.73  
+143  126  1  409  421  HB2   HB2   0.73  
+144  111  1  452  452  HA    HG22  0.73  
+145   32  1  256  257  HG22  H     0.72  
+146   32  1  376  377  HG22  H     0.72  
+147  146  1  374  375  HB2   HD3   0.72  
+148  126  1    1   13  HB2   HB2   0.72  
+149  120  1  401  402  HB2   H     0.72  
+150  111  1  164  164  HA    HG22  0.72  
+151  120  1  257  258  HB2   H     0.71  
+152   39  1  173  174  HB2   H     0.70  
+153  146  1  230  231  HB2   HD3   0.70  
+154  120  1  449  450  HB2   H     0.70  
+155  118  1  355  355  HA    HG22  0.70  
+156   29  1  180  181  HG22  H     0.69  
+157  147  1  112  118  HG22  HA2   0.69  
+158  144  1  155  167  HG2   HB2   0.69  
+159   14  1  138  138  H     HG2   0.69  
+160  146  1  470  471  HB2   HD3   0.68  
+161  146  1  254  255  HB2   HD3   0.67  
+162  143  1  371  384  HB2   H     0.67  
+163   34  1  155  168  HG2   H     0.66  
+164  146  1  278  279  HB2   HD3   0.66  
+165  146  1  302  303  HB2   HD3   0.66  
+166  146  1  350  351  HB2   HD3   0.66  
+167  146  1  398  399  HB2   HD3   0.66  
+168  146  1  446  447  HB2   HD3   0.66  
+169   85  1  445  446  HB2   HA    0.65  
+170   18  1  331  332  HG22  H     0.65  
+171  128  1   77   93  HE2   HB2   0.65  
+172  138  1   32   33  HB2   H     0.64  
+173  138  1  392  393  HB2   H     0.64  
+174   35  1  107  108  HG2   H     0.63  
+175   18  1  403  404  HG22  H     0.63  
+176   17  1  163  163  H     HG22  0.63  
+177   14  1  378  378  H     HG2   0.63  
+178  138  1   80   81  HB2   H     0.63  
+179  138  1  104  105  HB2   H     0.63  
+180  138  1  344  345  HB2   H     0.63  
+181  138  1  416  417  HB2   H     0.63  
+182  133  1  175  179  HA    HB2   0.63  
+183   98  1   97  109  HA    HB2   0.62  
+184  138  1  248  249  HB2   H     0.62  
+185  138  1  368  369  HB2   H     0.62  
+186  138  1  440  441  HB2   H     0.62  
+187   74  1  365  365  HA    HD2   0.61  
+188  138  1  128  129  HB2   H     0.61  
+189  138  1  152  153  HB2   H     0.61  
+190  138  1  272  273  HB2   H     0.61  
+191   85  1  421  422  HB2   HA    0.60  
+192   74  1  101  101  HA    HD2   0.60  
+193   72  1  181  189  HB2   HZ3   0.60  
+194   29  1  372  373  HG22  H     0.60  
+195  136  1  200  203  H     HB2   0.60  
+196  134  1  439  443  HB3   HB2   0.60  
+197   85  1   13   14  HB2   HA    0.59  
+198   29  1  108  109  HG22  H     0.59  
+199  138  1    8    9  HB2   H     0.59  
+200  134  1  367  371  HB3   HB2   0.59  
+201  134  1  463  467  HB3   HB2   0.59  
+202    9  1   59   59  H     HG2   0.58  
+203   18  1  427  428  HG22  H     0.58  
+204  143  1  299  312  HB2   H     0.58  
+205   14  1  330  330  H     HG2   0.58  
+206  109  1  421  429  HB2   HE3   0.58  
+207    9  1  323  323  H     HG2   0.57  
+208    9  1  347  347  H     HG2   0.57  
+209    9  1  467  467  H     HG2   0.57  
+210   85  1   37   38  HB2   HA    0.57  
+211   85  1  109  110  HB2   HA    0.57  
+212   74  1  221  221  HA    HD2   0.57  
+213   39  1  293  294  HB2   H     0.57  
+214   35  1  275  276  HG2   H     0.57  
+215   14  1   90   90  H     HG2   0.57  
+216  138  1  200  201  HB2   H     0.57  
+217  136  1  416  419  H     HB2   0.57  
+218  136  1  176  179  H     HB2   0.56  
+219  134  1  319  323  HB3   HB2   0.56  
+220   14  1  162  162  H     HG2   0.55  
+221  134  1  103  107  HB3   HB2   0.55  
+222    9  1  131  131  H     HG2   0.54  
+223  138  1   56   57  HB2   H     0.54  
+224  138  1  464  465  HB2   H     0.54  
+225  134  1  415  419  HB3   HB2   0.54  
+226  126  1  217  229  HB2   HB2   0.54  
+227    9  1   83   83  H     HG2   0.53  
+228   85  1  157  158  HB2   HA    0.53  
+229   39  1   53   54  HB2   H     0.53  
+230  138  1  176  177  HB2   H     0.53  
+231  138  1  224  225  HB2   H     0.53  
+232  138  1  320  321  HB2   H     0.53  
+233  127  1  146  147  HA2   H     0.53  
+234    9  1  275  275  H     HG2   0.52  
+235   86  1  181  191  HB2   HA    0.52  
+236   74  1  413  413  HA    HD2   0.52  
+237   74  1  437  437  HA    HD2   0.52  
+238  136  1  440  443  H     HB2   0.52  
+239  133  1  415  419  HA    HB2   0.52  
+240  127  1   98   99  HA2   H     0.52  
+241   29  1  228  229  HG22  H     0.51  
+242  127  1  218  219  HA2   H     0.51  
+243  109  1  325  333  HB2   HE3   0.51  
+244   74  1    5    5  HA    HD2   0.50  
+245   72  1  205  213  HB2   HZ3   0.50  
+246  144  1   59   71  HG2   HB2   0.50  
+247  144  1   83   95  HG2   HB2   0.50  
+248  112  1   64   64  HA    HG22  0.50  
+249   17  1  475  475  H     HG22  0.49  
+250  134  1  199  203  HB3   HB2   0.49  
+251  134  1  343  347  HB3   HB2   0.49  
+252  126  1   73   85  HB2   HB2   0.49  
+253  126  1   97  109  HB2   HB2   0.49  
+254    9  1   35   35  H     HG2   0.48  
+255    9  1  371  371  H     HG2   0.48  
+256   30  1  328  334  HG22  H     0.48  
+257  140  1  179  179  H     HB2   0.48  
+258  140  1  203  203  H     HB2   0.48  
+259  140  1  443  443  H     HB2   0.48  
+260   13  1  114  114  H     HB2   0.48  
+261  118  1   91   91  HA    HG22  0.48  
+262    9  1  107  107  H     HG2   0.47  
+263   32  1   64   65  HG22  H     0.47  
+264   29  1   84   85  HG22  H     0.47  
+265  140  1  419  419  H     HB2   0.47  
+266  137  1  392  392  HD2   HB2   0.47  
+267   13  1   42   42  H     HB2   0.47  
+268   13  1   66   66  H     HB2   0.47  
+269   13  1  354  354  H     HB2   0.47  
+270  127  1  458  459  HA2   H     0.47  
+271   35  1  131  132  HG2   H     0.46  
+272   30  1   16   22  HG22  H     0.46  
+273  144  1   35   47  HG2   HB2   0.46  
+274  143  1  251  264  HB2   H     0.46  
+275  143  1  395  408  HB2   H     0.46  
+276  133  1  343  347  HA    HB2   0.46  
+277   74  1  389  389  HA    HD2   0.45  
+278   18  1  259  260  HG22  H     0.45  
+279  137  1  200  200  HD2   HB2   0.45  
+280  137  1  440  440  HD2   HB2   0.45  
+281   13  1  234  234  H     HB2   0.45  
+282  127  1  290  291  HA2   H     0.45  
+283   35  1   83   84  HG2   H     0.44  
+284   32  1  352  353  HG22  H     0.44  
+285   17  1   43   43  H     HG22  0.44  
+286  147  1  424  430  HG22  HA2   0.44  
+287   13  1  258  258  H     HB2   0.44  
+288  126  1  457  469  HB2   HB2   0.44  
+289   22  1   36   36  H     HG22  0.43  
+290   18  1  163  164  HG22  H     0.43  
+291  147  1  208  214  HG22  HA2   0.43  
+292  138  1  296  297  HB2   H     0.43  
+293  133  1  103  107  HA    HB2   0.43  
+294  133  1  367  371  HA    HB2   0.43  
+295  118  1  283  283  HA    HG22  0.43  
+296   82  1   56   59  H     HG2   0.42  
+297   72  1   61   69  HB2   HZ3   0.42  
+298   35  1  299  300  HG2   H     0.42  
+299  147  1  400  406  HG22  HA2   0.42  
+300  118  1   67   67  HA    HG22  0.42  
+301   74  1   77   77  HA    HD2   0.41  
+302   34  1   11   24  HG2   H     0.41  
+303  137  1  176  176  HD2   HB2   0.41  
+304  137  1  272  272  HD2   HB2   0.41  
+305  133  1  463  467  HA    HB2   0.41  
+306  118  1  427  427  HA    HG22  0.41  
+307   86  1  205  215  HB2   HA    0.40  
+308   29  1  420  421  HG22  H     0.40  
+309  147  1  280  286  HG22  HA2   0.40  
+310   14  1  402  402  H     HG2   0.40  
+311  118  1  403  403  HA    HG22  0.40  
+312  112  1   40   40  HA    HG22  0.40  
+313    9  1  395  395  H     HG2   0.39  
+314   74  1  245  245  HA    HD2   0.39  
+315   35  1   35   36  HG2   H     0.39  
+316   31  1  116  117  HG22  H     0.39  
+317   17  1  451  451  H     HG22  0.39  
+318  132  1  174  175  HB2   H     0.39  
+319  112  1  400  400  HA    HG22  0.39  
+320   61  1  443  443  HA    HG2   0.38  
+321  155  1  384  384  H     HB2   0.38  
+322  147  1  448  454  HG22  HA2   0.38  
+323  143  1  323  336  HB2   H     0.38  
+324  137  1  368  368  HD2   HB2   0.38  
+325  134  1   31   35  HB3   HB2   0.38  
+326  133  1  319  323  HA    HB2   0.38  
+327  112  1  160  160  HA    HG22  0.38  
+328  112  1  184  184  HA    HG22  0.38  
+329   74  1   29   29  HA    HD2   0.37  
+330   34  1  443  456  HG2   H     0.37  
+331  155  1  480  480  H     HB2   0.37  
+332  147  1  352  358  HG22  HA2   0.37  
+333  143  1   59   72  HB2   H     0.37  
+334  143  1  155  168  HB2   H     0.37  
+335  137  1   80   80  HD2   HB2   0.37  
+336  126  1   49   61  HB2   HB2   0.37  
+337   74  1  149  149  HA    HD2   0.36  
+338   16  1  389  389  H     HB2   0.36  
+339  141  1  467  468  HB2   H     0.36  
+340  109  1  301  309  HB2   HE3   0.36  
+341   20  1  161  161  H     HB2   0.35  
+342  137  1  344  344  HD2   HB2   0.35  
+343  133  1   79   83  HA    HB2   0.35  
+344  133  1  391  395  HA    HB2   0.35  
+345    9  1  299  299  H     HG2   0.34  
+346   86  1  373  383  HB2   HA    0.34  
+347   74  1  125  125  HA    HD2   0.34  
+348   74  1  197  197  HA    HD2   0.34  
+349   74  1  269  269  HA    HD2   0.34  
+350   74  1  341  341  HA    HD2   0.34  
+351   32  1  112  113  HG22  H     0.34  
+352   17  1  235  235  H     HG22  0.34  
+353  147  1  304  310  HG22  HA2   0.34  
+354  127  1  242  243  HA2   H     0.34  
+355  126  1  289  301  HB2   HB2   0.34  
+356   98  1  337  349  HA    HB2   0.33  
+357   82  1  344  347  H     HG2   0.33  
+358   16  1  197  197  H     HB2   0.33  
+359  134  1   79   83  HB3   HB2   0.33  
+360  134  1  271  275  HB3   HB2   0.33  
+361  127  1   26   27  HA2   H     0.33  
+362  118  1  163  163  HA    HG22  0.33  
+363   32  1  448  449  HG22  H     0.32  
+364  147  1   88   94  HG22  HA2   0.32  
+365  137  1  104  104  HD2   HB2   0.32  
+366  133  1   31   35  HA    HB2   0.32  
+367  126  1  265  277  HB2   HB2   0.32  
+368  109  1   13   21  HB2   HE3   0.32  
+369   32  1   40   41  HG22  H     0.31  
+370   30  1  232  238  HG22  H     0.31  
+371   17  1  187  187  H     HG22  0.31  
+372  147  1  184  190  HG22  HA2   0.31  
+373  132  1   54   55  HB2   H     0.31  
+374  112  1  448  448  HA    HG22  0.31  
+375  109  1   37   45  HB2   HE3   0.31  
+376   98  1   49   61  HA    HB2   0.30  
+377   35  1  371  372  HG2   H     0.30  
+378  126  1  121  133  HB2   HB2   0.30  
+379   72  1  229  237  HB2   HZ3   0.29  
+380  133  1  271  275  HA    HB2   0.29  
+381  112  1  352  352  HA    HG22  0.29  
+382   98  1  193  205  HA    HB2   0.28  
+383   98  1  457  469  HA    HB2   0.28  
+384   39  1  317  318  HB2   H     0.28  
+385  144  1  275  287  HG2   HB2   0.28  
+386  143  1   11   24  HB2   H     0.28  
+387   98  1  313  325  HA    HB2   0.27  
+388   94  1  391  395  HB3   HG2   0.27  
+389   22  1  300  300  H     HG22  0.27  
+390   18  1   19   20  HG22  H     0.27  
+391   94  1  223  227  HB3   HG2   0.25  
+392  142  1  203  215  HB2   HB2   0.25  
+393  141  1  251  252  HB2   H     0.25  
+394   14  1  450  450  H     HG2   0.25  
+395  133  1  127  131  HA    HB2   0.25  
+396  132  1  390  391  HB2   H     0.25  
+397  119  1    5    5  HZ    HD2   0.25  
+398  119  1   29   29  HZ    HD2   0.25  
+399  119  1   53   53  HZ    HD2   0.25  
+400  119  1   77   77  HZ    HD2   0.25  
+401  119  1  101  101  HZ    HD2   0.25  
+402  119  1  125  125  HZ    HD2   0.25  
+403  119  1  149  149  HZ    HD2   0.25  
+404  119  1  173  173  HZ    HD2   0.25  
+405  119  1  197  197  HZ    HD2   0.25  
+406  119  1  221  221  HZ    HD2   0.25  
+407  119  1  245  245  HZ    HD2   0.25  
+408  119  1  269  269  HZ    HD2   0.25  
+409  119  1  293  293  HZ    HD2   0.25  
+410  119  1  317  317  HZ    HD2   0.25  
+411  119  1  341  341  HZ    HD2   0.25  
+412  119  1  365  365  HZ    HD2   0.25  
+413  119  1  389  389  HZ    HD2   0.25  
+414  119  1  413  413  HZ    HD2   0.25  
+415  119  1  437  437  HZ    HD2   0.25  
+416  119  1  461  461  HZ    HD2   0.25  
+417  118  1  331  331  HA    HG22  0.25  
+418   92  1   63   64  HA    HG22  0.24  
+419  147  1  160  166  HG22  HA2   0.24  
+420  137  1    8    8  HD2   HB2   0.24  
+421   72  1  373  381  HB2   HZ3   0.23  
+422   18  1  307  308  HG22  H     0.23  
+423  150  1  309  309  HE3   HB2   0.23  
+424  147  1   40   46  HG22  HA2   0.23  
+425  118  1  451  451  HA    HG22  0.23  
+426   98  1    1   13  HA    HB2   0.22  
+427   94  1  151  155  HB3   HG2   0.22  
+428   74  1   53   53  HA    HD2   0.22  
+429   39  1  461  462  HB2   H     0.22  
+430   31  1   92   93  HG22  H     0.22  
+431   29  1   60   61  HG22  H     0.22  
+432   22  1  228  228  H     HG22  0.22  
+433   18  1  115  116  HG22  H     0.22  
+434  141  1  107  108  HB2   H     0.22  
+435  137  1  416  416  HD2   HB2   0.22  
+436  134  1  175  179  HB3   HB2   0.22  
+437  109  1  181  189  HB2   HE3   0.22  
+438   16  1  437  437  H     HB2   0.21  
+439  150  1  261  261  HE3   HB2   0.21  
+440  147  1   64   70  HG22  HA2   0.21  
+441  141  1  275  276  HB2   H     0.21  
+442  134  1  127  131  HB3   HB2   0.21  
+443  133  1   55   59  HA    HB2   0.21  
+444   34  1  251  264  HG2   H     0.20  
+445   31  1  236  237  HG22  H     0.20  
+446   19  1  380  380  H     HG22  0.20  
+447   14  1  306  306  H     HG2   0.20  
+448  137  1  248  248  HD2   HB2   0.20  
+449  132  1  342  343  HB2   H     0.20  
+450  118  1   43   43  HA    HG22  0.20  
+451  109  1  205  213  HB2   HE3   0.20  
+452    9  1  251  251  H     HG2   0.19  
+453   22  1   84   84  H     HG22  0.19  
+454   22  1  108  108  H     HG22  0.19  
+455   18  1  211  212  HG22  H     0.19  
+456   16  1    5    5  H     HB2   0.19  
+457  132  1  462  463  HB2   H     0.19  
+458  109  1  109  117  HB2   HE3   0.19  
+459   98  1  433  445  HA    HB2   0.18  
+460   16  1  101  101  H     HB2   0.18  
+461   16  1  365  365  H     HB2   0.18  
+462  150  1  285  285  HE3   HB2   0.18  
+463  150  1  405  405  HE3   HB2   0.18  
+464   31  1  452  453  HG22  H     0.17  
+465  144  1  371  383  HG2   HB2   0.17  
+466  132  1  414  415  HB2   H     0.17  
+467   92  1  351  352  HA    HG22  0.16  
+468   35  1  323  324  HG2   H     0.16  
+469   30  1  256  262  HG22  H     0.16  
+470  141  1   83   84  HB2   H     0.16  
+471  120  1  305  306  HB2   H     0.16  
+472  109  1  349  357  HB2   HE3   0.16  
+473   88  1  228  229  HA    HB2   0.15  
+474   86  1  229  239  HB2   HA    0.15  
+475   32  1  184  185  HG22  H     0.15  
+476  137  1  320  320  HD2   HB2   0.15  
+477   98  1  361  373  HA    HB2   0.14  
+478   42  1  171  172  HA2   H     0.14  
+479   42  1  339  340  HA2   H     0.14  
+480   42  1  363  364  HA2   H     0.14  
+481   22  1   12   12  H     HG22  0.14  
+482   22  1  372  372  H     HG22  0.14  
+483  150  1   93   93  HE3   HB2   0.14  
+484  144  1  395  407  HG2   HB2   0.14  
+485  132  1  246  247  HB2   H     0.14  
+486   72  1  469  477  HB2   HZ3   0.13  
+487   42  1  147  148  HA2   H     0.13  
+488   22  1  252  252  H     HG22  0.13  
+489   19  1  356  356  H     HG22  0.13  
+490  137  1  464  464  HD2   HB2   0.13  
+491   88  1  324  325  HA    HB2   0.12  
+492   42  1  291  292  HA2   H     0.12  
+493   42  1  435  436  HA2   H     0.12  
+494  141  1  395  396  HB2   H     0.12  
+495  118  1  139  139  HA    HG22  0.12  
+496  112  1  112  112  HA    HG22  0.12  
+497   88  1  108  109  HA    HB2   0.11  
+498   42  1  123  124  HA2   H     0.11  
+499   42  1  315  316  HA2   H     0.11  
+500   22  1  132  132  H     HG22  0.11  
+501   22  1  324  324  H     HG22  0.11  
+502  144  1  131  143  HG2   HB2   0.11  
+503  141  1  131  132  HB2   H     0.11  
+504  130  1  221  238  HZ    HA2   0.11  
+#
+loop_
+_pdbx_vrpt_software.ordinal
+_pdbx_vrpt_software.name
+_pdbx_vrpt_software.version
+_pdbx_vrpt_software.success_y_or_n
+1  molprobity          4.02b-467                                                             Y  
+2  coreclust           2.19                                                                  Y  
+3  chemicalshifts      2.19                                                                  Y  
+4  panav               "Wang et al. (2010)"                                                  Y  
+5  rci                 "v_1n_11_5_13_A (Berjanski et al., 2005)"                             Y  
+6  restraintsanalysis  v1.2                                                                  Y  
+7  percentiles         "20191225.v01 (using entries in the PDB archive December 25th 2019)"  Y  
+##

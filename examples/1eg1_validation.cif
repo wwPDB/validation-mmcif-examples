@@ -1,0 +1,2874 @@
+data_1EG1
+
+_pdbx_vrpt_database.id    PDB
+_pdbx_vrpt_database.code  1EG1
+#
+_pdbx_vrpt_exptl.ordinal  1
+_pdbx_vrpt_exptl.method   x-ray
+#
+_pdbx_vrpt_summary.entry_id                    1EG1
+_pdbx_vrpt_summary.PDB_deposition_date         1996-11-26
+_pdbx_vrpt_summary.PDB_revision_number         5
+_pdbx_vrpt_summary.PDB_revision_date           2020-07-29
+_pdbx_vrpt_summary.report_creation_date        2021-05-18:23:28
+_pdbx_vrpt_summary.attempted_validation_steps  molprobity,validation-pack,xtriage,eds,mogul,percentiles,writexml,writecif,writepdf
+_pdbx_vrpt_summary.ligands_for_buster_report   N
+#
+loop_
+_pdbx_vrpt_entity.id
+_pdbx_vrpt_entity.type
+_pdbx_vrpt_entity.description
+1  polymer      "ENDOGLUCANASE I"  
+2  non-polymer  2-acetamido-2-deoxy-beta-D-glucopyranose  
+#
+loop_
+_pdbx_vrpt_asym.label_asym_id
+_pdbx_vrpt_asym.entity_id
+A  1  
+B  1  
+C  2  
+D  2  
+E  2  
+F  2  
+#
+loop_
+_pdbx_vrpt_percentile_list.id
+_pdbx_vrpt_percentile_list.range
+_pdbx_vrpt_percentile_list.exp_method
+1  all  x-ray  
+2  3.6  x-ray  
+#
+loop_
+_pdbx_vrpt_percentile_type.id
+_pdbx_vrpt_percentile_type.type
+1  all_atom_clashscore           
+2  Ramachandran_outlier_percent  
+3  rotamer_outliers_percent      
+4  RSRZ_outliers_percent         
+5  R_value_R_free                
+#
+loop_
+_pdbx_vrpt_percentile_conditions.id
+_pdbx_vrpt_percentile_conditions.percentile_list_id
+_pdbx_vrpt_percentile_conditions.type_id
+_pdbx_vrpt_percentile_conditions.rank
+_pdbx_vrpt_percentile_conditions.number_entries_total
+_pdbx_vrpt_percentile_conditions.res_high
+_pdbx_vrpt_percentile_conditions.res_low
+ 1  1  1  11.28  141614     ?     ?  
+ 2  2  1  43.53    1353  3.50  3.70  
+ 3  1  2   9.39  138981     ?     ?  
+ 4  2  2  45.83    1307  3.50  3.70  
+ 5  1  3  19.31  138945     ?     ?  
+ 6  2  3  54.55    1307  3.50  3.70  
+ 7  1  4  87.36  127900     ?     ?  
+ 8  2  4  77.95    1161  3.50  3.70  
+ 9  1  5  77.02  130704     ?     ?  
+10  2  5  98.51    1257  3.50  3.70  
+#
+loop_
+_pdbx_vrpt_percentile_entity_view.ordinal
+_pdbx_vrpt_percentile_entity_view.conditions_id
+_pdbx_vrpt_percentile_entity_view.type_id
+_pdbx_vrpt_percentile_entity_view.label_asym_id
+_pdbx_vrpt_percentile_entity_view.PDB_model_num
+_pdbx_vrpt_percentile_entity_view.entity_id
+_pdbx_vrpt_percentile_entity_view.auth_asym_id
+_pdbx_vrpt_percentile_entity_view.rank
+ 1  3  2  A  1  1  A    9.39  
+ 2  4  2  A  1  1  A   45.83  
+ 3  5  3  A  1  1  A   19.31  
+ 4  6  3  A  1  1  A   54.55  
+ 5  7  4  A  1  1  A  100.00  
+ 6  8  4  A  1  1  A  100.00  
+ 7  3  2  B  1  1  C    9.39  
+ 8  4  2  B  1  1  C   45.83  
+ 9  5  3  B  1  1  C   19.31  
+10  6  3  B  1  1  C   54.55  
+11  7  4  B  1  1  C   75.07  
+12  8  4  B  1  1  C   60.98  
+#
+loop_
+_pdbx_vrpt_summary_entity_geometry.ordinal
+_pdbx_vrpt_summary_entity_geometry.PDB_model_num
+_pdbx_vrpt_summary_entity_geometry.entity_id
+_pdbx_vrpt_summary_entity_geometry.label_asym_id
+_pdbx_vrpt_summary_entity_geometry.auth_asym_id
+_pdbx_vrpt_summary_entity_geometry.angles_RMSZ
+_pdbx_vrpt_summary_entity_geometry.bonds_RMSZ
+_pdbx_vrpt_summary_entity_geometry.num_bonds_RMSZ
+_pdbx_vrpt_summary_entity_geometry.num_angles_RMSZ
+1  1  1  A  A  0.66  0.32  2790  3805  
+2  1  1  B  C  0.66  0.32  2790  3805  
+3  1  2  C  A     ?     ?     ?     ?  
+4  1  2  D  A     ?     ?     ?     ?  
+5  1  2  E  C     ?     ?     ?     ?  
+6  1  2  F  C     ?     ?     ?     ?  
+#
+_pdbx_vrpt_summary_geometry.ordinal                        1
+_pdbx_vrpt_summary_geometry.percent_ramachandran_outliers  1.63
+_pdbx_vrpt_summary_geometry.percent_rotamer_outliers       5.90
+_pdbx_vrpt_summary_geometry.clashscore                     17.67
+_pdbx_vrpt_summary_geometry.num_H_reduce                   5056
+_pdbx_vrpt_summary_geometry.num_bonds_RMSZ                 5580
+_pdbx_vrpt_summary_geometry.bonds_RMSZ                     0.32
+_pdbx_vrpt_summary_geometry.num_angles_RMSZ                7610
+_pdbx_vrpt_summary_geometry.angles_RMSZ                    0.66
+#
+_pdbx_vrpt_summary_diffraction.exp_method                x-ray
+_pdbx_vrpt_summary_diffraction.ordinal                   1
+_pdbx_vrpt_summary_diffraction.bulk_solvent_b            125.445
+_pdbx_vrpt_summary_diffraction.Wilson_B_estimate         70.396
+_pdbx_vrpt_summary_diffraction.I_over_sigma              5.04(3.58A)
+_pdbx_vrpt_summary_diffraction.num_miller_indices        11676
+_pdbx_vrpt_summary_diffraction.bulk_solvent_k            0.273
+_pdbx_vrpt_summary_diffraction.Padilla_Yeates_L_mean     0.501
+_pdbx_vrpt_summary_diffraction.Padilla_Yeates_L2_mean    0.338
+_pdbx_vrpt_summary_diffraction.Fo_Fc_correlation         0.874
+_pdbx_vrpt_summary_diffraction.DCC_R                     0.20
+_pdbx_vrpt_summary_diffraction.DCC_Rfree                 0.21
+_pdbx_vrpt_summary_diffraction.EDS_R                     0.21
+_pdbx_vrpt_summary_diffraction.EDS_res_high              3.60
+_pdbx_vrpt_summary_diffraction.EDS_res_low               71.11
+_pdbx_vrpt_summary_diffraction.Wilson_B_aniso            "[68.206,68.206,75.446,0.000,0.000,0.000]"
+_pdbx_vrpt_summary_diffraction.data_anisotropy           0.103
+_pdbx_vrpt_summary_diffraction.trans_NCS_details         "The largest off-origin peak in the Patterson function is 3.30% of the height of the origin peak. No significant pseudotranslation is detected."
+_pdbx_vrpt_summary_diffraction.B_factor_type             FULL
+_pdbx_vrpt_summary_diffraction.acentric_outliers         1
+_pdbx_vrpt_summary_diffraction.centric_outliers          0
+_pdbx_vrpt_summary_diffraction.data_completeness         92.08
+_pdbx_vrpt_summary_diffraction.number_reflns_R_free      945
+_pdbx_vrpt_summary_diffraction.percent_free_reflections  8.08
+_pdbx_vrpt_summary_diffraction.percent_RSRZ_outliers     0.68
+_pdbx_vrpt_summary_diffraction.PDB_resolution_high       3.60
+_pdbx_vrpt_summary_diffraction.PDB_resolution_low        8.00
+_pdbx_vrpt_summary_diffraction.PDB_R                     0.20
+_pdbx_vrpt_summary_diffraction.PDB_Rfree                 0.26
+#
+loop_
+_pdbx_vrpt_model_instance.id
+_pdbx_vrpt_model_instance.PDB_model_num
+_pdbx_vrpt_model_instance.entity_id
+_pdbx_vrpt_model_instance.label_asym_id
+_pdbx_vrpt_model_instance.label_seq_id
+_pdbx_vrpt_model_instance.label_comp_id
+_pdbx_vrpt_model_instance.auth_asym_id
+_pdbx_vrpt_model_instance.auth_seq_id
+_pdbx_vrpt_model_instance.label_alt_id
+_pdbx_vrpt_model_instance.PDB_ins_code
+_pdbx_vrpt_model_instance.count_clashes
+_pdbx_vrpt_model_instance.count_symm_clashes
+_pdbx_vrpt_model_instance.count_mogul_angle_outliers
+_pdbx_vrpt_model_instance.count_mogul_torsion_outliers
+  1  1  1  A    1  PCA  A    1  .  ?        4     ?     ?     ?  
+  2  1  1  A    2  GLN  A    2  .  ?        1     ?     ?     ?  
+  3  1  1  A    3  PRO  A    3  .  ?        ?     ?     ?     ?  
+  4  1  1  A    4  GLY  A    4  .  ?        ?     ?     ?     ?  
+  5  1  1  A    5  THR  A    5  .  ?        ?     ?     ?     ?  
+  6  1  1  A    6  SER  A    6  .  ?        ?     ?     ?     ?  
+  7  1  1  A    7  THR  A    7  .  ?        ?     ?     ?     ?  
+  8  1  1  A    8  PRO  A    8  .  ?        ?     ?     ?     ?  
+  9  1  1  A    9  GLU  A    9  .  ?        ?     ?     ?     ?  
+ 10  1  1  A   10  VAL  A   10  .  ?        ?     ?     ?     ?  
+ 11  1  1  A   11  HIS  A   11  .  ?        ?     ?     ?     ?  
+ 12  1  1  A   12  PRO  A   12  .  ?        ?     ?     ?     ?  
+ 13  1  1  A   13  LYS  A   13  .  ?        ?     ?     ?     ?  
+ 14  1  1  A   14  LEU  A   14  .  ?        ?     ?     ?     ?  
+ 15  1  1  A   15  THR  A   15  .  ?        ?     ?     ?     ?  
+ 16  1  1  A   16  THR  A   16  .  ?        1     ?     ?     ?  
+ 17  1  1  A   17  TYR  A   17  .  ?        1     ?     ?     ?  
+ 18  1  1  A   18  LYS  A   18  .  ?        1     ?     ?     ?  
+ 19  1  1  A   19  CYS  A   19  .  ?        1     ?     ?     ?  
+ 20  1  1  A   20  THR  A   20  .  ?        ?     ?     ?     ?  
+ 21  1  1  A   21  LYS  A   21  .  ?        1     ?     ?     ?  
+ 22  1  1  A   22  SER  A   22  .  ?        ?     ?     ?     ?  
+ 23  1  1  A   23  GLY  A   23  .  ?        ?     ?     ?     ?  
+ 24  1  1  A   24  GLY  A   24  .  ?        ?     ?     ?     ?  
+ 25  1  1  A   25  CYS  A   25  .  ?        ?     ?     ?     ?  
+ 26  1  1  A   26  VAL  A   26  .  ?        ?     ?     ?     ?  
+ 27  1  1  A   27  ALA  A   27  .  ?        ?     ?     ?     ?  
+ 28  1  1  A   28  GLN  A   28  .  ?        ?     ?     ?     ?  
+ 29  1  1  A   29  ASP  A   29  .  ?        ?     ?     ?     ?  
+ 30  1  1  A   30  THR  A   30  .  ?        ?     ?     ?     ?  
+ 31  1  1  A   31  SER  A   31  .  ?        ?     ?     ?     ?  
+ 32  1  1  A   32  VAL  A   32  .  ?        ?     ?     ?     ?  
+ 33  1  1  A   33  VAL  A   33  .  ?        2     ?     ?     ?  
+ 34  1  1  A   34  LEU  A   34  .  ?        ?     ?     ?     ?  
+ 35  1  1  A   35  ASP  A   35  .  ?        1     ?     ?     ?  
+ 36  1  1  A   36  TRP  A   36  .  ?        3     ?     ?     ?  
+ 37  1  1  A   37  ASN  A   37  .  ?        ?     ?     ?     ?  
+ 38  1  1  A   38  TYR  A   38  .  ?        1     ?     ?     ?  
+ 39  1  1  A   39  ARG  A   39  .  ?        ?     ?     ?     ?  
+ 40  1  1  A   40  TRP  A   40  .  ?        1     ?     ?     ?  
+ 41  1  1  A   41  MET  A   41  .  ?        2     ?     ?     ?  
+ 42  1  1  A   42  HIS  A   42  .  ?        1     ?     ?     ?  
+ 43  1  1  A   43  ASP  A   43  .  ?        1     ?     ?     ?  
+ 44  1  1  A   44  ALA  A   44  .  ?        ?     ?     ?     ?  
+ 45  1  1  A   45  ASN  A   45  .  ?        ?     ?     ?     ?  
+ 46  1  1  A   46  TYR  A   46  .  ?        ?     ?     ?     ?  
+ 47  1  1  A   47  ASN  A   47  .  ?        ?     ?     ?     ?  
+ 48  1  1  A   48  SER  A   48  .  ?        ?     ?     ?     ?  
+ 49  1  1  A   49  CYS  A   49  .  ?        1     ?     ?     ?  
+ 50  1  1  A   50  THR  A   50  .  ?        ?     ?     ?     ?  
+ 51  1  1  A   51  VAL  A   51  .  ?        ?     ?     ?     ?  
+ 52  1  1  A   52  ASN  A   52  .  ?        ?     ?     ?     ?  
+ 53  1  1  A   53  GLY  A   53  .  ?        ?     ?     ?     ?  
+ 54  1  1  A   54  GLY  A   54  .  ?        ?     ?     ?     ?  
+ 55  1  1  A   55  VAL  A   55  .  ?        2     ?     ?     ?  
+ 56  1  1  A   56  ASN  A   56  .  ?        1     ?     ?     ?  
+ 57  1  1  A   57  THR  A   57  .  ?        ?     ?     ?     ?  
+ 58  1  1  A   58  THR  A   58  .  ?        ?     ?     ?     ?  
+ 59  1  1  A   59  LEU  A   59  .  ?        ?     ?     ?     ?  
+ 60  1  1  A   60  CYS  A   60  .  ?        1     ?     ?     ?  
+ 61  1  1  A   61  PRO  A   61  .  ?        ?     ?     ?     ?  
+ 62  1  1  A   62  ASP  A   62  .  ?        ?     ?     ?     ?  
+ 63  1  1  A   63  GLU  A   63  .  ?        1     ?     ?     ?  
+ 64  1  1  A   64  ALA  A   64  .  ?        1     ?     ?     ?  
+ 65  1  1  A   65  THR  A   65  .  ?        ?     ?     ?     ?  
+ 66  1  1  A   66  CYS  A   66  .  ?        ?     ?     ?     ?  
+ 67  1  1  A   67  GLY  A   67  .  ?        1     ?     ?     ?  
+ 68  1  1  A   68  LYS  A   68  .  ?        ?     ?     ?     ?  
+ 69  1  1  A   69  ASN  A   69  .  ?        ?     ?     ?     ?  
+ 70  1  1  A   70  CYS  A   70  .  ?        1     ?     ?     ?  
+ 71  1  1  A   71  PHE  A   71  .  ?        1     ?     ?     ?  
+ 72  1  1  A   72  ILE  A   72  .  ?        1     ?     ?     ?  
+ 73  1  1  A   73  GLU  A   73  .  ?        1     ?     ?     ?  
+ 74  1  1  A   74  GLY  A   74  .  ?        ?     ?     ?     ?  
+ 75  1  1  A   75  VAL  A   75  .  ?        ?     ?     ?     ?  
+ 76  1  1  A   76  ASP  A   76  .  ?        ?     ?     ?     ?  
+ 77  1  1  A   77  TYR  A   77  .  ?        ?     ?     ?     ?  
+ 78  1  1  A   78  ALA  A   78  .  ?        ?     ?     ?     ?  
+ 79  1  1  A   79  ALA  A   79  .  ?        ?     ?     ?     ?  
+ 80  1  1  A   80  SER  A   80  .  ?        ?     ?     ?     ?  
+ 81  1  1  A   81  GLY  A   81  .  ?        ?     ?     ?     ?  
+ 82  1  1  A   82  VAL  A   82  .  ?        ?     ?     ?     ?  
+ 83  1  1  A   83  THR  A   83  .  ?        ?     ?     ?     ?  
+ 84  1  1  A   84  THR  A   84  .  ?        ?     ?     ?     ?  
+ 85  1  1  A   85  SER  A   85  .  ?        ?     ?     ?     ?  
+ 86  1  1  A   86  GLY  A   86  .  ?        ?     ?     ?     ?  
+ 87  1  1  A   87  SER  A   87  .  ?        ?     ?     ?     ?  
+ 88  1  1  A   88  SER  A   88  .  ?        ?     ?     ?     ?  
+ 89  1  1  A   89  LEU  A   89  .  ?        ?     ?     ?     ?  
+ 90  1  1  A   90  THR  A   90  .  ?        1     ?     ?     ?  
+ 91  1  1  A   91  MET  A   91  .  ?        ?     ?     ?     ?  
+ 92  1  1  A   92  ASN  A   92  .  ?        ?     ?     ?     ?  
+ 93  1  1  A   93  GLN  A   93  .  ?        ?     ?     ?     ?  
+ 94  1  1  A   94  TYR  A   94  .  ?        ?     ?     ?     ?  
+ 95  1  1  A   95  MET  A   95  .  ?        2     ?     ?     ?  
+ 96  1  1  A   96  PRO  A   96  .  ?        ?     ?     ?     ?  
+ 97  1  1  A   97  SER  A   97  .  ?        ?     ?     ?     ?  
+ 98  1  1  A   98  SER  A   98  .  ?        ?     ?     ?     ?  
+ 99  1  1  A   99  SER  A   99  .  ?        ?     ?     ?     ?  
+100  1  1  A  100  GLY  A  100  .  ?        ?     ?     ?     ?  
+101  1  1  A  101  GLY  A  101  .  ?        ?     ?     ?     ?  
+102  1  1  A  102  TYR  A  102  .  ?        1     ?     ?     ?  
+103  1  1  A  103  SER  A  103  .  ?        ?     ?     ?     ?  
+104  1  1  A  104  SER  A  104  .  ?        ?     ?     ?     ?  
+105  1  1  A  105  VAL  A  105  .  ?        2     ?     ?     ?  
+106  1  1  A  106  SER  A  106  .  ?        ?     ?     ?     ?  
+107  1  1  A  107  PRO  A  107  .  ?        ?     ?     ?     ?  
+108  1  1  A  108  ARG  A  108  .  ?        4     ?     ?     ?  
+109  1  1  A  109  LEU  A  109  .  ?        2     ?     ?     ?  
+110  1  1  A  110  TYR  A  110  .  ?        2     ?     ?     ?  
+111  1  1  A  111  LEU  A  111  .  ?        ?     ?     ?     ?  
+112  1  1  A  112  LEU  A  112  .  ?        1     ?     ?     ?  
+113  1  1  A  113  ASP  A  113  .  ?        ?     ?     ?     ?  
+114  1  1  A  114  SER  A  114  .  ?        ?     ?     ?     ?  
+115  1  1  A  115  ASP  A  115  .  ?        ?     ?     ?     ?  
+116  1  1  A  116  GLY  A  116  .  ?        ?     ?     ?     ?  
+117  1  1  A  117  GLU  A  117  .  ?        ?     ?     ?     ?  
+118  1  1  A  118  TYR  A  118  .  ?        2     ?     ?     ?  
+119  1  1  A  119  VAL  A  119  .  ?        1     ?     ?     ?  
+120  1  1  A  120  MET  A  120  .  ?        ?     ?     ?     ?  
+121  1  1  A  121  LEU  A  121  .  ?        1     ?     ?     ?  
+122  1  1  A  122  LYS  A  122  .  ?        ?     ?     ?     ?  
+123  1  1  A  123  LEU  A  123  .  ?        ?     ?     ?     ?  
+124  1  1  A  124  ASN  A  124  .  ?        ?     ?     ?     ?  
+125  1  1  A  125  GLY  A  125  .  ?        1     ?     ?     ?  
+126  1  1  A  126  GLN  A  126  .  ?        ?     ?     ?     ?  
+127  1  1  A  127  GLU  A  127  .  ?        ?     ?     ?     ?  
+128  1  1  A  128  LEU  A  128  .  ?        1     ?     ?     ?  
+129  1  1  A  129  SER  A  129  .  ?        ?     ?     ?     ?  
+130  1  1  A  130  PHE  A  130  .  ?        ?     ?     ?     ?  
+131  1  1  A  131  ASP  A  131  .  ?        ?     ?     ?     ?  
+132  1  1  A  132  VAL  A  132  .  ?        2     ?     ?     ?  
+133  1  1  A  133  ASP  A  133  .  ?        ?     ?     ?     ?  
+134  1  1  A  134  LEU  A  134  .  ?        2     ?     ?     ?  
+135  1  1  A  135  SER  A  135  .  ?        ?     ?     ?     ?  
+136  1  1  A  136  ALA  A  136  .  ?        1     ?     ?     ?  
+137  1  1  A  137  LEU  A  137  .  ?        2     ?     ?     ?  
+138  1  1  A  138  PRO  A  138  .  ?        4     ?     ?     ?  
+139  1  1  A  139  CYS  A  139  .  ?        1     ?     ?     ?  
+140  1  1  A  140  GLY  A  140  .  ?        ?     ?     ?     ?  
+141  1  1  A  141  GLU  A  141  .  ?        1     ?     ?     ?  
+142  1  1  A  142  ASN  A  142  .  ?        2     ?     ?     ?  
+143  1  1  A  143  GLY  A  143  .  ?        ?     ?     ?     ?  
+144  1  1  A  144  SER  A  144  .  ?        1     ?     ?     ?  
+145  1  1  A  145  LEU  A  145  .  ?        1     ?     ?     ?  
+146  1  1  A  146  TYR  A  146  .  ?        ?     ?     ?     ?  
+147  1  1  A  147  LEU  A  147  .  ?        1     ?     ?     ?  
+148  1  1  A  148  SER  A  148  .  ?        ?     ?     ?     ?  
+149  1  1  A  149  GLN  A  149  .  ?        ?     ?     ?     ?  
+150  1  1  A  150  MET  A  150  .  ?        1     ?     ?     ?  
+151  1  1  A  151  ASP  A  151  .  ?        ?     ?     ?     ?  
+152  1  1  A  152  GLU  A  152  .  ?        ?     ?     ?     ?  
+153  1  1  A  153  ASN  A  153  .  ?        ?     ?     ?     ?  
+154  1  1  A  154  GLY  A  154  .  ?        ?     ?     ?     ?  
+155  1  1  A  155  GLY  A  155  .  ?        ?     ?     ?     ?  
+156  1  1  A  156  ALA  A  156  .  ?        ?     ?     ?     ?  
+157  1  1  A  157  ASN  A  157  .  ?        8     ?     ?     ?  
+158  1  1  A  158  GLN  A  158  .  ?        ?     ?     ?     ?  
+159  1  1  A  159  TYR  A  159  .  ?        1     ?     ?     ?  
+160  1  1  A  160  ASN  A  160  .  ?        2     ?     ?     ?  
+161  1  1  A  161  THR  A  161  .  ?        ?     ?     ?     ?  
+162  1  1  A  162  ALA  A  162  .  ?        ?     ?     ?     ?  
+163  1  1  A  163  GLY  A  163  .  ?        ?     ?     ?     ?  
+164  1  1  A  164  ALA  A  164  .  ?        ?     ?     ?     ?  
+165  1  1  A  165  ASN  A  165  .  ?        ?     ?     ?     ?  
+166  1  1  A  166  TYR  A  166  .  ?        ?     ?     ?     ?  
+167  1  1  A  167  GLY  A  167  .  ?        1     ?     ?     ?  
+168  1  1  A  168  SER  A  168  .  ?        1     ?     ?     ?  
+169  1  1  A  169  GLY  A  169  .  ?        ?     ?     ?     ?  
+170  1  1  A  170  TYR  A  170  .  ?        2     ?     ?     ?  
+171  1  1  A  171  CYS  A  171  .  ?        1     ?     ?     ?  
+172  1  1  A  172  ASP  A  172  .  ?        ?     ?     ?     ?  
+173  1  1  A  173  ALA  A  173  .  ?        ?     ?     ?     ?  
+174  1  1  A  174  GLN  A  174  .  ?        ?     ?     ?     ?  
+175  1  1  A  175  CYS  A  175  .  ?        ?     ?     ?     ?  
+176  1  1  A  176  PRO  A  176  .  ?        ?     ?     ?     ?  
+177  1  1  A  177  VAL  A  177  .  ?        ?     ?     ?     ?  
+178  1  1  A  178  GLN  A  178  .  ?        ?     ?     ?     ?  
+179  1  1  A  179  THR  A  179  .  ?        3     ?     ?     ?  
+180  1  1  A  180  TRP  A  180  .  ?        ?     ?     ?     ?  
+181  1  1  A  181  ARG  A  181  .  ?        1     ?     ?     ?  
+182  1  1  A  182  ASN  A  182  .  ?        1     ?     ?     ?  
+183  1  1  A  183  GLY  A  183  .  ?        ?     ?     ?     ?  
+184  1  1  A  184  THR  A  184  .  ?        1     ?     ?     ?  
+185  1  1  A  185  LEU  A  185  .  ?        1     ?     ?     ?  
+186  1  1  A  186  ASN  A  186  .  ?        1     ?     ?     ?  
+187  1  1  A  187  THR  A  187  .  ?        ?     ?     ?     ?  
+188  1  1  A  188  SER  A  188  .  ?        ?     ?     ?     ?  
+189  1  1  A  189  HIS  A  189  .  ?        ?     ?     ?     ?  
+190  1  1  A  190  GLN  A  190  .  ?        ?     ?     ?     ?  
+191  1  1  A  191  GLY  A  191  .  ?        ?     ?     ?     ?  
+192  1  1  A  192  PHE  A  192  .  ?        1     ?     ?     ?  
+193  1  1  A  193  CYS  A  193  .  ?        ?     ?     ?     ?  
+194  1  1  A  194  CYS  A  194  .  ?        ?     ?     ?     ?  
+195  1  1  A  195  ASN  A  195  .  ?        ?     ?     ?     ?  
+196  1  1  A  196  GLU  A  196  .  ?        ?     ?     ?     ?  
+197  1  1  A  197  MET  A  197  .  ?        ?     ?     ?     ?  
+198  1  1  A  198  ASP  A  198  .  ?        ?     ?     ?     ?  
+199  1  1  A  199  ILE  A  199  .  ?        1     ?     ?     ?  
+200  1  1  A  200  LEU  A  200  .  ?        ?     ?     ?     ?  
+201  1  1  A  201  GLU  A  201  .  ?        ?     ?     ?     ?  
+202  1  1  A  202  GLY  A  202  .  ?        1     ?     ?     ?  
+203  1  1  A  203  ASN  A  203  .  ?        ?     ?     ?     ?  
+204  1  1  A  204  SER  A  204  .  ?        ?     ?     ?     ?  
+205  1  1  A  205  ARG  A  205  .  ?        1     ?     ?     ?  
+206  1  1  A  206  ALA  A  206  .  ?        ?     ?     ?     ?  
+207  1  1  A  207  ASN  A  207  .  ?        ?     ?     ?     ?  
+208  1  1  A  208  ALA  A  208  .  ?        ?     ?     ?     ?  
+209  1  1  A  209  LEU  A  209  .  ?        ?     ?     ?     ?  
+210  1  1  A  210  THR  A  210  .  ?        1     ?     ?     ?  
+211  1  1  A  211  PRO  A  211  .  ?        1     ?     ?     ?  
+212  1  1  A  212  HIS  A  212  .  ?        1     ?     ?     ?  
+213  1  1  A  213  SER  A  213  .  ?        ?     ?     ?     ?  
+214  1  1  A  214  CYS  A  214  .  ?        ?     ?     ?     ?  
+215  1  1  A  215  THR  A  215  .  ?        2     ?     ?     ?  
+216  1  1  A  216  ALA  A  216  .  ?        2     ?     ?     ?  
+217  1  1  A  217  THR  A  217  .  ?        ?     ?     ?     ?  
+218  1  1  A  218  ALA  A  218  .  ?        ?     ?     ?     ?  
+219  1  1  A  219  CYS  A  219  .  ?        ?     ?     ?     ?  
+220  1  1  A  220  ASP  A  220  .  ?        ?     ?     ?     ?  
+221  1  1  A  221  SER  A  221  .  ?        1     ?     ?     ?  
+222  1  1  A  222  ALA  A  222  .  ?        1     ?     ?     ?  
+223  1  1  A  223  GLY  A  223  .  ?        ?     ?     ?     ?  
+224  1  1  A  224  CYS  A  224  .  ?        2     ?     ?     ?  
+225  1  1  A  225  GLY  A  225  .  ?        ?     ?     ?     ?  
+226  1  1  A  226  PHE  A  226  .  ?        ?     ?     ?     ?  
+227  1  1  A  227  ASN  A  227  .  ?        ?     ?     ?     ?  
+228  1  1  A  228  PRO  A  228  .  ?        ?     ?     ?     ?  
+229  1  1  A  229  TYR  A  229  .  ?        ?     ?     ?     ?  
+230  1  1  A  230  GLY  A  230  .  ?        ?     ?     ?     ?  
+231  1  1  A  231  SER  A  231  .  ?        ?     ?     ?     ?  
+232  1  1  A  232  GLY  A  232  .  ?        ?     ?     ?     ?  
+233  1  1  A  233  TYR  A  233  .  ?        ?     ?     ?     ?  
+234  1  1  A  234  LYS  A  234  .  ?        ?     ?     ?     ?  
+235  1  1  A  235  SER  A  235  .  ?        ?     ?     ?     ?  
+236  1  1  A  236  TYR  A  236  .  ?        ?     ?     ?     ?  
+237  1  1  A  237  TYR  A  237  .  ?        2     ?     ?     ?  
+238  1  1  A  238  GLY  A  238  .  ?        1     ?     ?     ?  
+239  1  1  A  239  PRO  A  239  .  ?        ?     ?     ?     ?  
+240  1  1  A  240  GLY  A  240  .  ?        ?     ?     ?     ?  
+241  1  1  A  241  ASP  A  241  .  ?        ?     4     ?     ?  
+242  1  1  A  242  THR  A  242  .  ?        ?     ?     ?     ?  
+243  1  1  A  243  VAL  A  243  .  ?        ?     ?     ?     ?  
+244  1  1  A  244  ASP  A  244  .  ?        1     ?     ?     ?  
+245  1  1  A  245  THR  A  245  .  ?        ?     ?     ?     ?  
+246  1  1  A  246  SER  A  246  .  ?        ?     ?     ?     ?  
+247  1  1  A  247  LYS  A  247  .  ?        ?     ?     ?     ?  
+248  1  1  A  248  THR  A  248  .  ?        1     ?     ?     ?  
+249  1  1  A  249  PHE  A  249  .  ?        ?     ?     ?     ?  
+250  1  1  A  250  THR  A  250  .  ?        ?     ?     ?     ?  
+251  1  1  A  251  ILE  A  251  .  ?        ?     ?     ?     ?  
+252  1  1  A  252  ILE  A  252  .  ?        1     ?     ?     ?  
+253  1  1  A  253  THR  A  253  .  ?        ?     ?     ?     ?  
+254  1  1  A  254  GLN  A  254  .  ?        ?     ?     ?     ?  
+255  1  1  A  255  PHE  A  255  .  ?        1     ?     ?     ?  
+256  1  1  A  256  ASN  A  256  .  ?        ?     ?     ?     ?  
+257  1  1  A  257  THR  A  257  .  ?        2     ?     ?     ?  
+258  1  1  A  258  ASP  A  258  .  ?        ?     ?     ?     ?  
+259  1  1  A  259  ASN  A  259  .  ?        6     ?     ?     ?  
+260  1  1  A  260  GLY  A  260  .  ?        ?     ?     ?     ?  
+261  1  1  A  261  SER  A  261  .  ?        1     ?     ?     ?  
+262  1  1  A  262  PRO  A  262  .  ?        1     ?     ?     ?  
+263  1  1  A  263  SER  A  263  .  ?        ?     ?     ?     ?  
+264  1  1  A  264  GLY  A  264  .  ?        1     ?     ?     ?  
+265  1  1  A  265  ASN  A  265  .  ?        1     ?     ?     ?  
+266  1  1  A  266  LEU  A  266  .  ?        ?     ?     ?     ?  
+267  1  1  A  267  VAL  A  267  .  ?        ?     ?     ?     ?  
+268  1  1  A  268  SER  A  268  .  ?        ?     ?     ?     ?  
+269  1  1  A  269  ILE  A  269  .  ?        ?     ?     ?     ?  
+270  1  1  A  270  THR  A  270  .  ?        1     ?     ?     ?  
+271  1  1  A  271  ARG  A  271  .  ?        ?     ?     ?     ?  
+272  1  1  A  272  LYS  A  272  .  ?        1     ?     ?     ?  
+273  1  1  A  273  TYR  A  273  .  ?        ?     ?     ?     ?  
+274  1  1  A  274  GLN  A  274  .  ?        1     ?     ?     ?  
+275  1  1  A  275  GLN  A  275  .  ?        1     ?     ?     ?  
+276  1  1  A  276  ASN  A  276  .  ?        ?     ?     ?     ?  
+277  1  1  A  277  GLY  A  277  .  ?        ?     ?     ?     ?  
+278  1  1  A  278  VAL  A  278  .  ?        ?     ?     ?     ?  
+279  1  1  A  279  ASP  A  279  .  ?        ?     ?     ?     ?  
+280  1  1  A  280  ILE  A  280  .  ?        1     ?     ?     ?  
+281  1  1  A  281  PRO  A  281  .  ?        ?     ?     ?     ?  
+282  1  1  A  282  SER  A  282  .  ?        ?     ?     ?     ?  
+283  1  1  A  283  ALA  A  283  .  ?        ?     ?     ?     ?  
+284  1  1  A  284  GLN  A  284  .  ?        ?     ?     ?     ?  
+285  1  1  A  285  PRO  A  285  .  ?        ?     ?     ?     ?  
+286  1  1  A  286  GLY  A  286  .  ?        ?     ?     ?     ?  
+287  1  1  A  287  GLY  A  287  .  ?        ?     ?     ?     ?  
+288  1  1  A  288  ASP  A  288  .  ?        ?     ?     ?     ?  
+289  1  1  A  289  THR  A  289  .  ?        1     ?     ?     ?  
+290  1  1  A  290  ILE  A  290  .  ?        ?     ?     ?     ?  
+291  1  1  A  291  SER  A  291  .  ?        1     ?     ?     ?  
+292  1  1  A  292  SER  A  292  .  ?        ?     ?     ?     ?  
+293  1  1  A  293  CYS  A  293  .  ?        ?     ?     ?     ?  
+294  1  1  A  294  PRO  A  294  .  ?        ?     ?     ?     ?  
+295  1  1  A  295  SER  A  295  .  ?        ?     ?     ?     ?  
+296  1  1  A  296  ALA  A  296  .  ?        ?     ?     ?     ?  
+297  1  1  A  297  SER  A  297  .  ?        ?     ?     ?     ?  
+298  1  1  A  298  ALA  A  298  .  ?        ?     ?     ?     ?  
+299  1  1  A  299  TYR  A  299  .  ?        ?     ?     ?     ?  
+300  1  1  A  300  GLY  A  300  .  ?        ?     ?     ?     ?  
+301  1  1  A  301  GLY  A  301  .  ?        ?     ?     ?     ?  
+302  1  1  A  302  LEU  A  302  .  ?        1     ?     ?     ?  
+303  1  1  A  303  ALA  A  303  .  ?        ?     ?     ?     ?  
+304  1  1  A  304  THR  A  304  .  ?        ?     ?     ?     ?  
+305  1  1  A  305  MET  A  305  .  ?        ?     ?     ?     ?  
+306  1  1  A  306  GLY  A  306  .  ?        ?     ?     ?     ?  
+307  1  1  A  307  LYS  A  307  .  ?        ?     ?     ?     ?  
+308  1  1  A  308  ALA  A  308  .  ?        ?     ?     ?     ?  
+309  1  1  A  309  LEU  A  309  .  ?        ?     ?     ?     ?  
+310  1  1  A  310  SER  A  310  .  ?        ?     ?     ?     ?  
+311  1  1  A  311  SER  A  311  .  ?        ?     ?     ?     ?  
+312  1  1  A  312  GLY  A  312  .  ?        ?     ?     ?     ?  
+313  1  1  A  313  MET  A  313  .  ?        ?     ?     ?     ?  
+314  1  1  A  314  VAL  A  314  .  ?        1     ?     ?     ?  
+315  1  1  A  315  LEU  A  315  .  ?        1     ?     ?     ?  
+316  1  1  A  316  VAL  A  316  .  ?        2     ?     ?     ?  
+317  1  1  A  317  PHE  A  317  .  ?        1     ?     ?     ?  
+318  1  1  A  318  SER  A  318  .  ?        1     ?     ?     ?  
+319  1  1  A  319  ILE  A  319  .  ?        2     ?     ?     ?  
+320  1  1  A  320  TRP  A  320  .  ?        ?     ?     ?     ?  
+321  1  1  A  321  ASN  A  321  .  ?        2     ?     ?     ?  
+322  1  1  A  322  ASP  A  322  .  ?        1     ?     ?     ?  
+323  1  1  A  323  ASN  A  323  .  ?        ?     ?     ?     ?  
+324  1  1  A  324  SER  A  324  .  ?        1     ?     ?     ?  
+325  1  1  A  325  GLN  A  325  .  ?        ?     ?     ?     ?  
+326  1  1  A  326  TYR  A  326  .  ?        1     ?     ?     ?  
+327  1  1  A  327  MET  A  327  .  ?        3     ?     ?     ?  
+328  1  1  A  328  ASN  A  328  .  ?        ?     ?     ?     ?  
+329  1  1  A  329  TRP  A  329  .  ?        1     ?     ?     ?  
+330  1  1  A  330  LEU  A  330  .  ?        3     ?     ?     ?  
+331  1  1  A  331  ASP  A  331  .  ?        2     ?     ?     ?  
+332  1  1  A  332  SER  A  332  .  ?        ?     ?     ?     ?  
+333  1  1  A  333  GLY  A  333  .  ?        ?     ?     ?     ?  
+334  1  1  A  334  ASN  A  334  .  ?        ?     ?     ?     ?  
+335  1  1  A  335  ALA  A  335  .  ?        ?     ?     ?     ?  
+336  1  1  A  336  GLY  A  336  .  ?        2     ?     ?     ?  
+337  1  1  A  337  PRO  A  337  .  ?        ?     ?     ?     ?  
+338  1  1  A  338  CYS  A  338  .  ?        ?     ?     ?     ?  
+339  1  1  A  339  SER  A  339  .  ?        ?     ?     ?     ?  
+340  1  1  A  340  SER  A  340  .  ?        ?     ?     ?     ?  
+341  1  1  A  341  THR  A  341  .  ?        ?     ?     ?     ?  
+342  1  1  A  342  GLU  A  342  .  ?        ?     ?     ?     ?  
+343  1  1  A  343  GLY  A  343  .  ?        ?     ?     ?     ?  
+344  1  1  A  344  ASN  A  344  .  ?        3     ?     ?     ?  
+345  1  1  A  345  PRO  A  345  .  ?        ?     ?     ?     ?  
+346  1  1  A  346  SER  A  346  .  ?        2     ?     ?     ?  
+347  1  1  A  347  ASN  A  347  .  ?        ?     ?     ?     ?  
+348  1  1  A  348  ILE  A  348  .  ?        ?     ?     ?     ?  
+349  1  1  A  349  LEU  A  349  .  ?        1     ?     ?     ?  
+350  1  1  A  350  ALA  A  350  .  ?        ?     ?     ?     ?  
+351  1  1  A  351  ASN  A  351  .  ?        ?     ?     ?     ?  
+352  1  1  A  352  ASN  A  352  .  ?        ?     ?     ?     ?  
+353  1  1  A  353  PRO  A  353  .  ?        ?     ?     ?     ?  
+354  1  1  A  354  ASN  A  354  .  ?        ?     ?     ?     ?  
+355  1  1  A  355  THR  A  355  .  ?        4     ?     ?     ?  
+356  1  1  A  356  HIS  A  356  .  ?        ?     ?     ?     ?  
+357  1  1  A  357  VAL  A  357  .  ?        4     ?     ?     ?  
+358  1  1  A  358  VAL  A  358  .  ?        1     ?     ?     ?  
+359  1  1  A  359  PHE  A  359  .  ?        3     ?     ?     ?  
+360  1  1  A  360  SER  A  360  .  ?        ?     ?     ?     ?  
+361  1  1  A  361  ASN  A  361  .  ?        ?     ?     ?     ?  
+362  1  1  A  362  ILE  A  362  .  ?        1     ?     ?     ?  
+363  1  1  A  363  ARG  A  363  .  ?        1     ?     ?     ?  
+364  1  1  A  364  TRP  A  364  .  ?        2     ?     ?     ?  
+365  1  1  A  365  GLY  A  365  .  ?        ?     ?     ?     ?  
+366  1  1  A  366  ASP  A  366  .  ?        ?     ?     ?     ?  
+367  1  1  A  367  ILE  A  367  .  ?        1     ?     ?     ?  
+368  1  1  A  368  GLY  A  368  .  ?        ?     ?     ?     ?  
+369  1  1  A  369  SER  A  369  .  ?        ?     ?     ?     ?  
+370  1  1  A  370  THR  A  370  .  ?        1     ?     ?     ?  
+371  1  1  A  371  THR  A  371  .  ?        ?     ?     ?     ?  
+372  1  1  B    1  PCA  C    1  .  ?        4     ?     ?     ?  
+373  1  1  B    2  GLN  C    2  .  ?        1     ?     ?     ?  
+374  1  1  B    3  PRO  C    3  .  ?        ?     ?     ?     ?  
+375  1  1  B    4  GLY  C    4  .  ?        ?     ?     ?     ?  
+376  1  1  B    5  THR  C    5  .  ?        ?     ?     ?     ?  
+377  1  1  B    6  SER  C    6  .  ?        ?     ?     ?     ?  
+378  1  1  B    7  THR  C    7  .  ?        ?     ?     ?     ?  
+379  1  1  B    8  PRO  C    8  .  ?        ?     ?     ?     ?  
+380  1  1  B    9  GLU  C    9  .  ?        ?     ?     ?     ?  
+381  1  1  B   10  VAL  C   10  .  ?        ?     ?     ?     ?  
+382  1  1  B   11  HIS  C   11  .  ?        ?     ?     ?     ?  
+383  1  1  B   12  PRO  C   12  .  ?        ?     ?     ?     ?  
+384  1  1  B   13  LYS  C   13  .  ?        ?     4     ?     ?  
+385  1  1  B   14  LEU  C   14  .  ?        ?     ?     ?     ?  
+386  1  1  B   15  THR  C   15  .  ?        ?     ?     ?     ?  
+387  1  1  B   16  THR  C   16  .  ?        1     ?     ?     ?  
+388  1  1  B   17  TYR  C   17  .  ?        1     ?     ?     ?  
+389  1  1  B   18  LYS  C   18  .  ?        1     ?     ?     ?  
+390  1  1  B   19  CYS  C   19  .  ?        1     ?     ?     ?  
+391  1  1  B   20  THR  C   20  .  ?        ?     ?     ?     ?  
+392  1  1  B   21  LYS  C   21  .  ?        1     ?     ?     ?  
+393  1  1  B   22  SER  C   22  .  ?        ?     ?     ?     ?  
+394  1  1  B   23  GLY  C   23  .  ?        ?     ?     ?     ?  
+395  1  1  B   24  GLY  C   24  .  ?        ?     ?     ?     ?  
+396  1  1  B   25  CYS  C   25  .  ?        ?     ?     ?     ?  
+397  1  1  B   26  VAL  C   26  .  ?        ?     ?     ?     ?  
+398  1  1  B   27  ALA  C   27  .  ?        ?     ?     ?     ?  
+399  1  1  B   28  GLN  C   28  .  ?        ?     ?     ?     ?  
+400  1  1  B   29  ASP  C   29  .  ?        ?     ?     ?     ?  
+401  1  1  B   30  THR  C   30  .  ?        ?     ?     ?     ?  
+402  1  1  B   31  SER  C   31  .  ?        ?     ?     ?     ?  
+403  1  1  B   32  VAL  C   32  .  ?        ?     ?     ?     ?  
+404  1  1  B   33  VAL  C   33  .  ?        2     ?     ?     ?  
+405  1  1  B   34  LEU  C   34  .  ?        ?     ?     ?     ?  
+406  1  1  B   35  ASP  C   35  .  ?        1     ?     ?     ?  
+407  1  1  B   36  TRP  C   36  .  ?        3     ?     ?     ?  
+408  1  1  B   37  ASN  C   37  .  ?        ?     ?     ?     ?  
+409  1  1  B   38  TYR  C   38  .  ?        1     ?     ?     ?  
+410  1  1  B   39  ARG  C   39  .  ?        ?     ?     ?     ?  
+411  1  1  B   40  TRP  C   40  .  ?        1     ?     ?     ?  
+412  1  1  B   41  MET  C   41  .  ?        2     ?     ?     ?  
+413  1  1  B   42  HIS  C   42  .  ?        1     ?     ?     ?  
+414  1  1  B   43  ASP  C   43  .  ?        1     ?     ?     ?  
+415  1  1  B   44  ALA  C   44  .  ?        ?     ?     ?     ?  
+416  1  1  B   45  ASN  C   45  .  ?        ?     ?     ?     ?  
+417  1  1  B   46  TYR  C   46  .  ?        ?     ?     ?     ?  
+418  1  1  B   47  ASN  C   47  .  ?        ?     ?     ?     ?  
+419  1  1  B   48  SER  C   48  .  ?        ?     ?     ?     ?  
+420  1  1  B   49  CYS  C   49  .  ?        1     ?     ?     ?  
+421  1  1  B   50  THR  C   50  .  ?        ?     ?     ?     ?  
+422  1  1  B   51  VAL  C   51  .  ?        ?     ?     ?     ?  
+423  1  1  B   52  ASN  C   52  .  ?        ?     ?     ?     ?  
+424  1  1  B   53  GLY  C   53  .  ?        ?     ?     ?     ?  
+425  1  1  B   54  GLY  C   54  .  ?        ?     ?     ?     ?  
+426  1  1  B   55  VAL  C   55  .  ?        2     ?     ?     ?  
+427  1  1  B   56  ASN  C   56  .  ?        1     ?     ?     ?  
+428  1  1  B   57  THR  C   57  .  ?        ?     ?     ?     ?  
+429  1  1  B   58  THR  C   58  .  ?        ?     ?     ?     ?  
+430  1  1  B   59  LEU  C   59  .  ?        ?     ?     ?     ?  
+431  1  1  B   60  CYS  C   60  .  ?        1     ?     ?     ?  
+432  1  1  B   61  PRO  C   61  .  ?        ?     ?     ?     ?  
+433  1  1  B   62  ASP  C   62  .  ?        ?     ?     ?     ?  
+434  1  1  B   63  GLU  C   63  .  ?        1     ?     ?     ?  
+435  1  1  B   64  ALA  C   64  .  ?        1     ?     ?     ?  
+436  1  1  B   65  THR  C   65  .  ?        ?     ?     ?     ?  
+437  1  1  B   66  CYS  C   66  .  ?        ?     ?     ?     ?  
+438  1  1  B   67  GLY  C   67  .  ?        1     ?     ?     ?  
+439  1  1  B   68  LYS  C   68  .  ?        ?     ?     ?     ?  
+440  1  1  B   69  ASN  C   69  .  ?        ?     ?     ?     ?  
+441  1  1  B   70  CYS  C   70  .  ?        1     ?     ?     ?  
+442  1  1  B   71  PHE  C   71  .  ?        1     ?     ?     ?  
+443  1  1  B   72  ILE  C   72  .  ?        3     ?     ?     ?  
+444  1  1  B   73  GLU  C   73  .  ?        1     ?     ?     ?  
+445  1  1  B   74  GLY  C   74  .  ?        ?     ?     ?     ?  
+446  1  1  B   75  VAL  C   75  .  ?        ?     ?     ?     ?  
+447  1  1  B   76  ASP  C   76  .  ?        ?     ?     ?     ?  
+448  1  1  B   77  TYR  C   77  .  ?        ?     ?     ?     ?  
+449  1  1  B   78  ALA  C   78  .  ?        ?     ?     ?     ?  
+450  1  1  B   79  ALA  C   79  .  ?        ?     ?     ?     ?  
+451  1  1  B   80  SER  C   80  .  ?        ?     ?     ?     ?  
+452  1  1  B   81  GLY  C   81  .  ?        ?     ?     ?     ?  
+453  1  1  B   82  VAL  C   82  .  ?        ?     ?     ?     ?  
+454  1  1  B   83  THR  C   83  .  ?        ?     ?     ?     ?  
+455  1  1  B   84  THR  C   84  .  ?        ?     ?     ?     ?  
+456  1  1  B   85  SER  C   85  .  ?        ?     ?     ?     ?  
+457  1  1  B   86  GLY  C   86  .  ?        ?     ?     ?     ?  
+458  1  1  B   87  SER  C   87  .  ?        ?     ?     ?     ?  
+459  1  1  B   88  SER  C   88  .  ?        ?     ?     ?     ?  
+460  1  1  B   89  LEU  C   89  .  ?        ?     ?     ?     ?  
+461  1  1  B   90  THR  C   90  .  ?        1     ?     ?     ?  
+462  1  1  B   91  MET  C   91  .  ?        ?     ?     ?     ?  
+463  1  1  B   92  ASN  C   92  .  ?        ?     ?     ?     ?  
+464  1  1  B   93  GLN  C   93  .  ?        ?     ?     ?     ?  
+465  1  1  B   94  TYR  C   94  .  ?        ?     ?     ?     ?  
+466  1  1  B   95  MET  C   95  .  ?        2     ?     ?     ?  
+467  1  1  B   96  PRO  C   96  .  ?        ?     ?     ?     ?  
+468  1  1  B   97  SER  C   97  .  ?        ?     ?     ?     ?  
+469  1  1  B   98  SER  C   98  .  ?        ?     ?     ?     ?  
+470  1  1  B   99  SER  C   99  .  ?        ?     ?     ?     ?  
+471  1  1  B  100  GLY  C  100  .  ?        ?     ?     ?     ?  
+472  1  1  B  101  GLY  C  101  .  ?        ?     ?     ?     ?  
+473  1  1  B  102  TYR  C  102  .  ?        1     ?     ?     ?  
+474  1  1  B  103  SER  C  103  .  ?        ?     ?     ?     ?  
+475  1  1  B  104  SER  C  104  .  ?        ?     ?     ?     ?  
+476  1  1  B  105  VAL  C  105  .  ?        2     ?     ?     ?  
+477  1  1  B  106  SER  C  106  .  ?        ?     ?     ?     ?  
+478  1  1  B  107  PRO  C  107  .  ?        ?     ?     ?     ?  
+479  1  1  B  108  ARG  C  108  .  ?        4     ?     ?     ?  
+480  1  1  B  109  LEU  C  109  .  ?        2     ?     ?     ?  
+481  1  1  B  110  TYR  C  110  .  ?        2     ?     ?     ?  
+482  1  1  B  111  LEU  C  111  .  ?        ?     ?     ?     ?  
+483  1  1  B  112  LEU  C  112  .  ?        1     ?     ?     ?  
+484  1  1  B  113  ASP  C  113  .  ?        ?     ?     ?     ?  
+485  1  1  B  114  SER  C  114  .  ?        ?     ?     ?     ?  
+486  1  1  B  115  ASP  C  115  .  ?        ?     ?     ?     ?  
+487  1  1  B  116  GLY  C  116  .  ?        ?     ?     ?     ?  
+488  1  1  B  117  GLU  C  117  .  ?        ?     ?     ?     ?  
+489  1  1  B  118  TYR  C  118  .  ?        2     ?     ?     ?  
+490  1  1  B  119  VAL  C  119  .  ?        1     ?     ?     ?  
+491  1  1  B  120  MET  C  120  .  ?        ?     ?     ?     ?  
+492  1  1  B  121  LEU  C  121  .  ?        1     ?     ?     ?  
+493  1  1  B  122  LYS  C  122  .  ?        ?     ?     ?     ?  
+494  1  1  B  123  LEU  C  123  .  ?        ?     ?     ?     ?  
+495  1  1  B  124  ASN  C  124  .  ?        ?     ?     ?     ?  
+496  1  1  B  125  GLY  C  125  .  ?        1     ?     ?     ?  
+497  1  1  B  126  GLN  C  126  .  ?        ?     ?     ?     ?  
+498  1  1  B  127  GLU  C  127  .  ?        ?     ?     ?     ?  
+499  1  1  B  128  LEU  C  128  .  ?        1     ?     ?     ?  
+500  1  1  B  129  SER  C  129  .  ?        ?     ?     ?     ?  
+501  1  1  B  130  PHE  C  130  .  ?        ?     ?     ?     ?  
+502  1  1  B  131  ASP  C  131  .  ?        ?     ?     ?     ?  
+503  1  1  B  132  VAL  C  132  .  ?        2     ?     ?     ?  
+504  1  1  B  133  ASP  C  133  .  ?        ?     ?     ?     ?  
+505  1  1  B  134  LEU  C  134  .  ?        2     ?     ?     ?  
+506  1  1  B  135  SER  C  135  .  ?        ?     ?     ?     ?  
+507  1  1  B  136  ALA  C  136  .  ?        1     ?     ?     ?  
+508  1  1  B  137  LEU  C  137  .  ?        2     ?     ?     ?  
+509  1  1  B  138  PRO  C  138  .  ?        4     ?     ?     ?  
+510  1  1  B  139  CYS  C  139  .  ?        1     ?     ?     ?  
+511  1  1  B  140  GLY  C  140  .  ?        ?     ?     ?     ?  
+512  1  1  B  141  GLU  C  141  .  ?        1     ?     ?     ?  
+513  1  1  B  142  ASN  C  142  .  ?        2     ?     ?     ?  
+514  1  1  B  143  GLY  C  143  .  ?        ?     ?     ?     ?  
+515  1  1  B  144  SER  C  144  .  ?        1     ?     ?     ?  
+516  1  1  B  145  LEU  C  145  .  ?        1     ?     ?     ?  
+517  1  1  B  146  TYR  C  146  .  ?        ?     ?     ?     ?  
+518  1  1  B  147  LEU  C  147  .  ?        1     ?     ?     ?  
+519  1  1  B  148  SER  C  148  .  ?        ?     ?     ?     ?  
+520  1  1  B  149  GLN  C  149  .  ?        ?     ?     ?     ?  
+521  1  1  B  150  MET  C  150  .  ?        1     ?     ?     ?  
+522  1  1  B  151  ASP  C  151  .  ?        ?     ?     ?     ?  
+523  1  1  B  152  GLU  C  152  .  ?        ?     ?     ?     ?  
+524  1  1  B  153  ASN  C  153  .  ?        ?     ?     ?     ?  
+525  1  1  B  154  GLY  C  154  .  ?        ?     ?     ?     ?  
+526  1  1  B  155  GLY  C  155  .  ?        ?     ?     ?     ?  
+527  1  1  B  156  ALA  C  156  .  ?        ?     ?     ?     ?  
+528  1  1  B  157  ASN  C  157  .  ?        8     ?     ?     ?  
+529  1  1  B  158  GLN  C  158  .  ?        ?     ?     ?     ?  
+530  1  1  B  159  TYR  C  159  .  ?        1     ?     ?     ?  
+531  1  1  B  160  ASN  C  160  .  ?        2     ?     ?     ?  
+532  1  1  B  161  THR  C  161  .  ?        ?     ?     ?     ?  
+533  1  1  B  162  ALA  C  162  .  ?        ?     ?     ?     ?  
+534  1  1  B  163  GLY  C  163  .  ?        ?     ?     ?     ?  
+535  1  1  B  164  ALA  C  164  .  ?        ?     ?     ?     ?  
+536  1  1  B  165  ASN  C  165  .  ?        ?     ?     ?     ?  
+537  1  1  B  166  TYR  C  166  .  ?        ?     ?     ?     ?  
+538  1  1  B  167  GLY  C  167  .  ?        1     ?     ?     ?  
+539  1  1  B  168  SER  C  168  .  ?        1     ?     ?     ?  
+540  1  1  B  169  GLY  C  169  .  ?        ?     ?     ?     ?  
+541  1  1  B  170  TYR  C  170  .  ?        2     ?     ?     ?  
+542  1  1  B  171  CYS  C  171  .  ?        1     ?     ?     ?  
+543  1  1  B  172  ASP  C  172  .  ?        ?     ?     ?     ?  
+544  1  1  B  173  ALA  C  173  .  ?        ?     ?     ?     ?  
+545  1  1  B  174  GLN  C  174  .  ?        ?     ?     ?     ?  
+546  1  1  B  175  CYS  C  175  .  ?        ?     ?     ?     ?  
+547  1  1  B  176  PRO  C  176  .  ?        ?     ?     ?     ?  
+548  1  1  B  177  VAL  C  177  .  ?        ?     ?     ?     ?  
+549  1  1  B  178  GLN  C  178  .  ?        ?     ?     ?     ?  
+550  1  1  B  179  THR  C  179  .  ?        3     ?     ?     ?  
+551  1  1  B  180  TRP  C  180  .  ?        ?     ?     ?     ?  
+552  1  1  B  181  ARG  C  181  .  ?        1     ?     ?     ?  
+553  1  1  B  182  ASN  C  182  .  ?        1     ?     ?     ?  
+554  1  1  B  183  GLY  C  183  .  ?        ?     ?     ?     ?  
+555  1  1  B  184  THR  C  184  .  ?        1     ?     ?     ?  
+556  1  1  B  185  LEU  C  185  .  ?        1     ?     ?     ?  
+557  1  1  B  186  ASN  C  186  .  ?        1     ?     ?     ?  
+558  1  1  B  187  THR  C  187  .  ?        ?     ?     ?     ?  
+559  1  1  B  188  SER  C  188  .  ?        ?     ?     ?     ?  
+560  1  1  B  189  HIS  C  189  .  ?        ?     ?     ?     ?  
+561  1  1  B  190  GLN  C  190  .  ?        ?     ?     ?     ?  
+562  1  1  B  191  GLY  C  191  .  ?        ?     ?     ?     ?  
+563  1  1  B  192  PHE  C  192  .  ?        1     ?     ?     ?  
+564  1  1  B  193  CYS  C  193  .  ?        ?     ?     ?     ?  
+565  1  1  B  194  CYS  C  194  .  ?        ?     ?     ?     ?  
+566  1  1  B  195  ASN  C  195  .  ?        ?     ?     ?     ?  
+567  1  1  B  196  GLU  C  196  .  ?        ?     ?     ?     ?  
+568  1  1  B  197  MET  C  197  .  ?        ?     ?     ?     ?  
+569  1  1  B  198  ASP  C  198  .  ?        ?     ?     ?     ?  
+570  1  1  B  199  ILE  C  199  .  ?        1     ?     ?     ?  
+571  1  1  B  200  LEU  C  200  .  ?        ?     ?     ?     ?  
+572  1  1  B  201  GLU  C  201  .  ?        ?     ?     ?     ?  
+573  1  1  B  202  GLY  C  202  .  ?        1     ?     ?     ?  
+574  1  1  B  203  ASN  C  203  .  ?        ?     ?     ?     ?  
+575  1  1  B  204  SER  C  204  .  ?        ?     ?     ?     ?  
+576  1  1  B  205  ARG  C  205  .  ?        1     ?     ?     ?  
+577  1  1  B  206  ALA  C  206  .  ?        ?     ?     ?     ?  
+578  1  1  B  207  ASN  C  207  .  ?        ?     ?     ?     ?  
+579  1  1  B  208  ALA  C  208  .  ?        ?     ?     ?     ?  
+580  1  1  B  209  LEU  C  209  .  ?        ?     ?     ?     ?  
+581  1  1  B  210  THR  C  210  .  ?        ?     ?     ?     ?  
+582  1  1  B  211  PRO  C  211  .  ?        ?     ?     ?     ?  
+583  1  1  B  212  HIS  C  212  .  ?        1     ?     ?     ?  
+584  1  1  B  213  SER  C  213  .  ?        ?     ?     ?     ?  
+585  1  1  B  214  CYS  C  214  .  ?        ?     ?     ?     ?  
+586  1  1  B  215  THR  C  215  .  ?        2     ?     ?     ?  
+587  1  1  B  216  ALA  C  216  .  ?        2     ?     ?     ?  
+588  1  1  B  217  THR  C  217  .  ?        ?     ?     ?     ?  
+589  1  1  B  218  ALA  C  218  .  ?        ?     ?     ?     ?  
+590  1  1  B  219  CYS  C  219  .  ?        ?     ?     ?     ?  
+591  1  1  B  220  ASP  C  220  .  ?        ?     ?     ?     ?  
+592  1  1  B  221  SER  C  221  .  ?        1     ?     ?     ?  
+593  1  1  B  222  ALA  C  222  .  ?        1     ?     ?     ?  
+594  1  1  B  223  GLY  C  223  .  ?        ?     ?     ?     ?  
+595  1  1  B  224  CYS  C  224  .  ?        2     ?     ?     ?  
+596  1  1  B  225  GLY  C  225  .  ?        ?     ?     ?     ?  
+597  1  1  B  226  PHE  C  226  .  ?        ?     ?     ?     ?  
+598  1  1  B  227  ASN  C  227  .  ?        ?     ?     ?     ?  
+599  1  1  B  228  PRO  C  228  .  ?        ?     ?     ?     ?  
+600  1  1  B  229  TYR  C  229  .  ?        ?     ?     ?     ?  
+601  1  1  B  230  GLY  C  230  .  ?        ?     ?     ?     ?  
+602  1  1  B  231  SER  C  231  .  ?        ?     ?     ?     ?  
+603  1  1  B  232  GLY  C  232  .  ?        ?     ?     ?     ?  
+604  1  1  B  233  TYR  C  233  .  ?        ?     ?     ?     ?  
+605  1  1  B  234  LYS  C  234  .  ?        ?     ?     ?     ?  
+606  1  1  B  235  SER  C  235  .  ?        ?     ?     ?     ?  
+607  1  1  B  236  TYR  C  236  .  ?        ?     ?     ?     ?  
+608  1  1  B  237  TYR  C  237  .  ?        2     ?     ?     ?  
+609  1  1  B  238  GLY  C  238  .  ?        1     ?     ?     ?  
+610  1  1  B  239  PRO  C  239  .  ?        ?     ?     ?     ?  
+611  1  1  B  240  GLY  C  240  .  ?        ?     ?     ?     ?  
+612  1  1  B  241  ASP  C  241  .  ?        ?     ?     ?     ?  
+613  1  1  B  242  THR  C  242  .  ?        ?     ?     ?     ?  
+614  1  1  B  243  VAL  C  243  .  ?        ?     ?     ?     ?  
+615  1  1  B  244  ASP  C  244  .  ?        1     ?     ?     ?  
+616  1  1  B  245  THR  C  245  .  ?        ?     ?     ?     ?  
+617  1  1  B  246  SER  C  246  .  ?        ?     ?     ?     ?  
+618  1  1  B  247  LYS  C  247  .  ?        ?     ?     ?     ?  
+619  1  1  B  248  THR  C  248  .  ?        1     ?     ?     ?  
+620  1  1  B  249  PHE  C  249  .  ?        ?     ?     ?     ?  
+621  1  1  B  250  THR  C  250  .  ?        ?     ?     ?     ?  
+622  1  1  B  251  ILE  C  251  .  ?        ?     ?     ?     ?  
+623  1  1  B  252  ILE  C  252  .  ?        1     ?     ?     ?  
+624  1  1  B  253  THR  C  253  .  ?        ?     ?     ?     ?  
+625  1  1  B  254  GLN  C  254  .  ?        ?     ?     ?     ?  
+626  1  1  B  255  PHE  C  255  .  ?        1     ?     ?     ?  
+627  1  1  B  256  ASN  C  256  .  ?        ?     ?     ?     ?  
+628  1  1  B  257  THR  C  257  .  ?        2     ?     ?     ?  
+629  1  1  B  258  ASP  C  258  .  ?        ?     ?     ?     ?  
+630  1  1  B  259  ASN  C  259  .  ?        6     ?     ?     ?  
+631  1  1  B  260  GLY  C  260  .  ?        ?     ?     ?     ?  
+632  1  1  B  261  SER  C  261  .  ?        1     ?     ?     ?  
+633  1  1  B  262  PRO  C  262  .  ?        1     ?     ?     ?  
+634  1  1  B  263  SER  C  263  .  ?        ?     ?     ?     ?  
+635  1  1  B  264  GLY  C  264  .  ?        1     ?     ?     ?  
+636  1  1  B  265  ASN  C  265  .  ?        1     ?     ?     ?  
+637  1  1  B  266  LEU  C  266  .  ?        ?     ?     ?     ?  
+638  1  1  B  267  VAL  C  267  .  ?        ?     ?     ?     ?  
+639  1  1  B  268  SER  C  268  .  ?        ?     ?     ?     ?  
+640  1  1  B  269  ILE  C  269  .  ?        ?     ?     ?     ?  
+641  1  1  B  270  THR  C  270  .  ?        1     ?     ?     ?  
+642  1  1  B  271  ARG  C  271  .  ?        ?     ?     ?     ?  
+643  1  1  B  272  LYS  C  272  .  ?        1     ?     ?     ?  
+644  1  1  B  273  TYR  C  273  .  ?        ?     ?     ?     ?  
+645  1  1  B  274  GLN  C  274  .  ?        1     ?     ?     ?  
+646  1  1  B  275  GLN  C  275  .  ?        1     ?     ?     ?  
+647  1  1  B  276  ASN  C  276  .  ?        ?     ?     ?     ?  
+648  1  1  B  277  GLY  C  277  .  ?        ?     ?     ?     ?  
+649  1  1  B  278  VAL  C  278  .  ?        ?     ?     ?     ?  
+650  1  1  B  279  ASP  C  279  .  ?        ?     ?     ?     ?  
+651  1  1  B  280  ILE  C  280  .  ?        1     ?     ?     ?  
+652  1  1  B  281  PRO  C  281  .  ?        ?     ?     ?     ?  
+653  1  1  B  282  SER  C  282  .  ?        ?     ?     ?     ?  
+654  1  1  B  283  ALA  C  283  .  ?        ?     ?     ?     ?  
+655  1  1  B  284  GLN  C  284  .  ?        ?     ?     ?     ?  
+656  1  1  B  285  PRO  C  285  .  ?        ?     ?     ?     ?  
+657  1  1  B  286  GLY  C  286  .  ?        ?     ?     ?     ?  
+658  1  1  B  287  GLY  C  287  .  ?        ?     ?     ?     ?  
+659  1  1  B  288  ASP  C  288  .  ?        ?     ?     ?     ?  
+660  1  1  B  289  THR  C  289  .  ?        1     ?     ?     ?  
+661  1  1  B  290  ILE  C  290  .  ?        ?     ?     ?     ?  
+662  1  1  B  291  SER  C  291  .  ?        1     ?     ?     ?  
+663  1  1  B  292  SER  C  292  .  ?        ?     ?     ?     ?  
+664  1  1  B  293  CYS  C  293  .  ?        ?     ?     ?     ?  
+665  1  1  B  294  PRO  C  294  .  ?        ?     ?     ?     ?  
+666  1  1  B  295  SER  C  295  .  ?        ?     ?     ?     ?  
+667  1  1  B  296  ALA  C  296  .  ?        ?     ?     ?     ?  
+668  1  1  B  297  SER  C  297  .  ?        ?     ?     ?     ?  
+669  1  1  B  298  ALA  C  298  .  ?        ?     ?     ?     ?  
+670  1  1  B  299  TYR  C  299  .  ?        ?     ?     ?     ?  
+671  1  1  B  300  GLY  C  300  .  ?        ?     ?     ?     ?  
+672  1  1  B  301  GLY  C  301  .  ?        ?     ?     ?     ?  
+673  1  1  B  302  LEU  C  302  .  ?        1     ?     ?     ?  
+674  1  1  B  303  ALA  C  303  .  ?        ?     ?     ?     ?  
+675  1  1  B  304  THR  C  304  .  ?        ?     ?     ?     ?  
+676  1  1  B  305  MET  C  305  .  ?        ?     ?     ?     ?  
+677  1  1  B  306  GLY  C  306  .  ?        ?     ?     ?     ?  
+678  1  1  B  307  LYS  C  307  .  ?        ?     ?     ?     ?  
+679  1  1  B  308  ALA  C  308  .  ?        ?     ?     ?     ?  
+680  1  1  B  309  LEU  C  309  .  ?        ?     ?     ?     ?  
+681  1  1  B  310  SER  C  310  .  ?        ?     ?     ?     ?  
+682  1  1  B  311  SER  C  311  .  ?        ?     ?     ?     ?  
+683  1  1  B  312  GLY  C  312  .  ?        ?     ?     ?     ?  
+684  1  1  B  313  MET  C  313  .  ?        ?     ?     ?     ?  
+685  1  1  B  314  VAL  C  314  .  ?        1     ?     ?     ?  
+686  1  1  B  315  LEU  C  315  .  ?        1     ?     ?     ?  
+687  1  1  B  316  VAL  C  316  .  ?        2     ?     ?     ?  
+688  1  1  B  317  PHE  C  317  .  ?        2     ?     ?     ?  
+689  1  1  B  318  SER  C  318  .  ?        1     ?     ?     ?  
+690  1  1  B  319  ILE  C  319  .  ?        2     ?     ?     ?  
+691  1  1  B  320  TRP  C  320  .  ?        ?     ?     ?     ?  
+692  1  1  B  321  ASN  C  321  .  ?        2     ?     ?     ?  
+693  1  1  B  322  ASP  C  322  .  ?        1     ?     ?     ?  
+694  1  1  B  323  ASN  C  323  .  ?        ?     ?     ?     ?  
+695  1  1  B  324  SER  C  324  .  ?        1     ?     ?     ?  
+696  1  1  B  325  GLN  C  325  .  ?        ?     ?     ?     ?  
+697  1  1  B  326  TYR  C  326  .  ?        1     ?     ?     ?  
+698  1  1  B  327  MET  C  327  .  ?        3     ?     ?     ?  
+699  1  1  B  328  ASN  C  328  .  ?        ?     ?     ?     ?  
+700  1  1  B  329  TRP  C  329  .  ?        1     ?     ?     ?  
+701  1  1  B  330  LEU  C  330  .  ?        3     ?     ?     ?  
+702  1  1  B  331  ASP  C  331  .  ?        1     ?     ?     ?  
+703  1  1  B  332  SER  C  332  .  ?        ?     ?     ?     ?  
+704  1  1  B  333  GLY  C  333  .  ?        ?     ?     ?     ?  
+705  1  1  B  334  ASN  C  334  .  ?        ?     ?     ?     ?  
+706  1  1  B  335  ALA  C  335  .  ?        ?     ?     ?     ?  
+707  1  1  B  336  GLY  C  336  .  ?        1     ?     ?     ?  
+708  1  1  B  337  PRO  C  337  .  ?        ?     ?     ?     ?  
+709  1  1  B  338  CYS  C  338  .  ?        ?     ?     ?     ?  
+710  1  1  B  339  SER  C  339  .  ?        ?     ?     ?     ?  
+711  1  1  B  340  SER  C  340  .  ?        ?     ?     ?     ?  
+712  1  1  B  341  THR  C  341  .  ?        ?     ?     ?     ?  
+713  1  1  B  342  GLU  C  342  .  ?        ?     ?     ?     ?  
+714  1  1  B  343  GLY  C  343  .  ?        ?     ?     ?     ?  
+715  1  1  B  344  ASN  C  344  .  ?        2     ?     ?     ?  
+716  1  1  B  345  PRO  C  345  .  ?        ?     ?     ?     ?  
+717  1  1  B  346  SER  C  346  .  ?        1     ?     ?     ?  
+718  1  1  B  347  ASN  C  347  .  ?        ?     ?     ?     ?  
+719  1  1  B  348  ILE  C  348  .  ?        ?     ?     ?     ?  
+720  1  1  B  349  LEU  C  349  .  ?        1     ?     ?     ?  
+721  1  1  B  350  ALA  C  350  .  ?        ?     ?     ?     ?  
+722  1  1  B  351  ASN  C  351  .  ?        ?     ?     ?     ?  
+723  1  1  B  352  ASN  C  352  .  ?        ?     ?     ?     ?  
+724  1  1  B  353  PRO  C  353  .  ?        ?     ?     ?     ?  
+725  1  1  B  354  ASN  C  354  .  ?        ?     ?     ?     ?  
+726  1  1  B  355  THR  C  355  .  ?        4     ?     ?     ?  
+727  1  1  B  356  HIS  C  356  .  ?        ?     ?     ?     ?  
+728  1  1  B  357  VAL  C  357  .  ?        4     ?     ?     ?  
+729  1  1  B  358  VAL  C  358  .  ?        1     ?     ?     ?  
+730  1  1  B  359  PHE  C  359  .  ?        3     ?     ?     ?  
+731  1  1  B  360  SER  C  360  .  ?        ?     ?     ?     ?  
+732  1  1  B  361  ASN  C  361  .  ?        ?     ?     ?     ?  
+733  1  1  B  362  ILE  C  362  .  ?        2     ?     ?     ?  
+734  1  1  B  363  ARG  C  363  .  ?        1     ?     ?     ?  
+735  1  1  B  364  TRP  C  364  .  ?        2     ?     ?     ?  
+736  1  1  B  365  GLY  C  365  .  ?        ?     ?     ?     ?  
+737  1  1  B  366  ASP  C  366  .  ?        ?     ?     ?     ?  
+738  1  1  B  367  ILE  C  367  .  ?        1     ?     ?     ?  
+739  1  1  B  368  GLY  C  368  .  ?        ?     ?     ?     ?  
+740  1  1  B  369  SER  C  369  .  ?        ?     ?     ?     ?  
+741  1  1  B  370  THR  C  370  .  ?        1     ?     ?     ?  
+742  1  1  B  371  THR  C  371  .  ?        ?     ?     ?     ?  
+743  1  2  C    .  NAG  A  401  .  ?        ?     ?     ?     2  
+744  1  2  D    .  NAG  A  402  .  ?        ?     ?     1     2  
+745  1  2  E    .  NAG  C  401  .  ?        ?     ?     ?     2  
+746  1  2  F    .  NAG  C  402  .  ?        ?     ?     1     2  
+#
+loop_
+_pdbx_vrpt_model_instance_geometry.ordinal
+_pdbx_vrpt_model_instance_geometry.instance_id
+_pdbx_vrpt_model_instance_geometry.rotamer_class
+_pdbx_vrpt_model_instance_geometry.phi
+_pdbx_vrpt_model_instance_geometry.psi
+_pdbx_vrpt_model_instance_geometry.ramachandran_class
+_pdbx_vrpt_model_instance_geometry.flippable_sidechain
+_pdbx_vrpt_model_instance_geometry.num_H_reduce
+_pdbx_vrpt_model_instance_geometry.OWAB
+_pdbx_vrpt_model_instance_geometry.num_bonds_RMSZ
+_pdbx_vrpt_model_instance_geometry.bonds_RMSZ
+_pdbx_vrpt_model_instance_geometry.num_angles_RMSZ
+_pdbx_vrpt_model_instance_geometry.angles_RMSZ
+_pdbx_vrpt_model_instance_geometry.program_for_bond_angle_geometry
+_pdbx_vrpt_model_instance_geometry.average_occupancy
+  1    1  ?             ?       ?  ?           ?   6   33.450   7  0.94   9  1.12  mogul       1.000  
+  2    2  pt20     -133.3   164.6  Favored     ?   8   62.350   9  0.29  13  0.46  molprobity  1.000  
+  3    3  Cg_exo    -50.9   132.5  Favored     ?   7   29.340   8  0.18  11  0.59  molprobity  1.000  
+  4    4  ?         -83.8  -176.7  Favored     ?   3   55.800   4  0.19   5  0.17  molprobity  1.000  
+  5    5  p        -128.6   -23.9  Favored     ?   7   54.780   7  0.14  10  0.85  molprobity  1.000  
+  6    6  m         -60.0   -43.1  Favored     ?   5   36.140   6  0.31   8  0.36  molprobity  1.000  
+  7    7  m        -132.2   113.1  Favored     ?   7   31.340   7  0.24  11  0.78  molprobity  1.000  
+  8    8  Cg_endo   -72.3   147.2  Favored     ?   7   45.640   8  0.24  11  0.44  molprobity  1.000  
+  9    9  tp10      -90.2   104.8  Favored     ?   6   43.190   9  0.41  12  0.50  molprobity  1.000  
+ 10   10  t        -111.9   103.9  Favored     ?   9   31.780   7  0.31  10  0.66  molprobity  1.000  
+ 11   11  m-70      -64.5   130.4  Favored     ?   7   20.930  11  0.23  16  0.57  molprobity  1.000  
+ 12   12  Cg_exo    -69.2   120.2  Favored     ?   7   14.440   8  0.29  11  0.83  molprobity  1.000  
+ 13   13  mttt      -70.7   133.1  Favored     ?  13   77.760   9  0.29  11  0.68  molprobity  1.000  
+ 14   14  tp       -135.3   123.3  Favored     ?  11   25.700   8  0.34  11  0.67  molprobity  1.000  
+ 15   15  m         -88.3   120.3  Favored     ?   7   50.960   7  0.29  10  0.50  molprobity  1.000  
+ 16   16  p        -115.3  -177.9  Favored     ?   7   41.820   7  0.23  10  0.66  molprobity  1.000  
+ 17   17  m-85     -145.4   161.9  Favored     ?   9   43.900  13  0.42  18  0.84  molprobity  1.000  
+ 18   18  tttt     -129.7   106.9  Favored     ?  13  125.250   9  0.28  11  0.71  molprobity  1.000  
+ 19   19  m         -97.4   141.1  Favored     ?   4   48.810   6  0.22   8  0.70  molprobity  1.000  
+ 20   20  p        -120.3   142.2  Favored     ?   7   63.990   7  0.30  10  0.94  molprobity  1.000  
+ 21   21  mttt      -50.8   -30.3  Favored     ?  13  108.160   9  0.23  11  0.42  molprobity  1.000  
+ 22   22  p         -98.2   -51.4  Favored     ?   5   91.570   6  0.23   8  0.58  molprobity  1.000  
+ 23   23  ?         -90.1    29.5  Favored     ?   3  108.270   4  0.27   5  1.33  molprobity  1.000  
+ 24   24  ?          55.4  -150.4  Favored     ?   3  106.030   4  0.22   5  0.63  molprobity  1.000  
+ 25   25  m        -112.3   134.1  Favored     ?   4   43.690   6  0.37   8  0.45  molprobity  1.000  
+ 26   26  t        -106.4   136.2  Favored     ?   9   39.380   7  0.26  10  0.90  molprobity  1.000  
+ 27   27  ?         -71.1   137.2  Favored     ?   5   71.600   5  0.21   7  0.48  molprobity  1.000  
+ 28   28  mm-40    -110.8   140.4  Favored     ?   8   74.460   9  0.16  12  0.40  molprobity  1.000  
+ 29   29  t0        -89.1    59.5  Favored     ?   4   69.140   8  0.33  11  0.55  molprobity  1.000  
+ 30   30  p         -89.5  -179.2  Favored     ?   7   23.260   7  0.35  10  0.61  molprobity  1.000  
+ 31   31  p        -165.4   175.7  Favored     ?   5   26.740   6  0.13   8  0.39  molprobity  1.000  
+ 32   32  m        -114.5   149.3  Favored     ?   9    2.000   7  0.30  10  0.40  molprobity  1.000  
+ 33   33  t        -127.2   146.0  Favored     ?   9   32.560   7  0.52  10  0.99  molprobity  1.000  
+ 34   34  tp        -90.0   138.0  Favored     ?  11   10.480   8  0.32  11  0.69  molprobity  1.000  
+ 35   35  t70       -57.4   133.4  Favored     ?   4   10.160   8  0.31  11  0.72  molprobity  1.000  
+ 36   36  t-105     -33.7   -42.4  Allowed     ?  10    7.350  16  0.24  23  0.61  molprobity  1.000  
+ 37   37  m-80      -64.9   -25.0  Favored     ?   6   45.000   8  0.32  11  0.88  molprobity  1.000  
+ 38   38  m-85      -79.9    -7.8  Favored     ?   9   17.230  13  0.32  18  0.41  molprobity  1.000  
+ 39   39  mtt-85    -85.0   165.5  Favored     ?  13   18.460  11  0.33  14  0.98  molprobity  1.000  
+ 40   40  t90       -92.9   134.9  Favored     ?  10   19.730  16  0.23  23  0.77  molprobity  1.000  
+ 41   41  OUTLIER  -137.8   134.2  Favored     ?   9   24.520   8  0.53  10  0.65  molprobity  1.000  
+ 42   42  p-80     -156.5   166.4  Favored     1   7   23.750  11  0.25  15  0.74  molprobity  1.000  
+ 43   43  p-10      -84.3   175.0  Favored     ?   4   21.820   8  0.29  11  0.68  molprobity  1.000  
+ 44   44  ?         -53.6   -32.1  Favored     ?   5   70.510   5  0.15   7  0.45  molprobity  1.000  
+ 45   45  m-80      -88.4     2.2  Favored     ?   6   92.510   8  0.33  11  0.55  molprobity  1.000  
+ 46   46  m-85       79.8    14.1  Allowed     ?   9   28.580  13  0.23  18  0.91  molprobity  1.000  
+ 47   47  m-80      -79.1   140.6  Favored     ?   6   38.550   8  0.22  11  1.07  molprobity  1.000  
+ 48   48  p         -72.2   144.2  Favored     ?   5   32.700   6  0.39   8  0.70  molprobity  1.000  
+ 49   49  m         -90.0    -2.7  Favored     ?   4   23.050   6  0.46   8  0.68  molprobity  1.000  
+ 50   50  p        -117.7   153.0  Favored     ?   7   32.840   7  0.48  10  0.67  molprobity  1.000  
+ 51   51  t        -142.6    95.5  Allowed     ?   9   17.750   7  0.45  10  0.90  molprobity  1.000  
+ 52   52  m-80       59.1    39.2  Favored     ?   6   89.620   8  0.29  11  0.42  molprobity  1.000  
+ 53   53  ?          94.4   -22.4  Favored     ?   3   30.210   4  0.15   5  0.39  molprobity  1.000  
+ 54   54  ?         -88.1  -163.9  Favored     ?   3   10.580   4  0.32   5  0.93  molprobity  1.000  
+ 55   55  m        -116.5   162.4  Favored     ?   9    2.000   7  0.52  10  0.88  molprobity  1.000  
+ 56   56  t-20      -86.2   107.6  Favored     ?   5   29.450   8  0.22  11  0.90  molprobity  1.000  
+ 57   57  m         -48.1   -43.2  Favored     ?   7   32.690   7  0.25  10  0.67  molprobity  1.000  
+ 58   58  m         -64.8   -39.4  Favored     ?   7   31.550   7  0.22  10  0.83  molprobity  1.000  
+ 59   59  mt        -90.8   -22.6  Favored     ?  11   12.040   8  0.24  11  0.59  molprobity  1.000  
+ 60   60  m        -130.4    63.5  Favored     ?   4   22.460   6  0.29   9  1.03  molprobity  1.000  
+ 61   61  Cg_endo   -79.2   -42.7  Allowed     ?   7   28.130   8  0.33  11  0.51  molprobity  1.000  
+ 62   62  p30      -128.2  -139.8  Allowed     ?   4   41.870   8  0.17  11  0.64  molprobity  1.000  
+ 63   63  OUTLIER  -111.6   -46.4  Favored     ?   6   62.870   9  0.32  12  0.45  molprobity  1.000  
+ 64   64  ?         -54.8   -30.2  Favored     ?   5   53.620   5  0.32   7  0.33  molprobity  1.000  
+ 65   65  m         -73.7   -57.3  Favored     ?   7   25.770   7  0.34  10  0.75  molprobity  1.000  
+ 66   66  m         -58.1   -37.2  Favored     ?   4   31.500   6  0.67   8  1.01  molprobity  1.000  
+ 67   67  ?         -49.5   -51.1  Favored     ?   3   11.890   4  0.57   5  0.91  molprobity  1.000  
+ 68   68  mttt      -84.3   -17.3  Favored     ?  13   74.690   9  0.31  11  0.50  molprobity  1.000  
+ 69   69  m-20      -94.5   -56.6  Favored     ?   6   22.310   8  0.32  11  1.19  molprobity  1.000  
+ 70   70  m         -86.4   151.7  Favored     ?   4   10.780   6  0.50   8  1.44  molprobity  1.000  
+ 71   71  m-85     -129.6   125.9  Favored     ?   9   23.740  12  0.51  16  0.76  molprobity  1.000  
+ 72   72  pt        -96.9   123.9  Favored     ?  11   16.510   8  0.46  11  1.01  molprobity  1.000  
+ 73   73  mm-40     -81.0   166.4  Favored     ?   6   22.270   9  0.38  12  0.61  molprobity  1.000  
+ 74   74  ?         -82.9   179.3  Favored     ?   3   27.910   4  0.27   5  0.65  molprobity  1.000  
+ 75   75  m        -128.8   169.3  Favored     ?   9   12.190   7  0.37  10  1.16  molprobity  1.000  
+ 76   76  t0        -98.8    88.9  Favored     ?   4   36.790   8  0.26  11  0.94  molprobity  1.000  
+ 77   77  m-85      -47.8   -40.6  Favored     ?   9    8.200  13  0.52  18  0.54  molprobity  1.000  
+ 78   78  ?         -58.4   -51.3  Favored     ?   5   47.050   5  0.21   7  0.61  molprobity  1.000  
+ 79   79  ?         -63.3   -16.5  Favored     ?   5   27.030   5  0.23   7  0.28  molprobity  1.000  
+ 80   80  m         -99.6    15.8  Favored     ?   5    6.550   6  0.21   8  0.40  molprobity  1.000  
+ 81   81  ?          60.7    41.0  Favored     ?   3   28.700   4  0.23   5  0.33  molprobity  1.000  
+ 82   82  t        -132.6   121.0  Favored     ?   9    9.680   7  0.46  10  0.83  molprobity  1.000  
+ 83   83  OUTLIER  -145.7   148.0  Favored     ?   7   39.120   7  0.26  10  0.68  molprobity  1.000  
+ 84   84  p        -130.2   146.5  Favored     ?   7   30.330   7  0.27  10  0.61  molprobity  1.000  
+ 85   85  t        -141.0    93.4  Favored     ?   5   30.460   6  0.31   8  0.62  molprobity  1.000  
+ 86   86  ?          67.6  -109.2  Favored     ?   3   33.110   4  0.38   5  0.66  molprobity  1.000  
+ 87   87  p        -104.9    43.7  Allowed     ?   5   34.200   6  0.35   8  0.41  molprobity  1.000  
+ 88   88  t        -143.0   126.7  Favored     ?   5   24.300   6  0.35   8  0.73  molprobity  1.000  
+ 89   89  tp       -111.7   132.3  Favored     ?  11   22.210   8  0.22  11  0.58  molprobity  1.000  
+ 90   90  m        -125.3   116.4  Favored     ?   7   28.850   7  0.28  10  0.70  molprobity  1.000  
+ 91   91  mtm      -116.0   123.5  Favored     ?   9   15.860   8  0.33  10  0.56  molprobity  1.000  
+ 92   92  m-80      -94.1   148.8  Favored     ?   6   29.850   8  0.15  11  0.40  molprobity  1.000  
+ 93   93  tp-100    -88.8   -22.2  Favored     1   8   20.430   9  0.27  12  0.47  molprobity  1.000  
+ 94   94  m-85     -143.2   161.8  Favored     ?   9   14.380  13  0.32  18  0.58  molprobity  1.000  
+ 95   95  mmm      -141.6   145.2  Favored     ?   9   12.040   8  0.24  11  0.51  molprobity  1.000  
+ 96   96  Cg_endo   -67.2   153.7  Favored     ?   7    8.320   8  0.29  11  0.63  molprobity  1.000  
+ 97   97  t        -123.6   155.8  Favored     ?   5   55.730   6  0.26   8  0.83  molprobity  1.000  
+ 98   98  m         -63.5   -48.6  Favored     ?   5   62.650   6  0.30   8  0.91  molprobity  1.000  
+ 99   99  m         -66.7   -96.5  OUTLIER     ?   5   67.550   6  0.24   8  0.50  molprobity  1.000  
+100  100  ?         -80.3  -145.3  Favored     ?   3   59.490   4  0.27   5  0.31  molprobity  1.000  
+101  101  ?         -84.3   -96.1  Allowed     ?   3   49.480   4  0.38   5  0.55  molprobity  1.000  
+102  102  m-85     -109.9   138.6  Favored     ?   9   20.060  13  0.50  18  0.55  molprobity  1.000  
+103  103  p        -109.0   140.4  Favored     ?   5   23.980   6  0.30   8  0.92  molprobity  1.000  
+104  104  t         -77.3    91.4  Favored     ?   5   29.700   6  0.39   8  0.53  molprobity  1.000  
+105  105  m         -85.4   130.7  Favored     ?   9   59.800   7  0.28  10  1.10  molprobity  1.000  
+106  106  t        -130.5    84.8  Favored     ?   5   16.860   6  0.44   9  0.62  molprobity  1.000  
+107  107  Cg_endo   -60.8   149.1  Favored     ?   7   17.370   8  0.52  11  0.91  molprobity  1.000  
+108  108  OUTLIER  -138.7   106.9  Favored     ?  13    8.450  11  0.49  14  1.21  molprobity  1.000  
+109  109  mt       -106.6   159.9  Favored     ?  11   17.080   8  0.38  11  0.71  molprobity  1.000  
+110  110  m-85     -132.6   138.8  Favored     ?   9    7.530  13  0.47  18  0.56  molprobity  1.000  
+111  111  tp        -77.1   107.3  Favored     ?  11   12.660   8  0.21  11  0.54  molprobity  1.000  
+112  112  tp        -92.6   147.4  Favored     ?  11   32.440   8  0.26  11  0.55  molprobity  1.000  
+113  113  t70      -103.7   160.4  Favored     ?   4   71.950   8  0.21  11  0.54  molprobity  1.000  
+114  114  t         -46.6   -34.2  Favored     ?   5   74.000   6  0.29   8  0.82  molprobity  1.000  
+115  115  p30       -77.6    -0.6  Favored     ?   4   71.820   8  0.27  11  0.72  molprobity  1.000  
+116  116  ?          86.6    25.8  Favored     ?   3   25.950   4  0.18   5  0.39  molprobity  1.000  
+117  117  mt-10    -139.0   144.8  Favored     ?   6   67.840   9  0.21  12  0.35  molprobity  1.000  
+118  118  m-85      -50.8   137.9  Favored     ?   9   16.610  13  0.30  18  0.51  molprobity  1.000  
+119  119  t         -64.5   120.7  Favored     ?   9   44.410   7  0.30  10  0.79  molprobity  1.000  
+120  120  mmm       -88.3    81.8  Favored     ?   9   30.480   8  0.25  10  0.57  molprobity  1.000  
+121  121  mt        -61.7   125.4  Favored     ?  11   39.500   8  0.20  11  0.80  molprobity  1.000  
+122  122  mttm     -114.5    86.3  Favored     ?  13   76.600   9  0.31  11  0.85  molprobity  1.000  
+123  123  mt        -89.5     3.7  Favored     ?  11   38.890   8  0.28  11  0.93  molprobity  1.000  
+124  124  t30       -63.1   123.6  Favored     ?   6   57.510   8  0.28  11  0.43  molprobity  1.000  
+125  125  ?          65.4    30.6  Favored     ?   3   63.550   4  0.29   5  0.32  molprobity  1.000  
+126  126  mt-30    -141.5  -162.3  Allowed     ?   8   56.170   9  0.22  12  0.26  molprobity  1.000  
+127  127  pt-20    -145.9   139.9  Favored     ?   6   42.590   9  0.58  12  0.76  molprobity  1.000  
+128  128  tp       -113.5   131.9  Favored     ?  11   26.690   8  0.21  11  0.94  molprobity  1.000  
+129  129  t        -134.2   143.6  Favored     ?   5   56.320   6  0.18   8  0.32  molprobity  1.000  
+130  130  p90      -156.1   170.1  Favored     ?   9   24.930  12  0.51  16  0.41  molprobity  1.000  
+131  131  m-20     -114.5   135.5  Favored     ?   4   52.940   8  0.17  11  0.40  molprobity  1.000  
+132  132  m        -128.0   150.4  Favored     ?   9   46.350   7  0.62  10  0.88  molprobity  1.000  
+133  133  t0       -126.2    80.5  Allowed     ?   4   47.930   8  0.24  11  0.59  molprobity  1.000  
+134  134  mt        -79.0    -3.6  Favored     ?  11   31.050   8  0.24  11  0.88  molprobity  1.000  
+135  135  p         -41.5   -40.5  Allowed     ?   5   40.920   6  0.18   8  0.50  molprobity  1.000  
+136  136  ?         -71.9   -50.5  Favored     ?   5   54.680   5  0.14   7  0.36  molprobity  1.000  
+137  137  mt        -57.1   111.1  Favored     ?  11   15.980   8  0.26  12  0.66  molprobity  1.000  
+138  138  Cg_endo   -98.9  -166.6  OUTLIER     ?   7   12.120   8  0.52  11  0.66  molprobity  1.000  
+139  139  m         -55.4   128.0  Favored     ?   4   22.360   6  0.34   8  0.57  molprobity  1.000  
+140  140  ?         102.4   -28.3  Favored     ?   3   27.920   4  0.32   5  0.67  molprobity  1.000  
+141  141  mm-40     -78.0   152.8  Favored     ?   6   16.900   9  0.33  12  0.40  molprobity  1.000  
+142  142  t-20     -128.8   100.0  Favored     1   6   14.770   8  0.24  11  0.54  molprobity  1.000  
+143  143  ?         -79.0   145.5  Favored     ?   3   13.110   4  0.26   5  2.04  molprobity  1.000  
+144  144  m        -147.6   132.8  Favored     ?   5   21.450   6  0.35   8  1.15  molprobity  1.000  
+145  145  tp       -136.2   104.0  Favored     ?  11   24.780   8  0.26  11  0.87  molprobity  1.000  
+146  146  p90      -141.8   156.7  Favored     ?   9   19.390  13  0.37  18  0.47  molprobity  1.000  
+147  147  mt       -101.8   135.2  Favored     ?  11   10.810   8  0.30  11  0.63  molprobity  1.000  
+148  148  m        -124.7   144.4  Favored     ?   5   39.670   6  0.35   8  0.69  molprobity  1.000  
+149  149  tt0       -85.8    71.0  Favored     ?   8   31.010   9  0.24  12  0.38  molprobity  1.000  
+150  150  mtm       -93.9   163.1  Favored     ?   9   12.640   8  0.25  10  0.54  molprobity  1.000  
+151  151  t70       -74.2   123.7  Favored     ?   4   45.440   8  0.22  11  0.47  molprobity  1.000  
+152  152  pt-20     -41.5   -33.6  Allowed     ?   6   91.860   9  0.18  12  0.68  molprobity  1.000  
+153  153  t30      -110.6    37.3  Favored     ?   6   50.470   8  0.26  11  0.38  molprobity  1.000  
+154  154  ?          45.0    39.8  Favored     ?   3    2.000   4  0.29   5  0.43  molprobity  1.000  
+155  155  ?          56.1    21.4  Favored     ?   3   35.180   4  0.23   5  0.54  molprobity  1.000  
+156  156  ?         -56.1   128.3  Favored     ?   5   19.170   5  0.50   7  0.30  molprobity  1.000  
+157  157  OUTLIER  -125.2  -154.1  Allowed     1   6   51.690   8  0.47  11  0.28  molprobity  1.000  
+158  158  mt-30     -70.3   -25.7  Favored     ?   8  163.900   9  0.27  12  0.53  molprobity  1.000  
+159  159  m-85     -100.6    -9.5  Favored     ?   9   83.860  13  0.47  18  0.58  molprobity  1.000  
+160  160  t-20     -126.3   103.8  Favored     ?   6   16.850   8  0.38  11  0.61  molprobity  1.000  
+161  161  m         -97.7   -11.5  Favored     ?   7   36.020   7  0.32  10  0.61  molprobity  1.000  
+162  162  ?         -66.1   -55.8  Favored     ?   5   26.840   5  0.17   7  0.23  molprobity  1.000  
+163  163  ?          58.6  -145.5  Favored     ?   3   39.300   4  0.18   5  0.68  molprobity  1.000  
+164  164  ?         -61.4   -22.6  Favored     ?   5   36.550   5  0.20   7  0.47  molprobity  1.000  
+165  165  m-20      -65.4   -17.0  Favored     ?   6   29.240   8  0.26  11  0.37  molprobity  1.000  
+166  166  m-85     -126.9    26.2  Favored     ?   9   15.620  13  0.40  18  0.32  molprobity  1.000  
+167  167  ?          58.3    42.1  Favored     ?   3   27.110   4  0.23   5  0.65  molprobity  1.000  
+168  168  t         -83.4   150.0  Favored     ?   5    6.570   6  0.21   8  0.42  molprobity  1.000  
+169  169  ?          77.2    42.7  Favored     ?   3   44.560   4  0.22   5  1.78  molprobity  1.000  
+170  170  t80       -72.1   165.1  Favored     ?   9    8.710  13  0.29  18  0.40  molprobity  1.000  
+171  171  p        -177.4   160.8  Allowed     ?   4    5.960   6  0.23   8  0.38  molprobity  1.000  
+172  172  p30      -162.9   178.2  Favored     ?   4   24.440   8  0.21  11  0.49  molprobity  1.000  
+173  173  ?         -60.1   -22.9  Favored     ?   5   18.760   5  0.23   7  0.43  molprobity  1.000  
+174  174  mm-40     -68.9   -10.2  Favored     ?   8   33.580   9  0.35  12  0.47  molprobity  1.000  
+175  175  m          53.8    55.2  Favored     ?   4   26.460   6  0.24   9  0.45  molprobity  1.000  
+176  176  Cg_endo   -66.3   135.1  Favored     ?   7    9.670   8  0.24  11  0.72  molprobity  1.000  
+177  177  OUTLIER   -83.8   126.8  Favored     ?   9   41.600   7  0.30  10  1.30  molprobity  1.000  
+178  178  mt-30    -126.1   159.8  Favored     ?   8   39.800   9  0.24  12  0.60  molprobity  1.000  
+179  179  m         -65.7   -34.7  Favored     ?   7   44.230   7  0.22  10  0.81  molprobity  1.000  
+180  180  m-90     -122.0   100.8  Favored     ?  10   24.220  16  0.32  23  0.41  molprobity  1.000  
+181  181  ttp180    -93.9   110.1  Favored     ?  13   41.160  11  0.29  14  0.38  molprobity  1.000  
+182  182  t30        57.2    45.0  Favored     ?   5   24.500   8  0.26  11  0.67  molprobity  1.000  
+183  183  ?          84.3    -7.1  Favored     ?   3   34.550   4  0.20   5  0.73  molprobity  1.000  
+184  184  m        -118.3   145.0  Favored     ?   7   29.900   7  0.16  10  0.55  molprobity  1.000  
+185  185  tp        -61.5   110.2  Allowed     ?  11    3.290   8  0.29  11  1.05  molprobity  1.000  
+186  186  OUTLIER   -56.9    86.3  OUTLIER     ?   6   19.320   8  0.32  11  0.30  molprobity  1.000  
+187  187  p         -85.4    -5.1  Favored     ?   7   19.540   7  0.34  10  0.70  molprobity  1.000  
+188  188  p        -104.0    -3.0  Favored     ?   5   22.220   6  0.19   8  0.35  molprobity  1.000  
+189  189  m80        53.5    52.1  Favored     ?   7   24.740  11  0.33  15  0.37  molprobity  1.000  
+190  190  mt-30    -109.6   153.1  Favored     ?   8   48.980   9  0.27  12  0.39  molprobity  1.000  
+191  191  ?         -75.1   179.8  Favored     ?   3   31.350   4  0.33   5  0.74  molprobity  1.000  
+192  192  OUTLIER  -135.9    98.0  Favored     ?   9   39.600  12  0.50  16  0.49  molprobity  1.000  
+193  193  m         -95.5   139.9  Favored     ?   4   23.400   6  0.28   8  0.73  molprobity  1.000  
+194  194  p        -161.6   151.2  Favored     ?   4   24.770   6  0.28   8  0.85  molprobity  1.000  
+195  195  m-80      -57.5   144.9  Favored     ?   6   25.250   8  0.30  11  0.40  molprobity  1.000  
+196  196  tt0      -140.6   114.2  Favored     ?   6   21.610   9  0.31  12  0.36  molprobity  1.000  
+197  197  tpt      -100.0   114.7  Favored     ?   9   31.840   8  0.23  10  0.72  molprobity  1.000  
+198  198  m-20      -98.4    93.5  Favored     ?   4   19.990   8  0.20  11  0.29  molprobity  1.000  
+199  199  mt        -69.4   -65.8  Allowed     ?  11    2.000   8  0.45  11  0.51  molprobity  1.000  
+200  200  tp       -112.8   135.3  Favored     ?  11   24.990   8  0.37  11  0.67  molprobity  1.000  
+201  201  tt0      -158.4    93.5  Allowed     ?   6   29.850   9  0.41  12  1.02  molprobity  1.000  
+202  202  ?         175.1  -177.7  Favored     ?   3   27.040   4  0.29   5  0.65  molprobity  1.000  
+203  203  p30      -124.5  -160.5  Allowed     ?   6   13.200   8  0.28  11  0.28  molprobity  1.000  
+204  204  p         -76.4    -4.0  Favored     ?   5   31.330   6  0.29   8  0.47  molprobity  1.000  
+205  205  mmm-85   -103.7   -29.6  Favored     ?  13   39.800  11  0.21  14  0.50  molprobity  1.000  
+206  206  ?        -164.7   173.9  Favored     ?   5   28.000   5  0.39   7  0.29  molprobity  1.000  
+207  207  OUTLIER  -154.0   179.2  Favored     ?   6   34.920   8  0.24  11  0.22  molprobity  1.000  
+208  208  ?        -163.8   127.6  Favored     ?   5   19.620   5  0.16   7  0.92  molprobity  1.000  
+209  209  tp        -96.7   122.8  Favored     ?  11   24.150   8  0.18  11  0.99  molprobity  1.000  
+210  210  m        -142.8   116.1  Favored     ?   7   23.750   7  0.31  11  0.92  molprobity  1.000  
+211  211  Cg_endo   -94.0   134.1  Allowed     ?   7   23.850   8  0.51  11  0.41  molprobity  1.000  
+212  212  m-70     -121.2   108.7  Favored     1   7   19.360  11  0.25  15  0.35  molprobity  1.000  
+213  213  m         -84.5   154.1  Favored     ?   5   34.480   6  0.23   8  0.39  molprobity  1.000  
+214  214  m        -143.0   154.2  Favored     ?   4   43.910   6  0.41   8  1.70  molprobity  1.000  
+215  215  m        -103.4   176.9  Favored     ?   7   56.920   7  0.41  10  1.36  molprobity  1.000  
+216  216  ?         -71.2   -32.4  Favored     ?   5   83.960   5  0.21   7  0.70  molprobity  1.000  
+217  217  p         -88.0   -34.2  Favored     ?   7   75.520   7  0.21  10  1.01  molprobity  1.000  
+218  218  ?        -147.8  -176.4  Favored     ?   5   52.720   5  0.26   7  0.61  molprobity  1.000  
+219  219  m        -146.2   171.2  Favored     ?   4   25.910   6  0.65   8  0.80  molprobity  1.000  
+220  220  t0        -86.8    78.4  Favored     ?   4   33.630   8  0.13  11  0.44  molprobity  1.000  
+221  221  m         -44.3   -64.0  Allowed     ?   5   36.640   6  0.25   8  0.30  molprobity  1.000  
+222  222  ?         -76.2   111.9  Favored     ?   5   37.660   5  0.31   7  1.33  molprobity  1.000  
+223  223  ?         -81.5   165.6  Favored     ?   3   46.530   4  0.29   5  0.24  molprobity  1.000  
+224  224  p         -89.6    60.2  Favored     ?   4   35.000   6  0.27   8  0.83  molprobity  1.000  
+225  225  ?         -74.2   170.7  Favored     ?   3   50.550   4  0.18   5  1.12  molprobity  1.000  
+226  226  t80      -129.3   129.4  Favored     ?   9   32.980  12  0.53  16  0.40  molprobity  1.000  
+227  227  t-20     -139.7   108.5  Favored     ?   6   29.670   8  0.32  12  0.71  molprobity  1.000  
+228  228  Cg_exo    -43.9   -47.2  Favored     ?   7   50.100   8  0.22  11  0.42  molprobity  1.000  
+229  229  t80       -61.0   -46.5  Favored     ?   9   41.140  13  0.25  18  0.32  molprobity  1.000  
+230  230  ?         -61.9   -39.3  Favored     ?   3   77.120   4  0.22   5  0.55  molprobity  1.000  
+231  231  m         -80.1    15.7  Allowed     ?   5   42.640   6  0.21   8  0.31  molprobity  1.000  
+232  232  ?          74.0    53.9  Favored     ?   3   68.960   4  0.31   5  0.63  molprobity  1.000  
+233  233  m-85     -141.2    49.2  Allowed     ?   9   44.510  13  0.26  18  0.73  molprobity  1.000  
+234  234  mttt      -49.2   -11.4  OUTLIER     ?  13  113.280   9  0.25  11  0.82  molprobity  1.000  
+235  235  p        -132.1    53.5  Allowed     ?   5   75.920   6  0.29   8  0.42  molprobity  1.000  
+236  236  t80      -123.7   -55.2  Allowed     ?   9   26.840  13  0.31  18  0.37  molprobity  1.000  
+237  237  t80      -108.1   111.8  Favored     ?   9   24.610  13  0.38  18  0.58  molprobity  1.000  
+238  238  ?         169.5   178.7  Favored     ?   3   83.790   4  0.25   6  0.77  molprobity  1.000  
+239  239  Cg_exo    -65.1   105.5  Allowed     ?   7   56.830   8  0.20  11  0.56  molprobity  1.000  
+240  240  ?          87.6     6.3  Favored     ?   3   55.640   4  0.23   5  0.30  molprobity  1.000  
+241  241  m-20      -93.3  -175.1  Favored     ?   4   66.560   8  0.17  11  0.27  molprobity  1.000  
+242  242  m         -41.5   -52.0  Favored     ?   7   47.960   7  0.24  10  0.65  molprobity  1.000  
+243  243  t         -81.2   -36.8  Favored     ?   9   39.440   7  0.16  10  0.50  molprobity  1.000  
+244  244  t0         59.6    86.5  Allowed     ?   4   40.820   8  0.26  11  0.73  molprobity  1.000  
+245  245  p         -66.5   -24.5  Favored     ?   7   42.880   7  0.21  10  0.74  molprobity  1.000  
+246  246  p         -56.4   -22.1  Favored     ?   5   30.340   6  0.25   8  0.41  molprobity  1.000  
+247  247  mttt     -120.4   173.0  Favored     ?  13  134.680   9  0.24  11  0.47  molprobity  1.000  
+248  248  m         -76.4   140.6  Favored     ?   7   43.040   7  0.20  10  0.72  molprobity  1.000  
+249  249  p90      -136.8   172.1  Favored     ?   9   34.770  12  0.51  16  0.40  molprobity  1.000  
+250  250  m        -113.1   138.4  Favored     ?   7   43.190   7  0.30  10  0.56  molprobity  1.000  
+251  251  mt       -111.7   117.4  Favored     ?  11   31.030   8  0.24  11  0.51  molprobity  1.000  
+252  252  mt       -116.9   113.7  Favored     ?  11   41.840   8  0.19  11  0.54  molprobity  1.000  
+253  253  m        -114.9   121.7  Favored     ?   7   60.830   7  0.29  10  0.63  molprobity  1.000  
+254  254  mt-30    -113.8   130.4  Favored     ?   8   44.200   9  0.23  12  0.38  molprobity  1.000  
+255  255  m-85     -100.4   103.5  Favored     ?   9   58.270  12  0.52  16  0.49  molprobity  1.000  
+256  256  m120      -87.5   128.7  Favored     ?   6   62.830   8  0.20  11  0.71  molprobity  1.000  
+257  257  p        -100.6   168.8  Favored     ?   7   88.230   7  0.22  10  0.57  molprobity  1.000  
+258  258  p30       -75.5   -35.5  Favored     ?   4  115.660   8  0.31  11  1.09  molprobity  1.000  
+259  259  OUTLIER   -87.6     9.4  Favored     ?   6   66.460   8  0.37  11  0.40  molprobity  1.000  
+260  260  ?          61.7     3.4  Favored     ?   3  101.630   4  0.19   5  0.55  molprobity  1.000  
+261  261  p        -130.5   161.4  Favored     ?   5   81.270   6  0.39   9  0.54  molprobity  1.000  
+262  262  Cg_endo   -56.1   -13.4  Favored     ?   7   74.390   8  0.18  11  0.54  molprobity  1.000  
+263  263  OUTLIER   -55.0   -27.8  Favored     ?   5  105.210   6  0.34   8  0.94  molprobity  1.000  
+264  264  ?         159.9   162.5  Favored     ?   3   27.120   4  0.24   5  2.36  molprobity  1.000  
+265  265  m-20       63.5    97.6  OUTLIER     ?   6  145.310   8  0.23  11  1.09  molprobity  1.000  
+266  266  tp        -71.2   140.8  Favored     ?  11   44.690   8  0.25  11  0.75  molprobity  1.000  
+267  267  t        -129.6   -34.8  Allowed     ?   9   41.180   7  0.35  10  0.63  molprobity  1.000  
+268  268  p        -159.0   152.2  Favored     ?   5   55.900   6  0.16   8  0.46  molprobity  1.000  
+269  269  mt       -115.7   101.0  Favored     ?  11   34.100   8  0.22  11  0.66  molprobity  1.000  
+270  270  m         -87.1   125.5  Favored     ?   7   56.980   7  0.38  10  0.93  molprobity  1.000  
+271  271  OUTLIER  -108.2   135.2  Favored     ?  13   36.400  11  0.23  14  0.60  molprobity  1.000  
+272  272  OUTLIER  -148.9   117.8  Favored     ?  13   67.770   9  0.33  11  0.48  molprobity  1.000  
+273  273  m-85      -95.7   158.1  Favored     ?   9   49.000  13  0.36  18  0.54  molprobity  1.000  
+274  274  pt20     -158.0   125.9  Favored     ?   8   50.370   9  0.30  12  0.62  molprobity  1.000  
+275  275  tt0      -130.2   144.1  Favored     ?   8   59.610   9  0.19  12  0.55  molprobity  1.000  
+276  276  m120       63.0    35.6  Favored     ?   6  127.010   8  0.25  11  0.34  molprobity  1.000  
+277  277  ?          80.6   -41.2  Favored     ?   3   74.260   4  0.25   5  0.33  molprobity  1.000  
+278  278  m         -76.3   142.4  Favored     ?   9   75.520   7  0.21  10  0.46  molprobity  1.000  
+279  279  m-20      -77.3   128.1  Favored     ?   4   68.150   8  0.23  11  0.25  molprobity  1.000  
+280  280  mm        -79.5   136.6  Favored     ?  11   50.390   8  0.25  12  0.55  molprobity  1.000  
+281  281  Cg_endo   -69.7   155.8  Favored     ?   7   56.160   8  0.16  11  0.49  molprobity  1.000  
+282  282  m         -63.9   159.5  Favored     ?   5   95.520   6  0.21   8  0.39  molprobity  1.000  
+283  283  ?         -80.0   -50.5  Favored     ?   5   49.450   5  0.22   7  0.74  molprobity  1.000  
+284  284  pt20     -103.5   136.3  Favored     ?   8   76.940   9  0.27  13  0.76  molprobity  1.000  
+285  285  Cg_exo    -51.5   141.5  Favored     ?   7   70.940   8  0.11  11  0.57  molprobity  1.000  
+286  286  ?          92.2   -22.1  Favored     ?   3   98.860   4  0.20   5  0.43  molprobity  1.000  
+287  287  ?         127.5   136.8  Favored     ?   3   99.680   4  0.21   5  0.44  molprobity  1.000  
+288  288  m-20      -77.6    87.5  Favored     ?   4   63.470   8  0.23  11  0.55  molprobity  1.000  
+289  289  p        -130.3   154.8  Favored     ?   7   60.370   7  0.27  10  0.89  molprobity  1.000  
+290  290  mt       -105.2    92.7  Favored     ?  11   54.440   8  0.27  11  0.66  molprobity  1.000  
+291  291  t         -84.2   -80.0  Allowed     ?   5  139.460   6  0.24   8  0.19  molprobity  1.000  
+292  292  p         -80.1   135.3  Favored     ?   5   86.290   6  0.32   8  0.31  molprobity  1.000  
+293  293  t        -123.4    76.5  Favored     ?   4   38.280   6  0.18   9  0.71  molprobity  1.000  
+294  294  Cg_exo    -44.0   -57.7  Allowed     ?   7   61.340   8  0.18  11  0.66  molprobity  1.000  
+295  295  OUTLIER   -51.2   -45.8  Favored     ?   5   64.690   6  0.31   8  0.51  molprobity  1.000  
+296  296  ?         -65.2    -7.5  Favored     ?   5   42.630   5  0.23   7  0.80  molprobity  1.000  
+297  297  p         -49.4   -52.6  Favored     ?   5   64.730   6  0.22   8  0.38  molprobity  1.000  
+298  298  ?         -63.0    -2.0  Allowed     ?   5   71.770   5  0.17   7  0.63  molprobity  1.000  
+299  299  m-85     -130.6    21.2  Favored     ?   9   31.070  13  0.32  18  0.34  molprobity  1.000  
+300  300  ?          82.1    50.1  Favored     ?   3   41.430   4  0.21   5  0.61  molprobity  1.000  
+301  301  ?         -31.2   118.5  Allowed     ?   3   69.270   4  0.22   5  0.93  molprobity  1.000  
+302  302  mt         69.5   -56.5  Allowed     ?  11   70.670   8  0.19  11  0.48  molprobity  1.000  
+303  303  ?         -41.1   -57.5  Favored     ?   5   70.560   5  0.14   7  0.29  molprobity  1.000  
+304  304  p         -61.0   -41.0  Favored     ?   7   49.270   7  0.26  10  0.67  molprobity  1.000  
+305  305  tpp       -58.4   -49.5  Favored     ?   9   26.920   8  0.22  10  0.31  molprobity  1.000  
+306  306  ?         -60.4   -43.6  Favored     ?   3   44.620   4  0.29   5  0.26  molprobity  1.000  
+307  307  ttpp      -60.7   -34.8  Favored     ?  13  111.550   9  0.19  11  0.46  molprobity  1.000  
+308  308  ?         -68.9   -42.9  Favored     ?   5   44.800   5  0.21   7  0.35  molprobity  1.000  
+309  309  mt        -67.2   -21.6  Favored     ?  11   25.390   8  0.14  11  0.52  molprobity  1.000  
+310  310  t         -81.3   -48.0  Favored     ?   5   59.980   6  0.23   8  0.37  molprobity  1.000  
+311  311  m         -56.3   -31.4  Favored     ?   5   67.400   6  0.25   8  0.22  molprobity  1.000  
+312  312  ?         113.4   139.9  Favored     ?   3   48.610   4  0.21   5  0.44  molprobity  1.000  
+313  313  mtp      -134.8   155.4  Favored     ?   9   42.810   8  0.32  10  0.51  molprobity  1.000  
+314  314  t         -90.5   144.5  Favored     ?   9   18.430   7  0.29  10  0.58  molprobity  1.000  
+315  315  tp        -90.4   136.9  Favored     ?  11   16.880   8  0.18  11  0.63  molprobity  1.000  
+316  316  t        -127.5   117.6  Favored     ?   9    2.000   7  0.36  10  0.91  molprobity  1.000  
+317  317  m-85      -95.2   137.9  Favored     ?   9   21.070  12  0.67  16  0.52  molprobity  1.000  
+318  318  t        -166.2   148.7  Favored     ?   5   19.070   6  0.31   8  0.63  molprobity  1.000  
+319  319  OUTLIER  -144.2   126.4  Favored     ?  11   10.400   8  0.33  11  0.75  molprobity  1.000  
+320  320  p-90     -156.4   160.3  Favored     ?  10   15.860  16  0.31  23  0.40  molprobity  1.000  
+321  321  OUTLIER  -119.0   150.2  Favored     1   6   16.660   8  0.36  11  0.59  molprobity  1.000  
+322  322  t0        -95.8   109.6  Favored     ?   4   46.680   8  0.22  11  0.85  molprobity  1.000  
+323  323  m-80      -76.2   -16.8  Favored     ?   6  123.720   8  0.27  11  0.39  molprobity  1.000  
+324  324  t         -95.1   -62.1  Allowed     ?   5   48.610   6  0.26   8  0.52  molprobity  1.000  
+325  325  mt-30    -109.0    16.7  Favored     ?   8   64.750   9  0.21  12  0.54  molprobity  1.000  
+326  326  m-85       48.0    29.9  Allowed     ?   9   23.970  13  0.15  18  0.41  molprobity  1.000  
+327  327  tpp        57.0    22.0  Favored     ?   9   18.940   8  0.54  10  0.58  molprobity  1.000  
+328  328  m-20      -54.3   -32.0  Favored     ?   6   36.630   8  0.17  11  0.28  molprobity  1.000  
+329  329  p-90      -60.1   -23.1  Favored     ?  10   31.750  16  0.36  23  0.31  molprobity  1.000  
+330  330  tp        -97.0   -41.2  Favored     ?  11    6.900   8  0.30  11  0.99  molprobity  1.000  
+331  331  p-10     -130.2    10.1  Favored     ?   4   17.700   8  0.34  11  1.30  molprobity  1.000  
+332  332  t        -121.0  -174.5  Favored     ?   5   39.860   6  0.14   8  0.32  molprobity  1.000  
+333  333  ?          54.3  -125.4  Favored     ?   3   68.840   4  0.35   5  0.51  molprobity  1.000  
+334  334  p30       -87.6     2.0  Favored     ?   6  142.320   8  0.36  11  0.34  molprobity  1.000  
+335  335  ?        -122.3    18.7  Favored     ?   5   38.090   5  0.11   7  0.56  molprobity  1.000  
+336  336  ?         175.0   150.4  Favored     ?   3   51.970   4  0.26   6  0.77  molprobity  1.000  
+337  337  Cg_endo   -66.0   -24.2  Favored     ?   7   44.330   8  0.19  11  0.43  molprobity  1.000  
+338  338  m         -56.0   146.2  Favored     ?   4   13.980   6  0.14   8  0.64  molprobity  1.000  
+339  339  p         -87.2   158.7  Favored     ?   5   39.380   6  0.23   8  0.38  molprobity  1.000  
+340  340  p         -48.8   -43.8  Favored     ?   5   60.540   6  0.28   8  0.41  molprobity  1.000  
+341  341  p         -79.3   -43.2  Favored     ?   7   69.870   7  0.22  10  0.98  molprobity  1.000  
+342  342  tt0       -38.8   -24.7  OUTLIER     ?   6   48.570   9  0.30  12  1.07  molprobity  1.000  
+343  343  ?         -90.2    -1.1  Favored     ?   3   23.980   4  0.28   5  0.77  molprobity  1.000  
+344  344  OUTLIER   -54.2   122.6  Favored     1   6   34.640   8  0.29  12  0.36  molprobity  1.000  
+345  345  Cg_exo    -52.3   -40.9  Favored     ?   7   31.620   8  0.25  11  0.52  molprobity  1.000  
+346  346  m         -58.2   -39.5  Favored     ?   5   99.260   6  0.35   8  0.62  molprobity  1.000  
+347  347  t-20      -72.7   -27.4  Favored     1   6   30.490   8  0.30  11  0.31  molprobity  1.000  
+348  348  mt        -72.6   -47.8  Favored     ?  11   15.450   8  0.32  11  0.97  molprobity  1.000  
+349  349  tp        -58.3   -37.4  Favored     ?  11   34.360   8  0.33  11  0.56  molprobity  1.000  
+350  350  ?         -69.2   -56.2  Favored     ?   5   22.080   5  0.43   7  0.34  molprobity  1.000  
+351  351  m120      -88.9    -6.5  Favored     1   6   59.010   8  0.36  11  1.08  molprobity  1.000  
+352  352  OUTLIER  -167.2    63.1  Allowed     1   6   48.220   8  0.25  12  0.49  molprobity  1.000  
+353  353  Cg_endo   -67.5   -10.4  Favored     ?   7   25.540   8  0.43  11  0.43  molprobity  1.000  
+354  354  m-20      -87.7     8.5  Favored     ?   6   93.030   8  0.27  11  0.54  molprobity  1.000  
+355  355  p         -56.6   140.4  Favored     ?   7   10.220   7  0.63  10  0.99  molprobity  1.000  
+356  356  p-80     -161.1   151.2  Favored     ?   7   23.890  11  0.27  15  0.37  molprobity  1.000  
+357  357  t        -108.7   147.0  Favored     ?   9   14.780   7  0.80  10  1.19  molprobity  1.000  
+358  358  t        -130.6    96.1  Favored     ?   9   23.220   7  0.29  10  0.50  molprobity  1.000  
+359  359  m-85      -85.4   134.5  Favored     ?   9    8.320  12  0.73  16  0.56  molprobity  1.000  
+360  360  p        -143.9   147.8  Favored     ?   5   37.690   6  0.41   8  0.67  molprobity  1.000  
+361  361  t-20       55.7    67.4  Allowed     1   6   49.600   8  0.26  11  0.40  molprobity  1.000  
+362  362  mt        -89.0   120.9  Favored     ?  11   43.140   8  0.30  11  0.57  molprobity  1.000  
+363  363  ptp180   -145.7   129.8  Favored     ?  13   54.930  11  0.21  14  0.39  molprobity  1.000  
+364  364  p90      -124.4   151.2  Favored     ?  10   34.750  16  0.26  23  0.24  molprobity  1.000  
+365  365  ?         168.2  -158.8  Favored     ?   3   44.420   4  0.31   5  0.54  molprobity  1.000  
+366  366  m-20      -55.6   153.2  Favored     ?   4   70.500   8  0.22  11  0.29  molprobity  1.000  
+367  367  mt        -61.7   135.1  Favored     ?  11   37.850   8  0.27  11  0.44  molprobity  1.000  
+368  368  ?          81.0   -25.6  Favored     ?   3   66.770   4  0.28   5  0.52  molprobity  1.000  
+369  369  p         -69.2   -33.7  Favored     ?   5   47.030   6  0.36   8  0.62  molprobity  1.000  
+370  370  p         -76.2   -20.0  Favored     ?   7   52.370   7  0.33  10  0.84  molprobity  1.000  
+371  371  m             ?       ?  ?           ?   7   84.250   7  0.67   7  0.71  molprobity  1.000  
+372  372  ?             ?       ?  ?           ?   6   33.450   7  0.94   9  1.12  mogul       1.000  
+373  373  pt20     -133.3   164.6  Favored     ?   8   62.350   9  0.28  13  0.46  molprobity  1.000  
+374  374  Cg_exo    -50.9   132.5  Favored     ?   7   29.340   8  0.18  11  0.58  molprobity  1.000  
+375  375  ?         -83.8  -176.7  Favored     ?   3   55.800   4  0.22   5  0.16  molprobity  1.000  
+376  376  p        -128.6   -23.9  Favored     ?   7   54.780   7  0.15  10  0.84  molprobity  1.000  
+377  377  m         -60.0   -43.0  Favored     ?   5   36.140   6  0.29   8  0.36  molprobity  1.000  
+378  378  m        -132.2   113.2  Favored     ?   7   31.340   7  0.24  11  0.78  molprobity  1.000  
+379  379  Cg_endo   -72.3   147.2  Favored     ?   7   45.640   8  0.24  11  0.44  molprobity  1.000  
+380  380  tp10      -90.2   104.8  Favored     ?   6   43.190   9  0.40  12  0.50  molprobity  1.000  
+381  381  t        -111.9   103.9  Favored     ?   9   31.780   7  0.30  10  0.65  molprobity  1.000  
+382  382  m-70      -64.5   130.4  Favored     ?   7   20.930  11  0.24  16  0.57  molprobity  1.000  
+383  383  Cg_exo    -69.2   120.3  Favored     ?   7   14.440   8  0.29  11  0.83  molprobity  1.000  
+384  384  mttt      -70.8   133.0  Favored     ?  13   77.760   9  0.29  11  0.68  molprobity  1.000  
+385  385  tp       -135.2   123.3  Favored     ?  11   25.700   8  0.34  11  0.67  molprobity  1.000  
+386  386  m         -88.3   120.2  Favored     ?   7   50.960   7  0.29  10  0.50  molprobity  1.000  
+387  387  p        -115.3  -177.9  Favored     ?   7   41.820   7  0.24  10  0.66  molprobity  1.000  
+388  388  m-85     -145.4   162.0  Favored     ?   9   43.900  13  0.41  18  0.85  molprobity  1.000  
+389  389  tttt     -129.8   106.9  Favored     ?  13  125.250   9  0.29  11  0.70  molprobity  1.000  
+390  390  m         -97.4   141.1  Favored     ?   4   48.810   6  0.20   8  0.70  molprobity  1.000  
+391  391  p        -120.3   142.2  Favored     ?   7   63.990   7  0.30  10  0.94  molprobity  1.000  
+392  392  mttt      -50.8   -30.3  Favored     ?  13  108.160   9  0.23  11  0.42  molprobity  1.000  
+393  393  p         -98.2   -51.4  Favored     ?   5   91.570   6  0.23   8  0.58  molprobity  1.000  
+394  394  ?         -90.1    29.6  Favored     ?   3  108.270   4  0.29   5  1.33  molprobity  1.000  
+395  395  ?          55.4  -150.4  Favored     ?   3  106.030   4  0.23   5  0.64  molprobity  1.000  
+396  396  m        -112.3   134.1  Favored     ?   4   43.690   6  0.38   8  0.45  molprobity  1.000  
+397  397  t        -106.4   136.2  Favored     ?   9   39.380   7  0.24  10  0.90  molprobity  1.000  
+398  398  ?         -71.1   137.1  Favored     ?   5   71.600   5  0.22   7  0.49  molprobity  1.000  
+399  399  mm-40    -110.7   140.4  Favored     ?   8   74.460   9  0.16  12  0.40  molprobity  1.000  
+400  400  t0        -89.2    59.5  Favored     ?   4   69.140   8  0.33  11  0.57  molprobity  1.000  
+401  401  p         -89.5  -179.2  Favored     ?   7   23.260   7  0.35  10  0.61  molprobity  1.000  
+402  402  p        -165.3   175.8  Favored     ?   5   26.740   6  0.16   8  0.39  molprobity  1.000  
+403  403  m        -114.5   149.3  Favored     ?   9    2.000   7  0.31  10  0.40  molprobity  1.000  
+404  404  t        -127.2   146.0  Favored     ?   9   32.560   7  0.52  10  0.99  molprobity  1.000  
+405  405  tp        -89.9   138.0  Favored     ?  11   10.480   8  0.33  11  0.69  molprobity  1.000  
+406  406  t70       -57.4   133.3  Favored     ?   4   10.160   8  0.31  11  0.72  molprobity  1.000  
+407  407  t-105     -33.6   -42.5  Allowed     ?  10    7.350  16  0.24  23  0.61  molprobity  1.000  
+408  408  m-80      -64.9   -25.0  Favored     ?   6   45.000   8  0.31  11  0.88  molprobity  1.000  
+409  409  m-85      -79.8    -7.8  Favored     ?   9   17.230  13  0.33  18  0.41  molprobity  1.000  
+410  410  mtt-85    -85.0   165.5  Favored     ?  13   18.460  11  0.33  14  0.99  molprobity  1.000  
+411  411  t90       -92.9   134.9  Favored     ?  10   19.730  16  0.23  23  0.77  molprobity  1.000  
+412  412  OUTLIER  -137.8   134.2  Favored     ?   9   24.520   8  0.53  10  0.65  molprobity  1.000  
+413  413  p-80     -156.4   166.4  Favored     1   7   23.750  11  0.25  15  0.74  molprobity  1.000  
+414  414  p-10      -84.3   175.0  Favored     ?   4   21.820   8  0.30  11  0.66  molprobity  1.000  
+415  415  ?         -53.6   -32.2  Favored     ?   5   70.510   5  0.13   7  0.46  molprobity  1.000  
+416  416  m-80      -88.4     2.2  Favored     ?   6   92.510   8  0.33  11  0.56  molprobity  1.000  
+417  417  m-85       79.8    14.1  Allowed     ?   9   28.580  13  0.24  18  0.90  molprobity  1.000  
+418  418  m-80      -79.1   140.6  Favored     ?   6   38.550   8  0.23  11  1.07  molprobity  1.000  
+419  419  p         -72.2   144.3  Favored     ?   5   32.700   6  0.38   8  0.70  molprobity  1.000  
+420  420  m         -90.0    -2.7  Favored     ?   4   23.050   6  0.45   8  0.68  molprobity  1.000  
+421  421  p        -117.7   153.0  Favored     ?   7   32.840   7  0.47  10  0.67  molprobity  1.000  
+422  422  t        -142.6    95.5  Allowed     ?   9   17.750   7  0.44  10  0.91  molprobity  1.000  
+423  423  m-80       59.1    39.2  Favored     ?   6   89.620   8  0.30  11  0.42  molprobity  1.000  
+424  424  ?          94.4   -22.4  Favored     ?   3   30.210   4  0.16   5  0.38  molprobity  1.000  
+425  425  ?         -88.1  -164.0  Favored     ?   3   10.580   4  0.33   5  0.92  molprobity  1.000  
+426  426  m        -116.4   162.4  Favored     ?   9    2.000   7  0.52  10  0.87  molprobity  1.000  
+427  427  t-20      -86.2   107.6  Favored     ?   5   29.450   8  0.22  11  0.90  molprobity  1.000  
+428  428  m         -48.1   -43.3  Favored     ?   7   32.690   7  0.24  10  0.67  molprobity  1.000  
+429  429  m         -64.8   -39.5  Favored     ?   7   31.550   7  0.22  10  0.82  molprobity  1.000  
+430  430  mt        -90.8   -22.6  Favored     ?  11   12.040   8  0.24  11  0.59  molprobity  1.000  
+431  431  m        -130.4    63.5  Favored     ?   4   22.460   6  0.30   9  1.03  molprobity  1.000  
+432  432  Cg_endo   -79.2   -42.7  Allowed     ?   7   28.130   8  0.33  11  0.52  molprobity  1.000  
+433  433  p30      -128.2  -139.9  Allowed     ?   4   41.870   8  0.18  11  0.63  molprobity  1.000  
+434  434  OUTLIER  -111.5   -46.4  Favored     ?   6   62.870   9  0.33  12  0.45  molprobity  1.000  
+435  435  ?         -54.8   -30.1  Favored     ?   5   53.620   5  0.32   7  0.34  molprobity  1.000  
+436  436  m         -73.7   -57.4  Favored     ?   7   25.770   7  0.34  10  0.75  molprobity  1.000  
+437  437  m         -58.1   -37.2  Favored     ?   4   31.500   6  0.68   8  1.01  molprobity  1.000  
+438  438  ?         -49.5   -51.2  Favored     ?   3   11.890   4  0.58   5  0.91  molprobity  1.000  
+439  439  mttt      -84.3   -17.3  Favored     ?  13   74.690   9  0.33  11  0.50  molprobity  1.000  
+440  440  m-20      -94.5   -56.6  Favored     ?   6   22.310   8  0.32  11  1.19  molprobity  1.000  
+441  441  m         -86.4   151.7  Favored     ?   4   10.780   6  0.49   8  1.44  molprobity  1.000  
+442  442  m-85     -129.6   125.8  Favored     ?   9   23.740  12  0.51  16  0.76  molprobity  1.000  
+443  443  pt        -96.9   123.8  Favored     ?  11   16.510   8  0.46  11  1.01  molprobity  1.000  
+444  444  mm-40     -80.9   166.5  Favored     ?   6   22.270   9  0.38  12  0.62  molprobity  1.000  
+445  445  ?         -82.9   179.3  Favored     ?   3   27.910   4  0.26   5  0.65  molprobity  1.000  
+446  446  m        -128.8   169.3  Favored     ?   9   12.190   7  0.36  10  1.16  molprobity  1.000  
+447  447  t0        -98.9    88.8  Favored     ?   4   36.790   8  0.25  11  0.94  molprobity  1.000  
+448  448  m-85      -47.7   -40.7  Favored     ?   9    8.200  13  0.52  18  0.54  molprobity  1.000  
+449  449  ?         -58.4   -51.3  Favored     ?   5   47.050   5  0.21   7  0.61  molprobity  1.000  
+450  450  ?         -63.2   -16.6  Favored     ?   5   27.030   5  0.22   7  0.28  molprobity  1.000  
+451  451  m         -99.6    15.7  Favored     ?   5    6.550   6  0.22   8  0.40  molprobity  1.000  
+452  452  ?          60.7    41.0  Favored     ?   3   28.700   4  0.24   5  0.34  molprobity  1.000  
+453  453  t        -132.6   120.9  Favored     ?   9    9.680   7  0.45  10  0.84  molprobity  1.000  
+454  454  OUTLIER  -145.7   148.0  Favored     ?   7   39.120   7  0.27  10  0.67  molprobity  1.000  
+455  455  p        -130.2   146.6  Favored     ?   7   30.330   7  0.27  10  0.62  molprobity  1.000  
+456  456  t        -141.0    93.5  Favored     ?   5   30.460   6  0.31   8  0.63  molprobity  1.000  
+457  457  ?          67.5  -109.3  Favored     ?   3   33.110   4  0.39   5  0.66  molprobity  1.000  
+458  458  p        -104.9    43.7  Allowed     ?   5   34.200   6  0.36   8  0.41  molprobity  1.000  
+459  459  t        -143.0   126.8  Favored     ?   5   24.300   6  0.36   8  0.74  molprobity  1.000  
+460  460  tp       -111.7   132.3  Favored     ?  11   22.210   8  0.22  11  0.59  molprobity  1.000  
+461  461  m        -125.2   116.4  Favored     ?   7   28.850   7  0.30  10  0.70  molprobity  1.000  
+462  462  mtm      -116.0   123.5  Favored     ?   9   15.860   8  0.34  10  0.56  molprobity  1.000  
+463  463  m-80      -94.1   148.8  Favored     ?   6   29.850   8  0.16  11  0.40  molprobity  1.000  
+464  464  tp-100    -88.8   -22.2  Favored     1   8   20.430   9  0.28  12  0.48  molprobity  1.000  
+465  465  m-85     -143.2   161.9  Favored     ?   9   14.380  13  0.32  18  0.59  molprobity  1.000  
+466  466  mmm      -141.6   145.2  Favored     ?   9   12.040   8  0.23  11  0.52  molprobity  1.000  
+467  467  Cg_endo   -67.2   153.6  Favored     ?   7    8.320   8  0.29  11  0.63  molprobity  1.000  
+468  468  t        -123.5   155.8  Favored     ?   5   55.730   6  0.26   8  0.83  molprobity  1.000  
+469  469  m         -63.4   -48.7  Favored     ?   5   62.650   6  0.29   8  0.91  molprobity  1.000  
+470  470  m         -66.7   -96.5  OUTLIER     ?   5   67.550   6  0.23   8  0.50  molprobity  1.000  
+471  471  ?         -80.3  -145.3  Favored     ?   3   59.490   4  0.29   5  0.31  molprobity  1.000  
+472  472  ?         -84.3   -96.2  Allowed     ?   3   49.480   4  0.39   5  0.55  molprobity  1.000  
+473  473  m-85     -109.8   138.6  Favored     ?   9   20.060  13  0.49  18  0.56  molprobity  1.000  
+474  474  p        -109.0   140.4  Favored     ?   5   23.980   6  0.31   8  0.92  molprobity  1.000  
+475  475  t         -77.4    91.5  Favored     ?   5   29.700   6  0.38   8  0.54  molprobity  1.000  
+476  476  m         -85.5   130.7  Favored     ?   9   59.800   7  0.28  10  1.10  molprobity  1.000  
+477  477  t        -130.6    84.8  Favored     ?   5   16.860   6  0.45   9  0.63  molprobity  1.000  
+478  478  Cg_endo   -60.9   149.1  Favored     ?   7   17.370   8  0.51  11  0.91  molprobity  1.000  
+479  479  OUTLIER  -138.8   106.9  Favored     ?  13    8.450  11  0.48  14  1.21  molprobity  1.000  
+480  480  mt       -106.5   159.9  Favored     ?  11   17.080   8  0.38  11  0.70  molprobity  1.000  
+481  481  m-85     -132.6   138.8  Favored     ?   9    7.530  13  0.48  18  0.56  molprobity  1.000  
+482  482  tp        -77.1   107.3  Favored     ?  11   12.660   8  0.20  11  0.54  molprobity  1.000  
+483  483  tp        -92.5   147.5  Favored     ?  11   32.440   8  0.25  11  0.56  molprobity  1.000  
+484  484  t70      -103.7   160.3  Favored     ?   4   71.950   8  0.21  11  0.53  molprobity  1.000  
+485  485  t         -46.6   -34.2  Favored     ?   5   74.000   6  0.30   8  0.81  molprobity  1.000  
+486  486  p30       -77.6    -0.6  Favored     ?   4   71.820   8  0.27  11  0.72  molprobity  1.000  
+487  487  ?          86.7    25.8  Favored     ?   3   25.950   4  0.19   5  0.39  molprobity  1.000  
+488  488  mt-10    -139.1   144.8  Favored     ?   6   67.840   9  0.22  12  0.36  molprobity  1.000  
+489  489  m-85      -50.7   137.9  Favored     ?   9   16.610  13  0.29  18  0.52  molprobity  1.000  
+490  490  t         -64.5   120.7  Favored     ?   9   44.410   7  0.31  10  0.79  molprobity  1.000  
+491  491  mmm       -88.3    81.9  Favored     ?   9   30.480   8  0.24  10  0.57  molprobity  1.000  
+492  492  mt        -61.7   125.4  Favored     ?  11   39.500   8  0.20  11  0.80  molprobity  1.000  
+493  493  mttm     -114.5    86.4  Favored     ?  13   76.600   9  0.30  11  0.86  molprobity  1.000  
+494  494  mt        -89.5     3.6  Favored     ?  11   38.890   8  0.28  11  0.93  molprobity  1.000  
+495  495  t30       -63.1   123.5  Favored     ?   6   57.510   8  0.29  11  0.43  molprobity  1.000  
+496  496  ?          65.5    30.6  Favored     ?   3   63.550   4  0.28   5  0.32  molprobity  1.000  
+497  497  mt-30    -141.5  -162.3  Allowed     ?   8   56.170   9  0.22  12  0.26  molprobity  1.000  
+498  498  pt-20    -145.9   139.9  Favored     ?   6   42.590   9  0.57  12  0.76  molprobity  1.000  
+499  499  tp       -113.4   132.0  Favored     ?  11   26.690   8  0.21  11  0.95  molprobity  1.000  
+500  500  t        -134.3   143.6  Favored     ?   5   56.320   6  0.18   8  0.32  molprobity  1.000  
+501  501  p90      -156.0   170.1  Favored     ?   9   24.930  12  0.52  16  0.41  molprobity  1.000  
+502  502  m-20     -114.5   135.5  Favored     ?   4   52.940   8  0.17  11  0.39  molprobity  1.000  
+503  503  m        -128.0   150.3  Favored     ?   9   46.350   7  0.63  10  0.88  molprobity  1.000  
+504  504  t0       -126.2    80.5  Allowed     ?   4   47.930   8  0.24  11  0.59  molprobity  1.000  
+505  505  mt        -79.0    -3.6  Favored     ?  11   31.050   8  0.24  11  0.88  molprobity  1.000  
+506  506  p         -41.5   -40.5  Allowed     ?   5   40.920   6  0.20   8  0.50  molprobity  1.000  
+507  507  ?         -71.9   -50.5  Favored     ?   5   54.680   5  0.13   7  0.35  molprobity  1.000  
+508  508  mt        -57.2   111.1  Favored     ?  11   15.980   8  0.25  12  0.66  molprobity  1.000  
+509  509  Cg_endo   -98.9  -166.7  OUTLIER     ?   7   12.120   8  0.52  11  0.66  molprobity  1.000  
+510  510  m         -55.4   128.0  Favored     ?   4   22.360   6  0.32   8  0.57  molprobity  1.000  
+511  511  ?         102.4   -28.3  Favored     ?   3   27.920   4  0.30   5  0.67  molprobity  1.000  
+512  512  mm-40     -78.0   152.8  Favored     ?   6   16.900   9  0.33  12  0.39  molprobity  1.000  
+513  513  t-20     -128.8    99.9  Favored     1   6   14.770   8  0.22  11  0.54  molprobity  1.000  
+514  514  ?         -79.0   145.4  Favored     ?   3   13.110   4  0.26   5  2.03  molprobity  1.000  
+515  515  m        -147.6   132.9  Favored     ?   5   21.450   6  0.36   8  1.15  molprobity  1.000  
+516  516  tp       -136.3   104.0  Favored     ?  11   24.780   8  0.27  11  0.87  molprobity  1.000  
+517  517  p90      -141.8   156.7  Favored     ?   9   19.390  13  0.38  18  0.47  molprobity  1.000  
+518  518  mt       -101.8   135.2  Favored     ?  11   10.810   8  0.29  11  0.63  molprobity  1.000  
+519  519  m        -124.7   144.5  Favored     ?   5   39.670   6  0.35   8  0.69  molprobity  1.000  
+520  520  tt0       -85.8    71.0  Favored     ?   8   31.010   9  0.24  12  0.38  molprobity  1.000  
+521  521  mtm       -93.9   163.1  Favored     ?   9   12.640   8  0.24  10  0.54  molprobity  1.000  
+522  522  t70       -74.2   123.8  Favored     ?   4   45.440   8  0.23  11  0.48  molprobity  1.000  
+523  523  pt-20     -41.5   -33.7  Allowed     ?   6   91.860   9  0.17  12  0.68  molprobity  1.000  
+524  524  t30      -110.6    37.3  Favored     ?   6   50.470   8  0.27  11  0.38  molprobity  1.000  
+525  525  ?          45.1    39.7  Favored     ?   3    2.000   4  0.29   5  0.44  molprobity  1.000  
+526  526  ?          56.2    21.3  Favored     ?   3   35.180   4  0.21   5  0.55  molprobity  1.000  
+527  527  ?         -56.1   128.3  Favored     ?   5   19.170   5  0.50   7  0.31  molprobity  1.000  
+528  528  OUTLIER  -125.2  -154.1  Allowed     1   6   51.690   8  0.46  11  0.28  molprobity  1.000  
+529  529  mt-30     -70.3   -25.7  Favored     ?   8  163.900   9  0.27  12  0.53  molprobity  1.000  
+530  530  m-85     -100.6    -9.6  Favored     ?   9   83.860  13  0.48  18  0.58  molprobity  1.000  
+531  531  t-20     -126.3   103.8  Favored     ?   6   16.850   8  0.38  11  0.60  molprobity  1.000  
+532  532  m         -97.7   -11.5  Favored     ?   7   36.020   7  0.31  10  0.62  molprobity  1.000  
+533  533  ?         -66.1   -55.9  Favored     ?   5   26.840   5  0.17   7  0.24  molprobity  1.000  
+534  534  ?          58.7  -145.4  Favored     ?   3   39.300   4  0.19   5  0.68  molprobity  1.000  
+535  535  ?         -61.5   -22.6  Favored     ?   5   36.550   5  0.22   7  0.47  molprobity  1.000  
+536  536  m-20      -65.4   -17.0  Favored     ?   6   29.240   8  0.25  11  0.37  molprobity  1.000  
+537  537  m-85     -126.9    26.3  Favored     ?   9   15.620  13  0.40  18  0.32  molprobity  1.000  
+538  538  ?          58.2    42.1  Favored     ?   3   27.110   4  0.22   5  0.66  molprobity  1.000  
+539  539  t         -83.3   150.0  Favored     ?   5    6.570   6  0.22   8  0.42  molprobity  1.000  
+540  540  ?          77.2    42.7  Favored     ?   3   44.560   4  0.22   5  1.78  molprobity  1.000  
+541  541  t80       -72.1   165.1  Favored     ?   9    8.710  13  0.30  18  0.40  molprobity  1.000  
+542  542  p        -177.4   160.8  Allowed     ?   4    5.960   6  0.25   8  0.38  molprobity  1.000  
+543  543  p30      -162.9   178.2  Favored     ?   4   24.440   8  0.20  11  0.50  molprobity  1.000  
+544  544  ?         -60.1   -22.8  Favored     ?   5   18.760   5  0.25   7  0.43  molprobity  1.000  
+545  545  mm-40     -68.9   -10.2  Favored     ?   8   33.580   9  0.34  12  0.47  molprobity  1.000  
+546  546  m          53.9    55.2  Favored     ?   4   26.460   6  0.26   9  0.44  molprobity  1.000  
+547  547  Cg_endo   -66.3   135.0  Favored     ?   7    9.670   8  0.25  11  0.72  molprobity  1.000  
+548  548  OUTLIER   -83.8   126.8  Favored     ?   9   41.600   7  0.30  10  1.30  molprobity  1.000  
+549  549  mt-30    -126.1   159.7  Favored     ?   8   39.800   9  0.25  12  0.60  molprobity  1.000  
+550  550  m         -65.7   -34.7  Favored     ?   7   44.230   7  0.23  10  0.80  molprobity  1.000  
+551  551  m-90     -121.9   100.8  Favored     ?  10   24.220  16  0.32  23  0.41  molprobity  1.000  
+552  552  ttp180    -93.9   110.1  Favored     ?  13   41.160  11  0.29  14  0.39  molprobity  1.000  
+553  553  t30        57.2    45.0  Favored     ?   5   24.500   8  0.27  11  0.67  molprobity  1.000  
+554  554  ?          84.3    -7.1  Favored     ?   3   34.550   4  0.22   5  0.73  molprobity  1.000  
+555  555  m        -118.3   145.0  Favored     ?   7   29.900   7  0.18  10  0.55  molprobity  1.000  
+556  556  tp        -61.6   110.2  Allowed     ?  11    3.290   8  0.30  11  1.05  molprobity  1.000  
+557  557  OUTLIER   -56.9    86.3  OUTLIER     ?   6   19.320   8  0.33  11  0.30  molprobity  1.000  
+558  558  p         -85.4    -5.0  Favored     ?   7   19.540   7  0.35  10  0.70  molprobity  1.000  
+559  559  p        -104.0    -3.0  Favored     ?   5   22.220   6  0.20   8  0.35  molprobity  1.000  
+560  560  m80        53.5    52.1  Favored     ?   7   24.740  11  0.34  15  0.36  molprobity  1.000  
+561  561  mt-30    -109.6   153.1  Favored     ?   8   48.980   9  0.27  12  0.39  molprobity  1.000  
+562  562  ?         -75.1   179.7  Favored     ?   3   31.350   4  0.32   5  0.74  molprobity  1.000  
+563  563  OUTLIER  -135.9    98.0  Favored     ?   9   39.600  12  0.51  16  0.49  molprobity  1.000  
+564  564  m         -95.5   139.9  Favored     ?   4   23.400   6  0.28   8  0.73  molprobity  1.000  
+565  565  p        -161.6   151.3  Favored     ?   4   24.770   6  0.28   8  0.85  molprobity  1.000  
+566  566  m-80      -57.5   144.9  Favored     ?   6   25.250   8  0.31  11  0.40  molprobity  1.000  
+567  567  tt0      -140.6   114.3  Favored     ?   6   21.610   9  0.31  12  0.37  molprobity  1.000  
+568  568  tpt      -100.0   114.6  Favored     ?   9   31.840   8  0.23  10  0.72  molprobity  1.000  
+569  569  m-20      -98.4    93.5  Favored     ?   4   19.990   8  0.19  11  0.29  molprobity  1.000  
+570  570  mt        -69.4   -65.8  Allowed     ?  11    2.000   8  0.44  11  0.51  molprobity  1.000  
+571  571  tp       -112.8   135.3  Favored     ?  11   24.990   8  0.37  11  0.68  molprobity  1.000  
+572  572  tt0      -158.4    93.6  Allowed     ?   6   29.850   9  0.43  12  1.02  molprobity  1.000  
+573  573  ?         175.1  -177.7  Favored     ?   3   27.040   4  0.28   5  0.66  molprobity  1.000  
+574  574  p30      -124.5  -160.5  Allowed     ?   6   13.200   8  0.28  11  0.29  molprobity  1.000  
+575  575  p         -76.4    -4.0  Favored     ?   5   31.330   6  0.29   8  0.47  molprobity  1.000  
+576  576  mmm-85   -103.8   -29.6  Favored     ?  13   39.800  11  0.20  14  0.50  molprobity  1.000  
+577  577  ?        -164.7   173.9  Favored     ?   5   28.000   5  0.39   7  0.28  molprobity  1.000  
+578  578  OUTLIER  -154.1   179.2  Favored     ?   6   34.920   8  0.25  11  0.22  molprobity  1.000  
+579  579  ?        -163.8   127.6  Favored     ?   5   19.620   5  0.17   7  0.92  molprobity  1.000  
+580  580  tp        -96.6   122.8  Favored     ?  11   24.150   8  0.19  11  0.99  molprobity  1.000  
+581  581  m        -142.8   116.2  Favored     ?   7   23.750   7  0.31  11  0.92  molprobity  1.000  
+582  582  Cg_endo   -94.0   134.1  Allowed     ?   7   23.850   8  0.50  11  0.41  molprobity  1.000  
+583  583  m-70     -121.2   108.7  Favored     1   7   19.360  11  0.25  15  0.35  molprobity  1.000  
+584  584  m         -84.5   154.1  Favored     ?   5   34.480   6  0.24   8  0.39  molprobity  1.000  
+585  585  m        -143.0   154.3  Favored     ?   4   43.910   6  0.40   8  1.70  molprobity  1.000  
+586  586  m        -103.4   176.9  Favored     ?   7   56.920   7  0.40  10  1.36  molprobity  1.000  
+587  587  ?         -71.2   -32.4  Favored     ?   5   83.960   5  0.21   7  0.69  molprobity  1.000  
+588  588  p         -88.0   -34.3  Favored     ?   7   75.520   7  0.21  10  1.02  molprobity  1.000  
+589  589  ?        -147.8  -176.3  Favored     ?   5   52.720   5  0.26   7  0.61  molprobity  1.000  
+590  590  m        -146.2   171.2  Favored     ?   4   25.910   6  0.65   8  0.80  molprobity  1.000  
+591  591  t0        -86.9    78.5  Favored     ?   4   33.630   8  0.12  11  0.44  molprobity  1.000  
+592  592  m         -44.4   -64.0  Allowed     ?   5   36.640   6  0.25   8  0.29  molprobity  1.000  
+593  593  ?         -76.2   111.9  Favored     ?   5   37.660   5  0.31   7  1.33  molprobity  1.000  
+594  594  ?         -81.5   165.6  Favored     ?   3   46.530   4  0.27   5  0.24  molprobity  1.000  
+595  595  p         -89.6    60.2  Favored     ?   4   35.000   6  0.28   8  0.83  molprobity  1.000  
+596  596  ?         -74.2   170.7  Favored     ?   3   50.550   4  0.18   5  1.12  molprobity  1.000  
+597  597  t80      -129.3   129.4  Favored     ?   9   32.980  12  0.52  16  0.39  molprobity  1.000  
+598  598  t-20     -139.7   108.6  Favored     ?   6   29.670   8  0.31  12  0.71  molprobity  1.000  
+599  599  Cg_exo    -43.9   -47.2  Favored     ?   7   50.100   8  0.22  11  0.42  molprobity  1.000  
+600  600  t80       -61.0   -46.5  Favored     ?   9   41.140  13  0.26  18  0.32  molprobity  1.000  
+601  601  ?         -62.0   -39.3  Favored     ?   3   77.120   4  0.23   5  0.55  molprobity  1.000  
+602  602  m         -80.0    15.6  Allowed     ?   5   42.640   6  0.19   8  0.30  molprobity  1.000  
+603  603  ?          74.0    53.9  Favored     ?   3   68.960   4  0.31   5  0.63  molprobity  1.000  
+604  604  m-85     -141.2    49.3  Allowed     ?   9   44.510  13  0.27  18  0.73  molprobity  1.000  
+605  605  mttt      -49.2   -11.4  OUTLIER     ?  13  113.280   9  0.25  11  0.82  molprobity  1.000  
+606  606  p        -132.1    53.4  Favored     ?   5   75.920   6  0.30   8  0.42  molprobity  1.000  
+607  607  t80      -123.6   -55.2  Allowed     ?   9   26.840  13  0.32  18  0.37  molprobity  1.000  
+608  608  t80      -108.2   111.8  Favored     ?   9   24.610  13  0.37  18  0.58  molprobity  1.000  
+609  609  ?         169.5   178.8  Favored     ?   3   83.790   4  0.22   6  0.77  molprobity  1.000  
+610  610  Cg_exo    -65.1   105.5  Allowed     ?   7   56.830   8  0.21  11  0.56  molprobity  1.000  
+611  611  ?          87.6     6.4  Favored     ?   3   55.640   4  0.24   5  0.30  molprobity  1.000  
+612  612  m-20      -93.3  -175.1  Favored     ?   4   66.560   8  0.17  11  0.27  molprobity  1.000  
+613  613  m         -41.4   -52.0  Favored     ?   7   47.960   7  0.24  10  0.65  molprobity  1.000  
+614  614  t         -81.1   -36.8  Favored     ?   9   39.440   7  0.14  10  0.50  molprobity  1.000  
+615  615  t0         59.6    86.4  Allowed     ?   4   40.820   8  0.26  11  0.73  molprobity  1.000  
+616  616  p         -66.5   -24.5  Favored     ?   7   42.880   7  0.22  10  0.73  molprobity  1.000  
+617  617  p         -56.4   -22.2  Favored     ?   5   30.340   6  0.26   8  0.42  molprobity  1.000  
+618  618  mttt     -120.4   173.1  Favored     ?  13  134.680   9  0.24  11  0.48  molprobity  1.000  
+619  619  m         -76.4   140.7  Favored     ?   7   43.040   7  0.20  10  0.72  molprobity  1.000  
+620  620  p90      -136.8   172.1  Favored     ?   9   34.770  12  0.50  16  0.41  molprobity  1.000  
+621  621  m        -113.1   138.4  Favored     ?   7   43.190   7  0.29  10  0.55  molprobity  1.000  
+622  622  mt       -111.7   117.4  Favored     ?  11   31.030   8  0.24  11  0.51  molprobity  1.000  
+623  623  mt       -116.9   113.7  Favored     ?  11   41.840   8  0.20  11  0.53  molprobity  1.000  
+624  624  m        -114.8   121.7  Favored     ?   7   60.830   7  0.29  10  0.62  molprobity  1.000  
+625  625  mt-30    -113.8   130.4  Favored     ?   8   44.200   9  0.24  12  0.38  molprobity  1.000  
+626  626  m-85     -100.3   103.5  Favored     ?   9   58.270  12  0.52  16  0.49  molprobity  1.000  
+627  627  m120      -87.5   128.7  Favored     ?   6   62.830   8  0.19  11  0.71  molprobity  1.000  
+628  628  p        -100.6   168.8  Favored     ?   7   88.230   7  0.22  10  0.57  molprobity  1.000  
+629  629  p30       -75.5   -35.5  Favored     ?   4  115.660   8  0.31  11  1.08  molprobity  1.000  
+630  630  OUTLIER   -87.5     9.4  Favored     ?   6   66.460   8  0.38  11  0.41  molprobity  1.000  
+631  631  ?          61.7     3.4  Favored     ?   3  101.630   4  0.19   5  0.56  molprobity  1.000  
+632  632  p        -130.5   161.5  Favored     ?   5   81.270   6  0.39   9  0.55  molprobity  1.000  
+633  633  Cg_endo   -56.2   -13.5  Favored     ?   7   74.390   8  0.16  11  0.54  molprobity  1.000  
+634  634  OUTLIER   -55.0   -27.8  Favored     ?   5  105.210   6  0.34   8  0.95  molprobity  1.000  
+635  635  ?         159.9   162.5  Favored     ?   3   27.120   4  0.24   5  2.36  molprobity  1.000  
+636  636  m-20       63.5    97.7  OUTLIER     ?   6  145.310   8  0.23  11  1.09  molprobity  1.000  
+637  637  tp        -71.2   140.8  Favored     ?  11   44.690   8  0.25  11  0.74  molprobity  1.000  
+638  638  t        -129.6   -34.8  Allowed     ?   9   41.180   7  0.35  10  0.63  molprobity  1.000  
+639  639  p        -159.0   152.2  Favored     ?   5   55.900   6  0.16   8  0.46  molprobity  1.000  
+640  640  mt       -115.7   101.0  Favored     ?  11   34.100   8  0.22  11  0.66  molprobity  1.000  
+641  641  m         -87.1   125.5  Favored     ?   7   56.980   7  0.39  10  0.93  molprobity  1.000  
+642  642  OUTLIER  -108.2   135.2  Favored     ?  13   36.400  11  0.24  14  0.60  molprobity  1.000  
+643  643  OUTLIER  -148.9   117.8  Favored     ?  13   67.770   9  0.33  11  0.47  molprobity  1.000  
+644  644  m-85      -95.7   158.0  Favored     ?   9   49.000  13  0.36  18  0.54  molprobity  1.000  
+645  645  pt20     -158.0   125.9  Favored     ?   8   50.370   9  0.31  12  0.63  molprobity  1.000  
+646  646  tt0      -130.2   144.0  Favored     ?   8   59.610   9  0.19  12  0.55  molprobity  1.000  
+647  647  m120       63.0    35.6  Favored     ?   6  127.010   8  0.26  11  0.33  molprobity  1.000  
+648  648  ?          80.5   -41.2  Favored     ?   3   74.260   4  0.27   5  0.33  molprobity  1.000  
+649  649  m         -76.3   142.4  Favored     ?   9   75.520   7  0.21  10  0.47  molprobity  1.000  
+650  650  m-20      -77.3   128.1  Favored     ?   4   68.150   8  0.23  11  0.24  molprobity  1.000  
+651  651  mm        -79.5   136.6  Favored     ?  11   50.390   8  0.25  12  0.55  molprobity  1.000  
+652  652  Cg_endo   -69.8   155.8  Favored     ?   7   56.160   8  0.16  11  0.49  molprobity  1.000  
+653  653  m         -63.9   159.5  Favored     ?   5   95.520   6  0.19   8  0.39  molprobity  1.000  
+654  654  ?         -80.1   -50.5  Favored     ?   5   49.450   5  0.23   7  0.73  molprobity  1.000  
+655  655  pt20     -103.5   136.3  Favored     ?   8   76.940   9  0.27  13  0.76  molprobity  1.000  
+656  656  Cg_exo    -51.4   141.5  Favored     ?   7   70.940   8  0.12  11  0.56  molprobity  1.000  
+657  657  ?          92.2   -22.1  Favored     ?   3   98.860   4  0.21   5  0.43  molprobity  1.000  
+658  658  ?         127.6   136.8  Favored     ?   3   99.680   4  0.21   5  0.43  molprobity  1.000  
+659  659  m-20      -77.6    87.5  Favored     ?   4   63.470   8  0.24  11  0.55  molprobity  1.000  
+660  660  p        -130.4   154.8  Favored     ?   7   60.370   7  0.28  10  0.88  molprobity  1.000  
+661  661  mt       -105.2    92.7  Favored     ?  11   54.440   8  0.27  11  0.66  molprobity  1.000  
+662  662  t         -84.2   -80.0  Allowed     ?   5  139.460   6  0.24   8  0.18  molprobity  1.000  
+663  663  p         -80.1   135.3  Favored     ?   5   86.290   6  0.30   8  0.32  molprobity  1.000  
+664  664  t        -123.4    76.4  Favored     ?   4   38.280   6  0.17   9  0.70  molprobity  1.000  
+665  665  Cg_exo    -43.9   -57.8  Allowed     ?   7   61.340   8  0.18  11  0.66  molprobity  1.000  
+666  666  OUTLIER   -51.2   -45.8  Favored     ?   5   64.690   6  0.32   8  0.51  molprobity  1.000  
+667  667  ?         -65.2    -7.5  Favored     ?   5   42.630   5  0.25   7  0.80  molprobity  1.000  
+668  668  p         -49.4   -52.7  Favored     ?   5   64.730   6  0.20   8  0.37  molprobity  1.000  
+669  669  ?         -63.0    -2.0  Allowed     ?   5   71.770   5  0.18   7  0.63  molprobity  1.000  
+670  670  m-85     -130.6    21.2  Favored     ?   9   31.070  13  0.34  18  0.34  molprobity  1.000  
+671  671  ?          82.1    50.1  Favored     ?   3   41.430   4  0.22   5  0.61  molprobity  1.000  
+672  672  ?         -31.2   118.5  Allowed     ?   3   69.270   4  0.22   5  0.94  molprobity  1.000  
+673  673  mt         69.5   -56.5  Allowed     ?  11   70.670   8  0.19  11  0.48  molprobity  1.000  
+674  674  ?         -41.1   -57.5  Favored     ?   5   70.560   5  0.14   7  0.29  molprobity  1.000  
+675  675  p         -61.0   -41.0  Favored     ?   7   49.270   7  0.27  10  0.67  molprobity  1.000  
+676  676  tpp       -58.3   -49.6  Favored     ?   9   26.920   8  0.22  10  0.31  molprobity  1.000  
+677  677  ?         -60.4   -43.6  Favored     ?   3   44.620   4  0.29   5  0.26  molprobity  1.000  
+678  678  ttpp      -60.6   -34.8  Favored     ?  13  111.550   9  0.19  11  0.46  molprobity  1.000  
+679  679  ?         -68.9   -42.8  Favored     ?   5   44.800   5  0.20   7  0.36  molprobity  1.000  
+680  680  mt        -67.2   -21.6  Favored     ?  11   25.390   8  0.15  11  0.52  molprobity  1.000  
+681  681  t         -81.3   -48.0  Favored     ?   5   59.980   6  0.23   8  0.37  molprobity  1.000  
+682  682  m         -56.3   -31.5  Favored     ?   5   67.400   6  0.24   8  0.22  molprobity  1.000  
+683  683  ?         113.5   139.9  Favored     ?   3   48.610   4  0.19   5  0.44  molprobity  1.000  
+684  684  mtp      -134.9   155.4  Favored     ?   9   42.810   8  0.31  10  0.51  molprobity  1.000  
+685  685  t         -90.5   144.5  Favored     ?   9   18.430   7  0.30  10  0.58  molprobity  1.000  
+686  686  tp        -90.4   136.9  Favored     ?  11   16.880   8  0.17  11  0.63  molprobity  1.000  
+687  687  t        -127.5   117.6  Favored     ?   9    2.000   7  0.36  10  0.91  molprobity  1.000  
+688  688  m-85      -95.2   137.9  Favored     ?   9   21.070  12  0.68  16  0.53  molprobity  1.000  
+689  689  t        -166.2   148.7  Favored     ?   5   19.070   6  0.31   8  0.63  molprobity  1.000  
+690  690  OUTLIER  -144.2   126.4  Favored     ?  11   10.400   8  0.33  11  0.75  molprobity  1.000  
+691  691  p-90     -156.4   160.3  Favored     ?  10   15.860  16  0.31  23  0.41  molprobity  1.000  
+692  692  OUTLIER  -119.1   150.2  Favored     1   6   16.660   8  0.35  11  0.59  molprobity  1.000  
+693  693  t0        -95.8   109.6  Favored     ?   4   46.680   8  0.21  11  0.85  molprobity  1.000  
+694  694  m-80      -76.2   -16.8  Favored     ?   6  123.720   8  0.28  11  0.40  molprobity  1.000  
+695  695  t         -95.2   -62.1  Allowed     ?   5   48.610   6  0.27   8  0.51  molprobity  1.000  
+696  696  mt-30    -109.0    16.7  Favored     ?   8   64.750   9  0.22  12  0.53  molprobity  1.000  
+697  697  m-85       48.0    29.9  Allowed     ?   9   23.970  13  0.15  18  0.41  molprobity  1.000  
+698  698  tpp        57.0    22.0  Favored     ?   9   18.940   8  0.55  10  0.58  molprobity  1.000  
+699  699  m-20      -54.2   -32.1  Favored     ?   6   36.630   8  0.18  11  0.29  molprobity  1.000  
+700  700  p-90      -60.1   -23.2  Favored     ?  10   31.750  16  0.36  23  0.31  molprobity  1.000  
+701  701  tp        -97.0   -41.2  Favored     ?  11    6.900   8  0.30  11  0.99  molprobity  1.000  
+702  702  p-10     -130.2    10.1  Favored     ?   4   17.700   8  0.34  11  1.29  molprobity  1.000  
+703  703  t        -121.1  -174.4  Favored     ?   5   39.860   6  0.15   8  0.32  molprobity  1.000  
+704  704  ?          54.3  -125.4  Favored     ?   3   68.840   4  0.35   5  0.51  molprobity  1.000  
+705  705  p30       -87.6     2.0  Favored     ?   6  142.320   8  0.35  11  0.34  molprobity  1.000  
+706  706  ?        -122.3    18.7  Favored     ?   5   38.090   5  0.10   7  0.56  molprobity  1.000  
+707  707  ?         175.0   150.4  Favored     ?   3   51.970   4  0.27   6  0.77  molprobity  1.000  
+708  708  Cg_endo   -66.0   -24.2  Favored     ?   7   44.330   8  0.19  11  0.43  molprobity  1.000  
+709  709  m         -55.9   146.2  Favored     ?   4   13.980   6  0.15   8  0.63  molprobity  1.000  
+710  710  p         -87.1   158.7  Favored     ?   5   39.380   6  0.22   8  0.38  molprobity  1.000  
+711  711  p         -48.9   -43.8  Favored     ?   5   60.540   6  0.28   8  0.40  molprobity  1.000  
+712  712  p         -79.3   -43.1  Favored     ?   7   69.870   7  0.21  10  0.99  molprobity  1.000  
+713  713  tt0       -38.9   -24.7  OUTLIER     ?   6   48.570   9  0.31  12  1.07  molprobity  1.000  
+714  714  ?         -90.3    -1.0  Favored     ?   3   23.980   4  0.26   5  0.77  molprobity  1.000  
+715  715  OUTLIER   -54.3   122.6  Favored     1   6   34.640   8  0.28  12  0.37  molprobity  1.000  
+716  716  Cg_exo    -52.4   -40.8  Favored     ?   7   31.620   8  0.25  11  0.51  molprobity  1.000  
+717  717  m         -58.1   -39.5  Favored     ?   5   99.260   6  0.34   8  0.63  molprobity  1.000  
+718  718  t-20      -72.7   -27.4  Favored     1   6   30.490   8  0.29  11  0.31  molprobity  1.000  
+719  719  mt        -72.6   -47.8  Favored     ?  11   15.450   8  0.32  11  0.96  molprobity  1.000  
+720  720  tp        -58.3   -37.4  Favored     ?  11   34.360   8  0.33  11  0.56  molprobity  1.000  
+721  721  ?         -69.2   -56.2  Favored     ?   5   22.080   5  0.43   7  0.35  molprobity  1.000  
+722  722  m120      -88.8    -6.6  Favored     1   6   59.010   8  0.36  11  1.08  molprobity  1.000  
+723  723  OUTLIER  -167.2    63.2  Allowed     1   6   48.220   8  0.25  12  0.49  molprobity  1.000  
+724  724  Cg_endo   -67.5   -10.5  Favored     ?   7   25.540   8  0.43  11  0.44  molprobity  1.000  
+725  725  m-20      -87.7     8.5  Favored     ?   6   93.030   8  0.27  11  0.54  molprobity  1.000  
+726  726  p         -56.6   140.4  Favored     ?   7   10.220   7  0.63  10  0.99  molprobity  1.000  
+727  727  p-80     -161.1   151.2  Favored     ?   7   23.890  11  0.28  15  0.38  molprobity  1.000  
+728  728  t        -108.7   147.1  Favored     ?   9   14.780   7  0.79  10  1.19  molprobity  1.000  
+729  729  t        -130.7    96.1  Favored     ?   9   23.220   7  0.28  10  0.51  molprobity  1.000  
+730  730  m-85      -85.4   134.5  Favored     ?   9    8.320  12  0.73  16  0.56  molprobity  1.000  
+731  731  p        -143.9   147.8  Favored     ?   5   37.690   6  0.42   8  0.66  molprobity  1.000  
+732  732  t-20       55.7    67.5  Allowed     1   6   49.600   8  0.25  11  0.40  molprobity  1.000  
+733  733  mt        -89.0   120.9  Favored     ?  11   43.140   8  0.31  11  0.57  molprobity  1.000  
+734  734  ptp180   -145.8   129.7  Favored     ?  13   54.930  11  0.21  14  0.40  molprobity  1.000  
+735  735  p90      -124.5   151.1  Favored     ?  10   34.750  16  0.26  23  0.24  molprobity  1.000  
+736  736  ?         168.3  -158.7  Favored     ?   3   44.420   4  0.32   5  0.53  molprobity  1.000  
+737  737  m-20      -55.6   153.2  Favored     ?   4   70.500   8  0.22  11  0.28  molprobity  1.000  
+738  738  mt        -61.7   135.1  Favored     ?  11   37.850   8  0.27  11  0.43  molprobity  1.000  
+739  739  ?          80.9   -25.5  Favored     ?   3   66.770   4  0.29   5  0.52  molprobity  1.000  
+740  740  p         -69.3   -33.6  Favored     ?   5   47.030   6  0.35   8  0.62  molprobity  1.000  
+741  741  p         -76.3   -20.0  Favored     ?   7   52.370   7  0.33  10  0.84  molprobity  1.000  
+742  742  m             ?       ?  ?           ?   7   84.250   7  0.67   7  0.71  molprobity  1.000  
+743  743  ?             ?       ?  ?           ?  13   93.800  14  0.44  17  0.79  mogul       1.000  
+744  744  ?             ?       ?  ?           ?  13   56.380  14  0.57  17  0.96  mogul       1.000  
+745  745  ?             ?       ?  ?           ?  13   93.800  14  0.44  17  0.79  mogul       1.000  
+746  746  ?             ?       ?  ?           ?  13   56.380  14  0.57  17  0.96  mogul       1.000  
+#
+loop_
+_pdbx_vrpt_instance_clashes.ordinal
+_pdbx_vrpt_instance_clashes.instance_id
+_pdbx_vrpt_instance_clashes.label_atom_id
+_pdbx_vrpt_instance_clashes.cid
+_pdbx_vrpt_instance_clashes.clashmag
+_pdbx_vrpt_instance_clashes.dist
+  1    1  HG2     1  0.46  1.81  
+  2    1  HG2     2  0.43  2.54  
+  3    1  N       3  0.44  2.33  
+  4    1  HA      4  0.44  2.18  
+  5    2  O       5  0.50  2.11  
+  6   16  HG22    6  0.45  1.99  
+  7   17  HB2     7  0.53  1.90  
+  8   18  HA      8  0.42  2.18  
+  9   19  SG      9  0.48  2.53  
+ 10   21  HE3    10  0.44  2.18  
+ 11   33  O      11  0.56  2.05  
+ 12   33  HG23   12  0.43  2.00  
+ 13   35  HB3    13  0.43  2.53  
+ 14   36  CE3    14  0.46  2.51  
+ 15   36  HH2     1  0.46  1.81  
+ 16   36  CH2     2  0.43  2.54  
+ 17   38  CE1    13  0.43  2.53  
+ 18   40  CE3    15  0.55  2.41  
+ 19   41  HB2    16  0.71  1.72  
+ 20   41  HG2    17  0.69  1.74  
+ 21   42  HD2    18  0.47  1.98  
+ 22   43  O      18  0.47  1.98  
+ 23   49  HB2    17  0.69  1.74  
+ 24   55  HG13   19  0.44  2.00  
+ 25   55  HG13   20  0.41  2.50  
+ 26   56  O      21  0.41  2.51  
+ 27   60  N      21  0.41  2.51  
+ 28   63  HG2    22  0.45  2.47  
+ 29   64  HA     23  0.42  2.55  
+ 30   67  HA2     3  0.44  2.33  
+ 31   70  O       4  0.44  2.18  
+ 32   71  HA      5  0.50  2.11  
+ 33   72  HG22   16  0.71  1.72  
+ 34   73  HG3    15  0.55  2.41  
+ 35   90  HG23   24  0.63  1.81  
+ 36   95  HG2    25  0.72  1.71  
+ 37   95  HG2    26  0.52  2.38  
+ 38  102  HB2    27  0.52  1.92  
+ 39  105  HG21   25  0.72  1.71  
+ 40  105  CG2    26  0.52  2.38  
+ 41  108  HH11   28  0.57  1.68  
+ 42  108  HG2    28  0.57  1.68  
+ 43  108  HG2    29  0.46  2.31  
+ 44  108  NH1    29  0.46  2.31  
+ 45  109  HB2    30  0.57  1.87  
+ 46  109  HA     11  0.56  2.05  
+ 47  110  CD1    31  0.47  2.49  
+ 48  110  CE1    32  0.45  2.51  
+ 49  112  HB2    12  0.43  2.00  
+ 50  118  HB3    33  0.42  2.01  
+ 51  118  OH     34  0.41  2.20  
+ 52  119  HG12   35  0.45  1.99  
+ 53  121  HD23   35  0.45  1.99  
+ 54  125  HA2    36  0.47  2.15  
+ 55  128  HD13   37  0.54  1.90  
+ 56  132  HG12   38  0.52  2.44  
+ 57  132  HG12   39  0.46  1.80  
+ 58  134  HD12   40  0.59  2.02  
+ 59  134  HD12   41  0.44  1.80  
+ 60  136  O      42  0.41  2.20  
+ 61  137  HD21   43  0.67  1.77  
+ 62  137  HD11   44  0.46  1.97  
+ 63  138  HD3    45  0.73  1.68  
+ 64  138  HD3    46  0.66  2.26  
+ 65  138  CD     47  0.49  2.40  
+ 66  138  HD2    48  0.40  2.52  
+ 67  139  SG     49  0.52  2.50  
+ 68  141  CG     48  0.40  2.52  
+ 69  142  O      50  0.48  2.14  
+ 70  142  HB2    51  0.48  2.44  
+ 71  144  N      52  0.42  2.52  
+ 72  145  HD11   53  0.64  1.80  
+ 73  147  HD11   54  0.53  1.91  
+ 74  150  SD     55  0.48  2.54  
+ 75  157  HD22   56  0.60  1.49  
+ 76  157  HD22   57  0.44  2.11  
+ 77  157  H      56  0.60  1.49  
+ 78  157  H      58  0.41  2.17  
+ 79  157  ND2    59  0.48  2.11  
+ 80  157  ND2    58  0.41  2.17  
+ 81  157  ND2    60  0.41  2.68  
+ 82  157  N      57  0.44  2.11  
+ 83  159  CD1    23  0.42  2.55  
+ 84  160  H      59  0.48  2.11  
+ 85  160  N      60  0.41  2.68  
+ 86  167  HA2    34  0.41  2.20  
+ 87  168  HB2    14  0.46  2.51  
+ 88  170  CG     61  0.48  2.82  
+ 89  170  HA     55  0.48  2.54  
+ 90  171  N      61  0.48  2.82  
+ 91  179  HG21   19  0.44  2.00  
+ 92  179  O      62  0.42  2.18  
+ 93  179  CG2    20  0.41  2.50  
+ 94  181  HB2    63  0.57  1.84  
+ 95  182  HB2    64  0.42  2.55  
+ 96  184  CG2    22  0.45  2.47  
+ 97  185  HD12   62  0.42  2.18  
+ 98  186  HB2    63  0.57  1.84  
+ 99  192  CE2    64  0.42  2.55  
+100  199  HD11   54  0.53  1.91  
+101  202  HA2    65  0.79  1.64  
+102  205  HG3    49  0.52  2.50  
+103  210  HA     66  0.41  1.83  
+104  211  HD3    66  0.41  1.83  
+105  212  CE1    67  0.43  2.72  
+106  215  HG22   68  0.50  1.77  
+107  215  HG22   69  0.45  2.30  
+108  216  H      68  0.50  1.77  
+109  216  N      69  0.45  2.30  
+110  221  O      67  0.43  2.72  
+111  222  HB2    70  0.50  2.12  
+112  224  SG     71  0.42  2.77  
+113  224  O      71  0.42  2.77  
+114  237  OH     40  0.59  2.02  
+115  237  HH     41  0.44  1.80  
+116  238  O      72  0.43  2.18  
+117  244  HA     72  0.43  2.18  
+118  248  O      73  0.45  2.16  
+119  252  HB     74  0.72  1.71  
+120  255  O      36  0.47  2.15  
+121  257  HA     75  0.44  2.17  
+122  257  HB     76  0.42  2.20  
+123  259  HD22   77  0.49  2.09  
+124  259  HD22   78  0.47  1.61  
+125  259  N      77  0.49  2.09  
+126  259  H      78  0.47  1.61  
+127  259  H      79  0.43  2.16  
+128  259  ND2    79  0.43  2.16  
+129  261  HB2    80  0.52  1.91  
+130  262  HD2    80  0.52  1.91  
+131  264  O      76  0.42  2.20  
+132  265  O      75  0.44  2.17  
+133  270  HA     81  0.57  1.87  
+134  272  HG3    74  0.72  1.71  
+135  274  HA     82  0.51  1.92  
+136  275  HG3    73  0.45  2.16  
+137  280  HG12   82  0.51  1.92  
+138  289  HG22   81  0.57  1.87  
+139  291  O      83  0.44  2.18  
+140  302  HD11   83  0.44  2.18  
+141  314  HG13   33  0.42  2.01  
+142  315  HD11   53  0.64  1.80  
+143  316  HG22   31  0.47  2.49  
+144  316  HG22   32  0.45  2.51  
+145  317  HB2    30  0.57  1.87  
+146  318  O      52  0.42  2.52  
+147  319  HA     50  0.48  2.14  
+148  319  HD12   84  0.41  2.03  
+149  321  ND2    85  0.41  2.19  
+150  321  H      85  0.41  2.19  
+151  322  HB3    86  0.42  2.34  
+152  324  O      87  0.55  2.06  
+153  326  CD1    88  0.46  2.50  
+154  327  HG3    89  0.50  1.94  
+155  327  CE     51  0.48  2.44  
+156  327  N      86  0.42  2.34  
+157  329  CZ3    90  0.42  2.55  
+158  330  HD21   65  0.79  1.64  
+159  330  HB3    89  0.50  1.94  
+160  330  HB2    90  0.42  2.55  
+161  331  O      91  0.43  2.19  
+162  331  C      92  0.40  2.42  
+163  336  HA3    91  0.43  2.19  
+164  336  HA3    92  0.40  2.42  
+165  344  HA     88  0.46  2.50  
+166  344  ND2    93  0.46  2.13  
+167  344  HD22   94  0.40  2.20  
+168  346  H      93  0.46  2.13  
+169  346  N      94  0.40  2.20  
+170  349  HD11   27  0.52  1.92  
+171  355  HG21   45  0.73  1.68  
+172  355  HG21   47  0.49  2.40  
+173  355  CG2    46  0.66  2.26  
+174  355  HG22   42  0.41  2.20  
+175  357  HG22   43  0.67  1.77  
+176  357  HG22   44  0.46  1.97  
+177  357  HG11   95  0.43  2.54  
+178  357  HG23   84  0.41  2.03  
+179  358  HG22   24  0.63  1.81  
+180  359  CD1    38  0.52  2.44  
+181  359  HD1    39  0.46  1.80  
+182  359  CZ     95  0.43  2.54  
+183  362  HB      6  0.45  1.99  
+184  363  HB3     7  0.53  1.90  
+185  364  HB3    37  0.54  1.90  
+186  364  O       8  0.42  2.18  
+187  367  O      10  0.44  2.18  
+188  370  HA      9  0.48  2.53  
+189  372  HG2    96  0.46  1.81  
+190  372  HG2    97  0.42  2.54  
+191  372  HA     98  0.44  2.18  
+192  372  N      99  0.43  2.33  
+193  373  O     100  0.49  2.11  
+194  387  HG22  101  0.43  1.99  
+195  388  HB2   102  0.53  1.90  
+196  389  HA    103  0.42  2.18  
+197  390  SG    104  0.49  2.53  
+198  392  HE3   105  0.42  2.18  
+199  404  O     106  0.56  2.05  
+200  404  HG23  107  0.44  2.00  
+201  406  HB3   108  0.43  2.53  
+202  407  CE3   109  0.46  2.51  
+203  407  HH2    96  0.46  1.81  
+204  407  CH2    97  0.42  2.54  
+205  409  CE1   108  0.43  2.53  
+206  411  CE3   110  0.55  2.41  
+207  412  HB2   111  0.71  1.71  
+208  412  HG2   112  0.69  1.74  
+209  413  HD2   113  0.47  1.98  
+210  414  O     113  0.47  1.98  
+211  420  HB2   112  0.69  1.74  
+212  426  HG13  114  0.44  2.00  
+213  426  HG13  115  0.42  2.50  
+214  427  O     116  0.40  2.51  
+215  431  N     116  0.40  2.51  
+216  434  HG2   117  0.44  2.47  
+217  435  HA    118  0.41  2.55  
+218  438  HA2    99  0.43  2.33  
+219  441  O      98  0.44  2.18  
+220  442  HA    100  0.49  2.11  
+221  443  HG22  111  0.71  1.71  
+222  443  O     119  0.40  2.21  
+223  443  HG13  119  0.40  2.21  
+224  444  HG3   110  0.55  2.41  
+225  461  HG23  120  0.63  1.81  
+226  466  HG2   121  0.71  1.71  
+227  466  HG2   122  0.54  2.38  
+228  473  HB2   123  0.51  1.92  
+229  476  HG21  121  0.71  1.71  
+230  476  CG2   122  0.54  2.38  
+231  479  HG2   124  0.58  1.68  
+232  479  HG2   125  0.46  2.31  
+233  479  HH11  124  0.58  1.68  
+234  479  NH1   125  0.46  2.31  
+235  480  HB2   126  0.57  1.87  
+236  480  HA    106  0.56  2.05  
+237  481  CD1   127  0.47  2.49  
+238  481  CE1   128  0.45  2.51  
+239  483  HB2   107  0.44  2.00  
+240  489  OH    129  0.42  2.20  
+241  489  HB3   130  0.42  2.01  
+242  490  HG12  131  0.44  1.99  
+243  492  HD23  131  0.44  1.99  
+244  496  HA2   132  0.46  2.15  
+245  499  HD13  133  0.53  1.89  
+246  503  HG12  134  0.51  2.45  
+247  503  HG12  135  0.45  1.80  
+248  505  HD12  136  0.59  2.02  
+249  505  HD12  137  0.41  1.85  
+250  507  O     138  0.42  2.20  
+251  508  HD21  139  0.66  1.77  
+252  508  HD11  140  0.46  1.97  
+253  509  HD3   141  0.75  1.68  
+254  509  HD3   142  0.65  2.26  
+255  509  CD    143  0.51  2.40  
+256  509  HD2   144  0.40  2.52  
+257  510  SG    145  0.51  2.50  
+258  512  CG    144  0.40  2.52  
+259  513  HB2   146  0.47  2.44  
+260  513  O     147  0.47  2.14  
+261  515  N     148  0.42  2.52  
+262  516  HD11  149  0.64  1.80  
+263  518  HD11  150  0.53  1.91  
+264  521  SD    151  0.48  2.54  
+265  528  H     152  0.60  1.49  
+266  528  H     153  0.43  2.16  
+267  528  HD22  152  0.60  1.49  
+268  528  HD22  154  0.43  2.11  
+269  528  ND2   155  0.48  2.11  
+270  528  ND2   153  0.43  2.16  
+271  528  ND2   156  0.41  2.68  
+272  528  N     154  0.43  2.11  
+273  530  CD1   118  0.41  2.55  
+274  531  H     155  0.48  2.11  
+275  531  N     156  0.41  2.68  
+276  538  HA2   129  0.42  2.20  
+277  539  HB2   109  0.46  2.51  
+278  541  HA    151  0.48  2.54  
+279  541  CG    157  0.47  2.82  
+280  542  N     157  0.47  2.82  
+281  550  HG21  114  0.44  2.00  
+282  550  O     158  0.44  2.18  
+283  550  CG2   115  0.42  2.50  
+284  552  HB2   159  0.58  1.84  
+285  553  HB2   160  0.42  2.55  
+286  555  CG2   117  0.44  2.47  
+287  556  HD12  158  0.44  2.18  
+288  557  HB2   159  0.58  1.84  
+289  563  CE2   160  0.42  2.55  
+290  570  HD11  150  0.53  1.91  
+291  573  HA2   161  0.80  1.64  
+292  576  HG3   145  0.51  2.50  
+293  583  CE1   162  0.43  2.72  
+294  586  HG22  163  0.50  1.77  
+295  586  HG22  164  0.46  2.30  
+296  587  H     163  0.50  1.77  
+297  587  N     164  0.46  2.30  
+298  592  O     162  0.43  2.72  
+299  593  HB2    87  0.55  2.06  
+300  595  SG    165  0.42  2.77  
+301  595  O     165  0.42  2.77  
+302  608  OH    136  0.59  2.02  
+303  608  HH    137  0.41  1.85  
+304  609  O     166  0.43  2.18  
+305  615  HA    166  0.43  2.18  
+306  619  O     167  0.45  2.17  
+307  623  HB    168  0.72  1.71  
+308  626  O     132  0.46  2.15  
+309  628  HA    169  0.43  2.18  
+310  628  HB    170  0.42  2.20  
+311  630  HD22  171  0.51  2.09  
+312  630  HD22  172  0.49  1.61  
+313  630  N     171  0.51  2.09  
+314  630  H     172  0.49  1.61  
+315  630  H     173  0.42  2.16  
+316  630  ND2   173  0.42  2.16  
+317  632  HB2   174  0.52  1.92  
+318  633  HD2   174  0.52  1.92  
+319  635  O     170  0.42  2.20  
+320  636  O     169  0.43  2.18  
+321  641  HA    175  0.56  1.87  
+322  643  HG3   168  0.72  1.71  
+323  645  HA    176  0.51  1.92  
+324  646  HG3   167  0.45  2.17  
+325  651  HG12  176  0.51  1.92  
+326  660  HG22  175  0.56  1.87  
+327  662  O     177  0.44  2.18  
+328  673  HD11  177  0.44  2.18  
+329  685  HG13  130  0.42  2.01  
+330  686  HD11  149  0.64  1.80  
+331  687  HG22  127  0.47  2.49  
+332  687  HG22  128  0.45  2.51  
+333  688  HB2   126  0.57  1.87  
+334  688  HE1   178  0.41  1.86  
+335  689  O     148  0.42  2.52  
+336  690  HA    147  0.47  2.14  
+337  690  HD12  179  0.41  2.03  
+338  692  ND2   180  0.41  2.19  
+339  692  H     180  0.41  2.19  
+340  693  HB3   181  0.43  2.34  
+341  695  O      70  0.50  2.12  
+342  697  CD1   182  0.46  2.51  
+343  698  HG3   183  0.49  1.94  
+344  698  CE    146  0.47  2.44  
+345  698  N     181  0.43  2.34  
+346  700  CZ3   184  0.41  2.55  
+347  701  HD21  161  0.80  1.64  
+348  701  HB3   183  0.49  1.94  
+349  701  HB2   184  0.41  2.55  
+350  702  O     185  0.42  2.19  
+351  707  HA3   185  0.42  2.19  
+352  715  ND2   186  0.46  2.13  
+353  715  HA    182  0.46  2.51  
+354  717  H     186  0.46  2.13  
+355  720  HD11  123  0.51  1.92  
+356  726  HG21  141  0.75  1.68  
+357  726  HG21  143  0.51  2.40  
+358  726  CG2   142  0.65  2.26  
+359  726  HG22  138  0.42  2.20  
+360  728  HG22  139  0.66  1.77  
+361  728  HG22  140  0.46  1.97  
+362  728  HG11  187  0.43  2.54  
+363  728  HG23  179  0.41  2.03  
+364  729  HG22  120  0.63  1.81  
+365  730  CD1   134  0.51  2.45  
+366  730  HD1   135  0.45  1.80  
+367  730  CZ    187  0.43  2.54  
+368  733  HB    101  0.43  1.99  
+369  733  HD11  178  0.41  1.86  
+370  734  HB3   102  0.53  1.90  
+371  735  HB3   133  0.53  1.89  
+372  735  O     103  0.42  2.18  
+373  738  O     105  0.42  2.18  
+374  741  HA    104  0.49  2.53  
+#
+loop_
+_pdbx_vrpt_instance_symm_clashes.ordinal
+_pdbx_vrpt_instance_symm_clashes.instance_id
+_pdbx_vrpt_instance_symm_clashes.label_atom_id
+_pdbx_vrpt_instance_symm_clashes.scid
+_pdbx_vrpt_instance_symm_clashes.symop
+_pdbx_vrpt_instance_symm_clashes.clashmag
+_pdbx_vrpt_instance_symm_clashes.dist
+1  241  OD1  0  1_555  0.78  1.42  
+2  241  CG   1  1_555  0.38  1.82  
+3  241  OD2  2  1_555  0.34  1.86  
+4  241  OD1  3  1_555  0.21  1.99  
+5  384  NZ   0  3_645  0.78  1.42  
+6  384  NZ   1  3_645  0.38  1.82  
+7  384  NZ   2  3_645  0.34  1.86  
+8  384  CE   3  3_645  0.21  1.99  
+#
+loop_
+_pdbx_vrpt_instance_mogul_angle_outliers.ordinal
+_pdbx_vrpt_instance_mogul_angle_outliers.instance_id
+_pdbx_vrpt_instance_mogul_angle_outliers.atom_1
+_pdbx_vrpt_instance_mogul_angle_outliers.atom_2
+_pdbx_vrpt_instance_mogul_angle_outliers.atom_3
+_pdbx_vrpt_instance_mogul_angle_outliers.obsval
+_pdbx_vrpt_instance_mogul_angle_outliers.mean
+_pdbx_vrpt_instance_mogul_angle_outliers.numobs
+_pdbx_vrpt_instance_mogul_angle_outliers.stdev
+_pdbx_vrpt_instance_mogul_angle_outliers.Zscore
+_pdbx_vrpt_instance_mogul_angle_outliers.mindiff
+1  744  C1  O5  C5  115.10  112.19  88  1.35  2.14  0.14  
+2  746  C1  O5  C5  115.13  112.19  88  1.35  2.17  0.18  
+#
+loop_
+_pdbx_vrpt_instance_mogul_torsion_outliers.ordinal
+_pdbx_vrpt_instance_mogul_torsion_outliers.instance_id
+_pdbx_vrpt_instance_mogul_torsion_outliers.atom_1
+_pdbx_vrpt_instance_mogul_torsion_outliers.atom_2
+_pdbx_vrpt_instance_mogul_torsion_outliers.atom_3
+_pdbx_vrpt_instance_mogul_torsion_outliers.atom_4
+_pdbx_vrpt_instance_mogul_torsion_outliers.obsval
+_pdbx_vrpt_instance_mogul_torsion_outliers.mean
+_pdbx_vrpt_instance_mogul_torsion_outliers.numobs
+_pdbx_vrpt_instance_mogul_torsion_outliers.stdev
+_pdbx_vrpt_instance_mogul_torsion_outliers.mindiff
+_pdbx_vrpt_instance_mogul_torsion_outliers.local_density
+1  743  C4  C5  C6  O6    80.98  40.54  6564  29.27  0.12  1.74  
+2  743  O5  C5  C6  O6   -39.58  27.15  6600  15.40  0.49  1.73  
+3  744  C4  C5  C6  O6   -32.44  52.92  6564  49.75  0.10  1.22  
+4  744  O5  C5  C6  O6  -153.40  87.36  6600  12.31  0.77  0.21  
+5  745  C4  C5  C6  O6    80.95  40.53  6564  29.29  0.10  1.74  
+6  745  O5  C5  C6  O6   -39.57  27.17  6600  15.40  0.48  1.73  
+7  746  C4  C5  C6  O6   -32.45  52.91  6564  49.75  0.11  1.22  
+8  746  O5  C5  C6  O6  -153.43  87.39  6600  12.32  0.73  0.21  
+#
+loop_
+_pdbx_vrpt_model_instance_density.ordinal
+_pdbx_vrpt_model_instance_density.instance_id
+_pdbx_vrpt_model_instance_density.natoms_eds
+_pdbx_vrpt_model_instance_density.RSRCC
+_pdbx_vrpt_model_instance_density.RSR
+_pdbx_vrpt_model_instance_density.RSRZ
+  1    1   8  0.978  0.412       ?  
+  2    2   9  0.918  0.246  -0.256  
+  3    3   7  0.967  0.235  -0.186  
+  4    4   4  0.958  0.156  -0.575  
+  5    5   7  0.925  0.205  -0.375  
+  6    6   6  0.902  0.260   0.186  
+  7    7   7  0.956  0.171  -0.653  
+  8    8   7  0.959  0.160  -0.762  
+  9    9   9  0.915  0.231  -0.432  
+ 10   10   7  0.942  0.224  -0.581  
+ 11   11  10  0.963  0.181  -0.705  
+ 12   12   7  0.974  0.244  -0.117  
+ 13   13   9  0.925  0.290  -0.262  
+ 14   14   8  0.974  0.355   0.141  
+ 15   15   7  0.935  0.366   0.943  
+ 16   16   7  0.964  0.427   1.442  
+ 17   17  12  0.931  0.421   0.740  
+ 18   18   9  0.876  0.403   0.462  
+ 19   19   6  0.960  0.281   0.380  
+ 20   20   7  0.942  0.262   0.092  
+ 21   21   9  0.913  0.443   0.718  
+ 22   22   6  0.943  0.219  -0.140  
+ 23   23   4  0.850  0.177  -0.427  
+ 24   24   4  0.873  0.263   0.182  
+ 25   25   6  0.967  0.260   0.210  
+ 26   26   7  0.935  0.407   0.645  
+ 27   27   5  0.927  0.337   0.565  
+ 28   28   9  0.923  0.367   0.666  
+ 29   29   8  0.955  0.211  -0.295  
+ 30   30   7  0.967  0.291   0.329  
+ 31   31   6  0.957  0.250   0.107  
+ 32   32   7  0.970  0.469   1.060  
+ 33   33   7  0.951  0.327   0.109  
+ 34   34   8  0.977  0.269  -0.437  
+ 35   35   8  0.980  0.181  -0.541  
+ 36   36  14  0.961  0.317   0.063  
+ 37   37   8  0.930  0.232  -0.100  
+ 38   38  12  0.957  0.323   0.048  
+ 39   39  11  0.970  0.188  -0.878  
+ 40   40  14  0.917  0.266  -0.311  
+ 41   41   8  0.933  0.361   0.471  
+ 42   42  10  0.945  0.260  -0.068  
+ 43   43   8  0.955  0.196  -0.418  
+ 44   44   5  0.965  0.144  -0.805  
+ 45   45   8  0.965  0.182  -0.521  
+ 46   46  12  0.949  0.229  -0.616  
+ 47   47   8  0.946  0.212  -0.268  
+ 48   48   6  0.949  0.224  -0.100  
+ 49   49   6  0.963  0.212  -0.178  
+ 50   50   7  0.966  0.188  -0.514  
+ 51   51   7  0.955  0.290  -0.139  
+ 52   52   8  0.880  0.215  -0.243  
+ 53   53   4  0.964  0.108  -0.915  
+ 54   54   4  0.976  0.161  -0.540  
+ 55   55   7  0.981  0.312   0.009  
+ 56   56   8  0.929  0.170  -0.622  
+ 57   57   7  0.939  0.220  -0.252  
+ 58   58   7  0.953  0.155  -0.784  
+ 59   59   8  0.962  0.227  -0.720  
+ 60   60   6  0.977  0.197  -0.299  
+ 61   61   7  0.948  0.165  -0.724  
+ 62   62   8  0.884  0.224  -0.188  
+ 63   63   9  0.965  0.171  -0.858  
+ 64   64   5  0.973  0.168  -0.634  
+ 65   65   7  0.962  0.121  -1.062  
+ 66   66   6  0.948  0.170  -0.518  
+ 67   67   4  0.971  0.374   0.967  
+ 68   68   9  0.919  0.225  -0.678  
+ 69   69   8  0.903  0.184  -0.504  
+ 70   70   6  0.966  0.233  -0.008  
+ 71   71  11  0.968  0.286  -0.352  
+ 72   72   8  0.970  0.324  -0.001  
+ 73   73   9  0.972  0.210  -0.581  
+ 74   74   4  0.968  0.162  -0.533  
+ 75   75   7  0.959  0.257  -0.360  
+ 76   76   8  0.965  0.120  -1.043  
+ 77   77  12  0.930  0.211  -0.743  
+ 78   78   5  0.972  0.136  -0.862  
+ 79   79   5  0.985  0.115  -1.011  
+ 80   80   6  0.969  0.159  -0.618  
+ 81   81   4  0.921  0.178  -0.420  
+ 82   82   7  0.968  0.281  -0.199  
+ 83   83   7  0.972  0.186  -0.530  
+ 84   84   7  0.958  0.268   0.141  
+ 85   85   6  0.957  0.172  -0.514  
+ 86   86   4  0.961  0.213  -0.172  
+ 87   87   6  0.967  0.236  -0.005  
+ 88   88   6  0.983  0.228  -0.068  
+ 89   89   8  0.979  0.279  -0.370  
+ 90   90   7  0.963  0.171  -0.653  
+ 91   91   8  0.956  0.275  -0.142  
+ 92   92   8  0.940  0.213  -0.260  
+ 93   93   9  0.962  0.255  -0.187  
+ 94   94  12  0.957  0.237  -0.559  
+ 95   95   8  0.967  0.186  -0.777  
+ 96   96   7  0.952  0.203  -0.432  
+ 97   97   6  0.856  0.239   0.019  
+ 98   98   6  0.839  0.269   0.258  
+ 99   99   6  0.922  0.205  -0.252  
+100  100   4  0.964  0.109  -0.908  
+101  101   4  0.973  0.172  -0.462  
+102  102  12  0.963  0.236  -0.566  
+103  103   6  0.910  0.234  -0.021  
+104  104   6  0.948  0.176  -0.482  
+105  105   7  0.954  0.317   0.042  
+106  106   6  0.923  0.190  -0.371  
+107  107   7  0.970  0.195  -0.493  
+108  108  11  0.969  0.285  -0.242  
+109  109   8  0.972  0.379   0.303  
+110  110  12  0.973  0.354   0.267  
+111  111   8  0.959  0.348   0.094  
+112  112   8  0.962  0.300  -0.229  
+113  113   8  0.927  0.234  -0.106  
+114  114   6  0.945  0.132  -0.833  
+115  115   8  0.887  0.182  -0.533  
+116  116   4  0.959  0.134  -0.731  
+117  117   9  0.944  0.183  -0.773  
+118  118  12  0.972  0.244  -0.510  
+119  119   7  0.936  0.460   1.000  
+120  120   8  0.927  0.338   0.307  
+121  121   8  0.980  0.582   1.668  
+122  122   9  0.923  0.278  -0.339  
+123  123   8  0.962  0.513   1.204  
+124  124   8  0.911  0.418   1.464  
+125  125   4  0.920  0.283   0.323  
+126  126   9  0.881  0.351   0.544  
+127  127   9  0.941  0.269  -0.161  
+128  128   8  0.950  0.529   1.311  
+129  129   6  0.941  0.257   0.162  
+130  130  11  0.935  0.300  -0.258  
+131  131   8  0.936  0.176  -0.583  
+132  132   7  0.957  0.323   0.082  
+133  133   8  0.939  0.206  -0.336  
+134  134   8  0.949  0.289  -0.303  
+135  135   6  0.961  0.147  -0.713  
+136  136   5  0.945  0.173  -0.599  
+137  137   8  0.974  0.245  -0.599  
+138  138   7  0.984  0.241  -0.140  
+139  139   6  0.974  0.187  -0.380  
+140  140   4  0.968  0.238   0.005  
+141  141   9  0.978  0.254  -0.268  
+142  142   8  0.984  0.219  -0.209  
+143  143   4  0.986  0.262   0.175  
+144  144   6  0.943  0.190  -0.371  
+145  145   8  0.967  0.325  -0.061  
+146  146  12  0.940  0.306  -0.072  
+147  147   8  0.969  0.496   1.089  
+148  148   6  0.960  0.429   1.532  
+149  149   9  0.967  0.205  -0.568  
+150  150   8  0.973  0.251  -0.313  
+151  151   8  0.939  0.171  -0.624  
+152  152   9  0.906  0.185  -0.759  
+153  153   8  0.948  0.246   0.018  
+154  154   4  0.980  0.292   0.387  
+155  155   4  0.982  0.267   0.210  
+156  156   5  0.954  0.284   0.189  
+157  157   8  0.945  0.264   0.169  
+158  158   9  0.911  0.216  -0.484  
+159  159  12  0.868  0.288  -0.199  
+160  160   8  0.948  0.375   1.103  
+161  161   7  0.945  0.222  -0.236  
+162  162   5  0.959  0.321   0.451  
+163  163   4  0.954  0.223  -0.101  
+164  164   5  0.969  0.216  -0.294  
+165  165   8  0.974  0.186  -0.487  
+166  166  12  0.947  0.273  -0.305  
+167  167   4  0.982  0.190  -0.335  
+168  168   6  0.971  0.179  -0.459  
+169  169   4  0.958  0.260   0.161  
+170  170  12  0.923  0.312  -0.030  
+171  171   6  0.969  0.187  -0.380  
+172  172   8  0.954  0.187  -0.492  
+173  173   5  0.962  0.237  -0.145  
+174  174   9  0.961  0.240  -0.302  
+175  175   6  0.973  0.144  -0.728  
+176  176   7  0.961  0.203  -0.432  
+177  177   7  0.956  0.194  -0.782  
+178  178   9  0.946  0.195  -0.644  
+179  179   7  0.905  0.240  -0.088  
+180  180  14  0.943  0.388   0.583  
+181  181  11  0.975  0.259  -0.412  
+182  182   8  0.978  0.149  -0.798  
+183  183   4  0.971  0.258   0.146  
+184  184   7  0.950  0.201  -0.408  
+185  185   8  0.964  0.347   0.087  
+186  186   8  0.967  0.183  -0.512  
+187  187   7  0.974  0.196  -0.448  
+188  188   6  0.977  0.138  -0.785  
+189  189  10  0.949  0.188  -0.648  
+190  190   9  0.947  0.170  -0.835  
+191  191   4  0.949  0.171  -0.469  
+192  192  11  0.972  0.248  -0.605  
+193  193   6  0.960  0.203  -0.251  
+194  194   6  0.952  0.177  -0.461  
+195  195   8  0.977  0.279   0.295  
+196  196   9  0.962  0.303   0.080  
+197  197   8  0.963  0.320   0.179  
+198  198   8  0.957  0.276   0.239  
+199  199   8  0.951  0.366   0.288  
+200  200   8  0.957  0.305  -0.195  
+201  201   9  0.896  0.313   0.151  
+202  202   4  0.976  0.302   0.458  
+203  203   8  0.981  0.205  -0.327  
+204  204   6  0.975  0.213  -0.188  
+205  205  11  0.958  0.298  -0.157  
+206  206   5  0.985  0.239  -0.131  
+207  207   8  0.961  0.284   0.337  
+208  208   5  0.973  0.267   0.068  
+209  209   8  0.970  0.551   1.459  
+210  210   7  0.956  0.300   0.403  
+211  211   7  0.981  0.313   0.413  
+212  212  10  0.964  0.309   0.326  
+213  213   6  0.965  0.326   0.712  
+214  214   6  0.945  0.195  -0.316  
+215  215   7  0.932  0.150  -0.825  
+216  216   5  0.957  0.187  -0.500  
+217  217   7  0.938  0.155  -0.784  
+218  218   5  0.907  0.232  -0.180  
+219  219   6  0.952  0.157  -0.623  
+220  220   8  0.929  0.210  -0.303  
+221  221   6  0.952  0.179  -0.459  
+222  222   5  0.888  0.322   0.458  
+223  223   4  0.894  0.242   0.033  
+224  224   6  0.958  0.220  -0.113  
+225  225   4  0.910  0.396   1.123  
+226  226  11  0.944  0.429   0.602  
+227  227   8  0.953  0.155  -0.748  
+228  228   7  0.950  0.203  -0.432  
+229  229  12  0.941  0.290  -0.185  
+230  230   4  0.952  0.166  -0.505  
+231  231   6  0.930  0.181  -0.443  
+232  232   4  0.906  0.143  -0.667  
+233  233  12  0.883  0.274  -0.298  
+234  234   9  0.877  0.389   0.372  
+235  235   6  0.947  0.184  -0.419  
+236  236  12  0.944  0.304  -0.086  
+237  237  12  0.932  0.423   0.754  
+238  238   4  0.970  0.261   0.168  
+239  239   7  0.955  0.248  -0.086  
+240  240   4  0.963  0.292   0.387  
+241  241   8  0.907  0.249   0.017  
+242  242   7  0.928  0.201  -0.408  
+243  243   7  0.977  0.314   0.022  
+244  244   8  0.919  0.210  -0.303  
+245  245   7  0.932  0.199  -0.424  
+246  246   6  0.962  0.232  -0.037  
+247  247   9  0.936  0.255  -0.486  
+248  248   7  0.943  0.237  -0.113  
+249  249  11  0.978  0.313  -0.171  
+250  250   7  0.971  0.211  -0.326  
+251  251   8  0.964  0.311  -0.090  
+252  252   8  0.939  0.414   0.618  
+253  253   7  0.951  0.306   0.452  
+254  254   9  0.949  0.333   0.407  
+255  255  11  0.958  0.453   0.763  
+256  256   8  0.934  0.302   0.489  
+257  257   7  0.924  0.229  -0.178  
+258  258   8  0.890  0.204  -0.353  
+259  259   8  0.835  0.162  -0.689  
+260  260   4  0.923  0.119  -0.837  
+261  261   6  0.917  0.108  -1.024  
+262  262   7  0.905  0.304   0.344  
+263  263   6  0.823  0.218  -0.148  
+264  264   4  0.902  0.241   0.026  
+265  265   8  0.898  0.289   0.379  
+266  266   8  0.951  0.428   0.632  
+267  267   7  0.942  0.240  -0.474  
+268  268   6  0.960  0.199  -0.299  
+269  269   8  0.968  0.494   1.168  
+270  270   7  0.916  0.214  -0.301  
+271  271  11  0.913  0.310  -0.078  
+272  272   9  0.884  0.352   0.135  
+273  273  12  0.951  0.261  -0.390  
+274  274   9  0.889  0.287   0.056  
+275  275   9  0.858  0.299   0.148  
+276  276   8  0.807  0.269   0.211  
+277  277   4  0.895  0.180  -0.406  
+278  278   7  0.945  0.236  -0.500  
+279  279   8  0.949  0.204  -0.353  
+280  280   8  0.941  0.236  -0.605  
+281  281   7  0.948  0.174  -0.654  
+282  282   6  0.905  0.157  -0.634  
+283  283   5  0.955  0.229  -0.202  
+284  284   9  0.854  0.231  -0.370  
+285  285   7  0.956  0.132  -0.977  
+286  286   4  0.881  0.169  -0.483  
+287  287   4  0.951  0.099  -0.979  
+288  288   8  0.921  0.210  -0.303  
+289  289   7  0.886  0.169  -0.669  
+290  290   8  0.940  0.449   0.858  
+291  291   6  0.905  0.218  -0.148  
+292  292   6  0.920  0.255   0.146  
+293  293   6  0.980  0.236   0.016  
+294  294   7  0.959  0.241  -0.140  
+295  295   6  0.944  0.255   0.146  
+296  296   5  0.977  0.197  -0.429  
+297  297   6  0.953  0.124  -0.896  
+298  298   5  0.965  0.100  -1.117  
+299  299  12  0.914  0.272  -0.312  
+300  300   4  0.944  0.134  -0.731  
+301  301   4  0.969  0.190  -0.335  
+302  302   8  0.973  0.468   0.901  
+303  303   5  0.952  0.223  -0.244  
+304  304   7  0.952  0.294   0.354  
+305  305   8  0.970  0.313   0.129  
+306  306   4  0.957  0.190  -0.335  
+307  307   9  0.956  0.195  -0.870  
+308  308   5  0.965  0.201  -0.400  
+309  309   8  0.987  0.420   0.578  
+310  310   6  0.943  0.144  -0.737  
+311  311   6  0.945  0.168  -0.546  
+312  312   4  0.975  0.211  -0.186  
+313  313   8  0.960  0.404   0.778  
+314  314   7  0.970  0.278  -0.219  
+315  315   8  0.935  0.334   0.000  
+316  316   7  0.975  0.293  -0.119  
+317  317  11  0.978  0.372   0.222  
+318  318   6  0.957  0.237   0.003  
+319  319   8  0.959  0.281  -0.296  
+320  320  14  0.951  0.262  -0.340  
+321  321   8  0.950  0.324   0.674  
+322  322   8  0.910  0.204  -0.353  
+323  323   8  0.899  0.224  -0.167  
+324  324   6  0.934  0.202  -0.275  
+325  325   9  0.921  0.269  -0.081  
+326  326  12  0.965  0.280  -0.256  
+327  327   8  0.985  0.229  -0.470  
+328  328   8  0.935  0.164  -0.672  
+329  329  14  0.957  0.281  -0.201  
+330  330   8  0.977  0.287  -0.316  
+331  331   8  0.952  0.207  -0.328  
+332  332   6  0.981  0.148  -0.705  
+333  333   4  0.972  0.135  -0.724  
+334  334   8  0.911  0.281   0.312  
+335  335   5  0.950  0.138  -0.847  
+336  336   4  0.948  0.101  -0.965  
+337  337   7  0.943  0.258  -0.009  
+338  338   6  0.962  0.153  -0.655  
+339  339   6  0.951  0.138  -0.785  
+340  340   6  0.965  0.151  -0.682  
+341  341   7  0.948  0.123  -1.046  
+342  342   9  0.960  0.139  -1.086  
+343  343   4  0.937  0.243   0.040  
+344  344   8  0.944  0.169  -0.630  
+345  345   7  0.981  0.261   0.014  
+346  346   6  0.940  0.218  -0.148  
+347  347   8  0.960  0.201  -0.361  
+348  348   8  0.973  0.244  -0.551  
+349  349   8  0.964  0.346   0.081  
+350  350   5  0.979  0.245  -0.088  
+351  351   8  0.944  0.149  -0.798  
+352  352   8  0.908  0.206  -0.319  
+353  353   7  0.965  0.210  -0.378  
+354  354   8  0.958  0.244   0.001  
+355  355   7  0.960  0.216  -0.285  
+356  356  10  0.956  0.159  -0.882  
+357  357   7  0.947  0.271  -0.266  
+358  358   7  0.950  0.294  -0.112  
+359  359  11  0.948  0.388   0.329  
+360  360   6  0.956  0.174  -0.498  
+361  361   8  0.950  0.248   0.034  
+362  362   8  0.936  0.492   1.154  
+363  363  11  0.904  0.420   0.643  
+364  364  14  0.926  0.566   1.887  
+365  365   4  0.916  0.264   0.189  
+366  366   8  0.932  0.222  -0.205  
+367  367   8  0.941  0.357   0.226  
+368  368   4  0.908  0.143  -0.667  
+369  369   6  0.932  0.225  -0.092  
+370  370   7  0.950  0.211  -0.326  
+371  371   8  0.895  0.292   0.337  
+372  372   8  0.952  0.226       ?  
+373  373   9  0.931  0.215  -0.492  
+374  374   7  0.974  0.216  -0.332  
+375  375   4  0.926  0.191  -0.328  
+376  376   7  0.892  0.187  -0.522  
+377  377   6  0.913  0.197  -0.315  
+378  378   7  0.972  0.157  -0.768  
+379  379   7  0.945  0.189  -0.539  
+380  380   9  0.929  0.218  -0.524  
+381  381   7  0.950  0.260  -0.340  
+382  382  10  0.969  0.243  -0.205  
+383  383   7  0.970  0.293   0.260  
+384  384   9  0.930  0.417   0.551  
+385  385   8  0.971  0.383   0.330  
+386  386   7  0.947  0.309   0.476  
+387  387   7  0.924  0.527   2.260  
+388  388  12  0.847  0.596   1.976  
+389  389   9  0.880  0.335   0.026  
+390  390   6  0.931  0.235   0.008  
+391  391   7  0.884  0.247  -0.031  
+392  392   9  0.885  0.324  -0.044  
+393  393   6  0.825  0.162  -0.594  
+394  394   4  0.784  0.296   0.415  
+395  395   4  0.747  0.497   1.838  
+396  396   6  0.875  0.212  -0.178  
+397  397   7  0.896  0.421   0.739  
+398  398   5  0.933  0.484   1.608  
+399  399   9  0.893  0.388   0.826  
+400  400   8  0.924  0.420   1.422  
+401  401   7  0.931  0.363   0.918  
+402  402   6  0.974  0.282   0.361  
+403  403   7  0.981  0.413   0.685  
+404  404   7  0.961  0.219  -0.614  
+405  405   8  0.972  0.286  -0.323  
+406  406   8  0.973  0.197  -0.410  
+407  407  14  0.960  0.340   0.232  
+408  408   8  0.943  0.161  -0.697  
+409  409  12  0.950  0.236  -0.566  
+410  410  11  0.951  0.174  -0.970  
+411  411  14  0.900  0.317   0.063  
+412  412   8  0.956  0.323   0.200  
+413  413  10  0.942  0.214  -0.439  
+414  414   8  0.981  0.154  -0.763  
+415  415   5  0.973  0.231  -0.187  
+416  416   8  0.961  0.175  -0.579  
+417  417  12  0.953  0.237  -0.559  
+418  418   8  0.932  0.200  -0.369  
+419  419   6  0.943  0.265   0.226  
+420  420   6  0.969  0.296   0.502  
+421  421   7  0.960  0.161  -0.735  
+422  422   7  0.973  0.151  -1.070  
+423  423   8  0.896  0.200  -0.369  
+424  424   4  0.957  0.118  -0.844  
+425  425   4  0.973  0.165  -0.512  
+426  426   7  0.967  0.285  -0.172  
+427  427   8  0.961  0.181  -0.529  
+428  428   7  0.943  0.182  -0.563  
+429  429   7  0.967  0.173  -0.637  
+430  430   8  0.953  0.298  -0.242  
+431  431   6  0.975  0.198  -0.291  
+432  432   7  0.929  0.212  -0.363  
+433  433   8  0.884  0.228  -0.155  
+434  434   9  0.945  0.198  -0.666  
+435  435   5  0.934  0.207  -0.358  
+436  436   7  0.923  0.224  -0.219  
+437  437   6  0.943  0.190  -0.356  
+438  438   4  0.969  0.121  -0.823  
+439  439   9  0.919  0.229  -0.652  
+440  440   8  0.959  0.174  -0.588  
+441  441   6  0.981  0.153  -0.655  
+442  442  11  0.968  0.249  -0.598  
+443  443   8  0.973  0.410   0.590  
+444  444   9  0.950  0.203  -0.631  
+445  445   4  0.960  0.157  -0.568  
+446  446   7  0.951  0.301  -0.065  
+447  447   8  0.943  0.175  -0.591  
+448  448  12  0.949  0.199  -0.828  
+449  449   5  0.971  0.129  -0.911  
+450  450   5  0.958  0.208  -0.351  
+451  451   6  0.967  0.145  -0.729  
+452  452   4  0.957  0.174  -0.448  
+453  453   7  0.974  0.252  -0.393  
+454  454   7  0.959  0.120  -1.070  
+455  455   7  0.937  0.336   0.697  
+456  456   6  0.945  0.167  -0.554  
+457  457   4  0.971  0.244   0.047  
+458  458   6  0.919  0.246   0.075  
+459  459   6  0.904  0.232  -0.037  
+460  460   8  0.946  0.373   0.262  
+461  461   7  0.944  0.191  -0.489  
+462  462   8  0.976  0.264  -0.220  
+463  463   8  0.919  0.210  -0.285  
+464  464   9  0.950  0.268  -0.088  
+465  465  12  0.968  0.215  -0.715  
+466  466   8  0.965  0.182  -0.805  
+467  467   7  0.967  0.159  -0.770  
+468  468   6  0.926  0.180  -0.451  
+469  469   6  0.946  0.165  -0.570  
+470  470   6  0.914  0.214  -0.180  
+471  471   4  0.908  0.209  -0.200  
+472  472   4  0.968  0.245   0.054  
+473  473  12  0.946  0.332   0.112  
+474  474   6  0.976  0.126  -0.881  
+475  475   6  0.939  0.160  -0.610  
+476  476   7  0.944  0.324   0.089  
+477  477   6  0.944  0.145  -0.729  
+478  478   7  0.972  0.273   0.106  
+479  479  11  0.929  0.215  -0.701  
+480  480   8  0.955  0.314  -0.134  
+481  481  12  0.952  0.317   0.006  
+482  482   8  0.935  0.458   0.834  
+483  483   8  0.970  0.363   0.195  
+484  484   8  0.951  0.201  -0.377  
+485  485   6  0.966  0.166  -0.562  
+486  486   8  0.939  0.207  -0.328  
+487  487   4  0.918  0.214  -0.165  
+488  488   9  0.931  0.199  -0.659  
+489  489  12  0.987  0.339   0.161  
+490  490   7  0.969  0.326   0.102  
+491  491   8  0.963  0.259  -0.256  
+492  492   8  0.902  0.466   0.888  
+493  493   9  0.934  0.425   0.602  
+494  494   8  0.928  0.456   0.820  
+495  495   8  0.932  0.368   1.044  
+496  496   4  0.935  0.240   0.019  
+497  497   9  0.942  0.170  -0.835  
+498  498   9  0.853  0.353   0.436  
+499  499   8  0.906  0.492   1.063  
+500  500   6  0.968  0.279   0.338  
+501  501  11  0.924  0.309  -0.198  
+502  502   8  0.944  0.294   0.387  
+503  503   7  0.962  0.353   0.283  
+504  504   8  0.950  0.136  -0.911  
+505  505   8  0.943  0.343   0.061  
+506  506   6  0.972  0.182  -0.435  
+507  507   5  0.974  0.253  -0.031  
+508  508   8  0.990  0.349   0.101  
+509  509   7  0.979  0.240  -0.147  
+510  510   6  0.971  0.212  -0.178  
+511  511   4  0.971  0.162  -0.533  
+512  512   9  0.974  0.218  -0.524  
+513  513   8  0.963  0.319   0.632  
+514  514   4  0.977  0.362   0.883  
+515  515   6  0.972  0.309   0.576  
+516  516   8  0.958  0.403   0.464  
+517  517  12  0.967  0.377   0.429  
+518  518   8  0.955  0.399   0.437  
+519  519   6  0.973  0.238   0.011  
+520  520   9  0.956  0.270  -0.073  
+521  521   8  0.974  0.292  -0.021  
+522  522   8  0.932  0.169  -0.640  
+523  523   9  0.915  0.191  -0.716  
+524  524   8  0.931  0.234  -0.083  
+525  525   4  0.980  0.269   0.224  
+526  526   4  0.964  0.179  -0.413  
+527  527   5  0.964  0.222  -0.251  
+528  528   8  0.906  0.189  -0.462  
+529  529   9  0.940  0.252  -0.210  
+530  530  12  0.941  0.198  -0.835  
+531  531   8  0.956  0.319   0.632  
+532  532   7  0.967  0.143  -0.882  
+533  533   5  0.978  0.166  -0.649  
+534  534   4  0.983  0.236  -0.009  
+535  535   5  0.979  0.316   0.416  
+536  536   8  0.967  0.210  -0.285  
+537  537  12  0.945  0.286  -0.213  
+538  538   4  0.980  0.217  -0.144  
+539  539   6  0.968  0.302   0.521  
+540  540   4  0.961  0.164  -0.519  
+541  541  12  0.944  0.254  -0.439  
+542  542   6  0.976  0.168  -0.534  
+543  543   8  0.960  0.160  -0.714  
+544  544   5  0.969  0.175  -0.585  
+545  545   9  0.944  0.166  -0.865  
+546  546   6  0.977  0.089  -1.173  
+547  547   7  0.981  0.218  -0.316  
+548  548   7  0.972  0.207  -0.695  
+549  549   9  0.927  0.275  -0.035  
+550  550   7  0.957  0.292   0.337  
+551  551  14  0.908  0.328   0.144  
+552  552  11  0.949  0.299  -0.150  
+553  553   8  0.919  0.287   0.362  
+554  554   4  0.966  0.341   0.734  
+555  555   7  0.960  0.189  -0.506  
+556  556   8  0.965  0.307  -0.182  
+557  557   8  0.967  0.232  -0.100  
+558  558   7  0.971  0.235  -0.129  
+559  559   6  0.964  0.199  -0.299  
+560  560  10  0.971  0.250  -0.149  
+561  561   9  0.950  0.244  -0.271  
+562  562   4  0.960  0.144  -0.660  
+563  563  11  0.936  0.320  -0.125  
+564  564   6  0.965  0.118  -0.939  
+565  565   6  0.961  0.087  -1.189  
+566  566   8  0.954  0.326   0.690  
+567  567   9  0.978  0.291  -0.005  
+568  568   8  0.954  0.285  -0.071  
+569  569   8  0.950  0.233  -0.114  
+570  570   8  0.972  0.491   1.147  
+571  571   8  0.960  0.573   1.607  
+572  572   9  0.936  0.316   0.173  
+573  573   4  0.983  0.440   1.435  
+574  574   8  0.955  0.338   0.791  
+575  575   6  0.966  0.220  -0.132  
+576  576  11  0.929  0.378   0.368  
+577  577   5  0.955  0.295   0.267  
+578  578   8  0.963  0.426   1.532  
+579  579   5  0.976  0.254  -0.024  
+580  580   8  0.960  0.554   1.479  
+581  581   7  0.969  0.309   0.476  
+582  582   7  0.969  0.369   0.843  
+583  583  10  0.960  0.364   0.769  
+584  584   6  0.966  0.334   0.775  
+585  585   6  0.935  0.168  -0.534  
+586  586   7  0.936  0.216  -0.285  
+587  587   5  0.972  0.137  -0.855  
+588  588   7  0.941  0.139  -0.915  
+589  589   5  0.910  0.172  -0.606  
+590  590   6  0.958  0.114  -0.971  
+591  591   8  0.963  0.167  -0.657  
+592  592   6  0.944  0.147  -0.713  
+593  593   5  0.920  0.220  -0.265  
+594  594   4  0.833  0.229  -0.059  
+595  595   6  0.940  0.234   0.000  
+596  596   4  0.915  0.300   0.444  
+597  597  11  0.961  0.458   0.796  
+598  598   8  0.949  0.162  -0.689  
+599  599   7  0.948  0.305   0.352  
+600  600  12  0.941  0.237  -0.559  
+601  601   4  0.968  0.198  -0.278  
+602  602   6  0.949  0.192  -0.355  
+603  603   4  0.957  0.209  -0.200  
+604  604  12  0.892  0.334   0.126  
+605  605   9  0.941  0.221  -0.704  
+606  606   6  0.964  0.119  -0.936  
+607  607  12  0.904  0.397   0.571  
+608  608  12  0.907  0.422   0.747  
+609  609   4  0.939  0.136  -0.717  
+610  610   7  0.937  0.225  -0.263  
+611  611   4  0.948  0.127  -0.781  
+612  612   8  0.948  0.172  -0.615  
+613  613   7  0.926  0.318   0.550  
+614  614   7  0.963  0.537   1.516  
+615  615   8  0.923  0.356   0.896  
+616  616   7  0.967  0.329   0.640  
+617  617   6  0.918  0.265   0.226  
+618  618   9  0.921  0.377   0.295  
+619  619   7  0.900  0.271   0.165  
+620  620  11  0.944  0.418   0.529  
+621  621   7  0.954  0.234  -0.137  
+622  622   8  0.901  0.419   0.652  
+623  623   8  0.902  0.509   1.271  
+624  624   7  0.940  0.325   0.607  
+625  625   9  0.940  0.343   0.483  
+626  626  11  0.925  0.696   2.384  
+627  627   8  0.846  0.375   1.103  
+628  628   7  0.881  0.358   0.877  
+629  629   8  0.928  0.247   0.001  
+630  630   8  0.888  0.229  -0.125  
+631  631   4  0.828  0.257   0.139  
+632  632   6  0.958  0.255   0.146  
+633  633   7  0.957  0.369   0.843  
+634  634   6  0.880  0.264   0.218  
+635  635   4  0.853  0.305   0.479  
+636  636   8  0.814  0.288   0.371  
+637  637   8  0.927  0.420   0.578  
+638  638   7  0.951  0.390   0.531  
+639  639   6  0.916  0.308   0.568  
+640  640   8  0.911  0.654   2.267  
+641  641   7  0.957  0.243  -0.064  
+642  642  11  0.914  0.417   0.624  
+643  643   9  0.879  0.428   0.622  
+644  644  12  0.910  0.444   0.903  
+645  645   9  0.910  0.364   0.643  
+646  646   9  0.844  0.548   2.044  
+647  647   8  0.778  0.550   2.574  
+648  648   4  0.893  0.225  -0.087  
+649  649   7  0.907  0.399   0.591  
+650  650   8  0.877  0.295   0.395  
+651  651   8  0.921  0.429   0.721  
+652  652   7  0.939  0.264   0.037  
+653  653   6  0.924  0.221  -0.124  
+654  654   5  0.906  0.309   0.366  
+655  655   9  0.887  0.162  -0.896  
+656  656   7  0.913  0.127  -1.015  
+657  657   4  0.895  0.139  -0.696  
+658  658   4  0.800  0.282   0.316  
+659  659   8  0.891  0.368   0.995  
+660  660   7  0.906  0.158  -0.759  
+661  661   8  0.937  0.527   1.395  
+662  662   6  0.907  0.356   0.951  
+663  663   6  0.923  0.173  -0.506  
+664  664   6  0.958  0.205  -0.235  
+665  665   7  0.960  0.210  -0.378  
+666  666   6  0.938  0.165  -0.570  
+667  667   5  0.967  0.122  -0.961  
+668  668   6  0.964  0.124  -0.896  
+669  669   5  0.968  0.165  -0.656  
+670  670  12  0.897  0.274  -0.298  
+671  671   4  0.949  0.225  -0.087  
+672  672   4  0.979  0.228  -0.066  
+673  673   8  0.944  0.522   1.264  
+674  674   5  0.933  0.229  -0.202  
+675  675   7  0.931  0.180  -0.579  
+676  676   8  0.968  0.285  -0.071  
+677  677   4  0.974  0.186  -0.363  
+678  678   9  0.962  0.228  -0.659  
+679  679   5  0.964  0.243  -0.102  
+680  680   8  0.945  0.340   0.040  
+681  681   6  0.967  0.218  -0.148  
+682  682   6  0.935  0.189  -0.379  
+683  683   4  0.962  0.312   0.529  
+684  684   8  0.945  0.432   0.978  
+685  685   7  0.969  0.267  -0.293  
+686  686   8  0.927  0.314  -0.134  
+687  687   7  0.972  0.300  -0.072  
+688  688  11  0.895  0.430   0.609  
+689  689   6  0.955  0.248   0.091  
+690  690   8  0.963  0.215  -0.750  
+691  691  14  0.966  0.254  -0.399  
+692  692   8  0.934  0.157  -0.731  
+693  693   8  0.957  0.189  -0.476  
+694  694   8  0.893  0.247   0.026  
+695  695   6  0.971  0.177  -0.475  
+696  696   9  0.913  0.240  -0.302  
+697  697  12  0.957  0.379   0.444  
+698  698   8  0.978  0.200  -0.677  
+699  699   8  0.959  0.186  -0.487  
+700  700  14  0.949  0.394   0.627  
+701  701   8  0.982  0.382   0.323  
+702  702   8  0.970  0.248   0.009  
+703  703   6  0.948  0.172  -0.514  
+704  704   4  0.937  0.200  -0.264  
+705  705   8  0.943  0.335   0.766  
+706  706   5  0.935  0.353   0.678  
+707  707   4  0.944  0.284   0.331  
+708  708   7  0.940  0.226  -0.255  
+709  709   6  0.951  0.155  -0.639  
+710  710   6  0.904  0.187  -0.395  
+711  711   6  0.923  0.197  -0.315  
+712  712   7  0.934  0.293   0.345  
+713  713   9  0.935  0.248  -0.311  
+714  714   4  0.943  0.333   0.677  
+715  715   8  0.945  0.234  -0.083  
+716  716   7  0.957  0.347   0.674  
+717  717   6  0.942  0.151  -0.682  
+718  718   8  0.975  0.212  -0.268  
+719  719   8  0.977  0.215  -0.750  
+720  720   8  0.964  0.297  -0.249  
+721  721   5  0.965  0.150  -0.762  
+722  722   8  0.950  0.139  -0.882  
+723  723   8  0.947  0.163  -0.680  
+724  724   7  0.970  0.198  -0.470  
+725  725   8  0.926  0.174  -0.588  
+726  726   7  0.927  0.269   0.149  
+727  727  10  0.950  0.245  -0.189  
+728  728   7  0.921  0.445   0.900  
+729  729   7  0.946  0.268  -0.286  
+730  730  11  0.950  0.395   0.376  
+731  731   6  0.928  0.197  -0.315  
+732  732   8  0.840  0.282   0.320  
+733  733   8  0.944  0.562   1.635  
+734  734  11  0.884  0.425   0.676  
+735  735  14  0.924  0.485   1.294  
+736  736   4  0.857  0.343   0.748  
+737  737   8  0.895  0.393   1.200  
+738  738   8  0.927  0.337   0.089  
+739  739   4  0.913  0.162  -0.533  
+740  740   6  0.849  0.251   0.115  
+741  741   7  0.890  0.352   0.828  
+742  742   8  0.805  0.322   0.583  
+743  743  14  0.813  0.355       ?  
+744  744  14  0.927  0.192       ?  
+745  745  14  0.809  0.339       ?  
+746  746  14  0.881  0.261       ?  
+#
+loop_
+_pdbx_vrpt_software.ordinal
+_pdbx_vrpt_software.name
+_pdbx_vrpt_software.version
+_pdbx_vrpt_software.success_y_or_n
+1  molprobity   4.02b-467                                                             Y  
+2  mogul        "1.8.5 (274361), CSD as541be (2020)"                                  Y  
+3  eds          2.19                                                                  Y  
+4  dcc          "2.26  (2020-01-20)"                                                  Y  
+5  xtriage      1.13                                                                  Y  
+6  percentiles  "20191225.v01 (using entries in the PDB archive December 25th 2019)"  Y  
+##
